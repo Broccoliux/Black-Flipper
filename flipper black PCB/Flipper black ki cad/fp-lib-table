@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "CC1101") (type "Legacy") (uri "F:/Downloads/CC1101 foot print") (options "") (descr ""))
+)

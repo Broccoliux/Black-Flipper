@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Flipper Black Custom lib") (type "KiCad") (uri "${KIPRJMOD}/Flipper Black Custom lib.kicad_sym") (options "") (descr ""))
+	(lib (name "CC1101") (type "Legacy") (uri "F:/Downloads/CC1101/CC1101.lib") (options "") (descr ""))
+)
