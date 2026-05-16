@@ -6081,6 +6081,12 @@
 		(uuid "09786f8b-d6ca-4d0b-ab39-6a375b32f023")
 	)
 	(junction
+		(at 332.74 307.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b3aa54f-2956-4e8d-8354-3cf835db1bd8")
+	)
+	(junction
 		(at 444.5 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6621,12 +6627,6 @@
 		(uuid "e01175fc-6b25-4714-9e13-b7dcbf902aca")
 	)
 	(junction
-		(at 332.74 307.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e10d1f71-738a-4e74-91f9-f8ae78b8a223")
-	)
-	(junction
 		(at 176.53 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6902,7 +6902,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 295.91) (xy 332.74 307.34)
+			(xy 332.74 299.72) (xy 332.74 307.34)
 		)
 		(stroke
 			(width 0)
@@ -18268,7 +18268,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15 pf"
+		(property "Value" "22pf"
 			(at 306.07 296.926 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23022,7 +23022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63fb2a62-4345-4b82-b867-be59705975c4")
-		(property "Reference" "R_RSTPD"
+		(property "Reference" "R_RSTPD1"
 			(at 348.234 264.414 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23084,7 +23084,7 @@
 		(instances
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
-					(reference "R_RSTPD")
+					(reference "R_RSTPD1")
 					(unit 1)
 				)
 			)
@@ -23964,7 +23964,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 332.74 292.1 0)
+		(at 332.74 295.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23974,7 +23974,7 @@
 		(dnp no)
 		(uuid "76d9f454-3431-41f6-896c-8e9c459f483e")
 		(property "Reference" "C73"
-			(at 335.28 291.084 0)
+			(at 335.28 294.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23984,8 +23984,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15 pf"
-			(at 335.28 293.624 0)
+		(property "Value" "22 pf"
+			(at 335.28 297.434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23996,7 +23996,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 333.7052 295.91 0)
+			(at 333.7052 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24007,7 +24007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 332.74 292.1 0)
+			(at 332.74 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24018,7 +24018,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 332.74 292.1 0)
+			(at 332.74 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24357,7 +24357,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 332.74 288.29 180)
+		(at 332.74 292.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24367,7 +24367,7 @@
 		(dnp no)
 		(uuid "79e9bfb4-b784-4b03-bd6b-3d525254b142")
 		(property "Reference" "#PWR0101"
-			(at 332.74 281.94 0)
+			(at 332.74 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24378,7 +24378,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 332.74 284.734 0)
+			(at 332.74 288.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24388,7 +24388,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 332.74 288.29 0)
+			(at 332.74 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24399,7 +24399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 332.74 288.29 0)
+			(at 332.74 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24410,7 +24410,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 332.74 288.29 0)
+			(at 332.74 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
