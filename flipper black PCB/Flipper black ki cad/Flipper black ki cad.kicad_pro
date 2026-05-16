@@ -639,7 +639,7 @@
         "uuid": "aadf5baa-c41c-48f9-af5f-e274c89cf282"
       }
     ],
-    "used_designators": "#FLG1-2,R17-18,#PWR4,#PWR13,#PWR32,#PWR37,#PWR76,#PWR91,C66-67",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
