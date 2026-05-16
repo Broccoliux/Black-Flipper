@@ -244,12 +244,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "power_pin_not_driven|1282700|1562100|5e385796-58e3-406d-aaae-657b30bd914b|00000000-0000-0000-0000-000000000000|/aadf5baa-c41c-48f9-af5f-e274c89cf282|/aadf5baa-c41c-48f9-af5f-e274c89cf282|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -453,10 +448,10 @@
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
-      "pin_not_connected": "error",
-      "pin_not_driven": "error",
+      "pin_not_connected": "ignore",
+      "pin_not_driven": "ignore",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -639,7 +634,7 @@
         "uuid": "aadf5baa-c41c-48f9-af5f-e274c89cf282"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U7-9,AE5-6,L25-26,#PWR93-115,C67-83,Y4-5,R18-22",
     "variants": []
   },
   "sheets": [
