@@ -244,7 +244,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|1282700|1562100|5e385796-58e3-406d-aaae-657b30bd914b|00000000-0000-0000-0000-000000000000|/aadf5baa-c41c-48f9-af5f-e274c89cf282|/aadf5baa-c41c-48f9-af5f-e274c89cf282|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -634,7 +639,7 @@
         "uuid": "aadf5baa-c41c-48f9-af5f-e274c89cf282"
       }
     ],
-    "used_designators": "AE3,AE5,L21-25,#PWR77-91,C52-65,U6,X2,R16-17",
+    "used_designators": "#FLG1-2,R17-18,#PWR4,#PWR13,#PWR32,#PWR37,#PWR76,#PWR91,C66-67",
     "variants": []
   },
   "sheets": [
