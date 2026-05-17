@@ -9250,7 +9250,7 @@
 	)
 	(wire
 		(pts
-			(xy 718.82 289.56) (xy 718.82 292.1)
+			(xy 716.28 289.56) (xy 716.28 292.1)
 		)
 		(stroke
 			(width 0)
@@ -10620,7 +10620,7 @@
 	)
 	(wire
 		(pts
-			(xy 718.82 276.86) (xy 718.82 281.94)
+			(xy 716.28 276.86) (xy 716.28 281.94)
 		)
 		(stroke
 			(width 0)
@@ -13530,7 +13530,7 @@
 	)
 	(wire
 		(pts
-			(xy 697.23 292.1) (xy 718.82 292.1)
+			(xy 697.23 292.1) (xy 716.28 292.1)
 		)
 		(stroke
 			(width 0)
@@ -17247,7 +17247,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna")
-		(at 718.82 271.78 0)
+		(at 716.28 271.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17257,8 +17257,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05aaf83d-3f03-4e8f-879f-0b8b54b960f7")
-		(property "Reference" "AE6"
-			(at 721.36 271.1449 0)
+		(property "Reference" "GPS_ANT"
+			(at 718.82 271.1449 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17268,8 +17268,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Antenna"
-			(at 721.36 273.6849 0)
+		(property "Value" "1575MHz"
+			(at 718.82 273.6849 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17280,7 +17280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 718.82 271.78 0)
+			(at 716.28 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17291,7 +17291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 718.82 271.78 0)
+			(at 716.28 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17302,7 +17302,7 @@
 			)
 		)
 		(property "Description" "Antenna"
-			(at 718.82 271.78 0)
+			(at 716.28 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17318,7 +17318,7 @@
 		(instances
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
-					(reference "AE6")
+					(reference "GPS_ANT")
 					(unit 1)
 				)
 			)
@@ -18361,7 +18361,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 718.82 285.75 0)
+		(at 716.28 285.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18372,7 +18372,7 @@
 		(fields_autoplaced yes)
 		(uuid "11d12ff2-659c-4916-85ec-9fcd20a9ac50")
 		(property "Reference" "L27"
-			(at 720.09 284.4799 0)
+			(at 717.55 284.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18383,7 +18383,7 @@
 			)
 		)
 		(property "Value" "5.6nH"
-			(at 720.09 287.0199 0)
+			(at 717.55 287.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18394,7 +18394,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 718.82 285.75 0)
+			(at 716.28 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18405,7 +18405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 718.82 285.75 0)
+			(at 716.28 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18416,7 +18416,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 718.82 285.75 0)
+			(at 716.28 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22983,7 +22983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38cbabeb-0df0-45c1-9853-8a4b620e931e")
-		(property "Reference" "AE5"
+		(property "Reference" "PN532_ANT"
 			(at 454.66 245.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22994,7 +22994,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Antenna"
+		(property "Value" "13.56MHz"
 			(at 454.66 247.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23044,7 +23044,7 @@
 		(instances
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
-					(reference "AE5")
+					(reference "PN532_ANT")
 					(unit 1)
 				)
 			)
@@ -30577,7 +30577,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81cd1eb6-c0d1-4304-9926-33cd5d316fd9")
-		(property "Reference" "AE3"
+		(property "Reference" "SX1276"
 			(at 653.542 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30588,7 +30588,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Antenna"
+		(property "Value" "868MHz"
 			(at 653.542 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30638,7 +30638,7 @@
 		(instances
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
-					(reference "AE3")
+					(reference "SX1276")
 					(unit 1)
 				)
 			)
@@ -34936,7 +34936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab434092-bb0c-4ed6-9f82-c6ac9ea0c303")
-		(property "Reference" "AE4"
+		(property "Reference" "SX1276"
 			(at 638.81 71.1199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34947,7 +34947,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Antenna"
+		(property "Value" "868MHz"
 			(at 638.81 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34997,7 +34997,7 @@
 		(instances
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
-					(reference "AE4")
+					(reference "SX1276")
 					(unit 1)
 				)
 			)
@@ -36779,7 +36779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb0c0b52-44f3-4a26-99e1-ce8e42febbd6")
-		(property "Reference" "AE1"
+		(property "Reference" "PCB_ANT"
 			(at 231.14 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36790,7 +36790,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PCB antenna"
+		(property "Value" "2.4GHz"
 			(at 231.14 175.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36840,7 +36840,7 @@
 		(instances
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
-					(reference "AE1")
+					(reference "PCB_ANT")
 					(unit 1)
 				)
 			)
@@ -40105,7 +40105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecfa389f-cd49-4c4d-8561-2d2c501351a3")
-		(property "Reference" "AE2"
+		(property "Reference" "CC1101_ANT"
 			(at 219.71 248.2849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40116,7 +40116,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50 OHM"
+		(property "Value" "433MHz"
 			(at 219.71 250.8249 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40166,7 +40166,7 @@
 		(instances
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
-					(reference "AE2")
+					(reference "CC1101_ANT")
 					(unit 1)
 				)
 			)
