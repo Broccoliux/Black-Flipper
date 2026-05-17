@@ -8162,6 +8162,18 @@
 		)
 		(uuid "c3f1ec79-d93b-4c5a-a238-4209d3f1c09c")
 	)
+	(text "MAX-M8Q GPS"
+		(exclude_from_sim no)
+		(at 617.474 216.154 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "c4e3e8b9-9b36-44d3-b730-f3ccd0eee99e")
+	)
 	(text "W25Q128 (External SPI Flash)\n\n"
 		(exclude_from_sim no)
 		(at 749.3 22.86 0)
@@ -9580,7 +9592,7 @@
 	)
 	(polyline
 		(pts
-			(xy 477.52 340.36) (xy 690.88 340.36)
+			(xy 477.52 340.36) (xy 741.68 340.36)
 		)
 		(stroke
 			(width 1)
@@ -9697,6 +9709,16 @@
 			(type default)
 		)
 		(uuid "1f6745de-7d45-4049-9206-90ecec2b4580")
+	)
+	(polyline
+		(pts
+			(xy 741.68 210.82) (xy 741.68 340.36)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "1f687424-e13a-4f66-b6f7-8af8162b9df8")
 	)
 	(wire
 		(pts
@@ -13478,6 +13500,16 @@
 		)
 		(uuid "c68d53c4-5174-4f85-97a6-11a81581c8ba")
 	)
+	(polyline
+		(pts
+			(xy 632.46 220.98) (xy 632.46 210.82)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "c69b6988-440c-4dea-888f-9ee4e25388b0")
+	)
 	(wire
 		(pts
 			(xy 628.65 165.1) (xy 628.65 167.64)
@@ -13758,6 +13790,16 @@
 		)
 		(uuid "d2eb0174-534d-464f-a82b-93f188a93d88")
 	)
+	(polyline
+		(pts
+			(xy 601.98 210.82) (xy 601.98 220.98)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "d32bb2ca-9a96-4f7f-8a7c-51b100d98f31")
+	)
 	(wire
 		(pts
 			(xy 59.69 83.82) (xy 59.69 87.63)
@@ -13960,7 +14002,7 @@
 	)
 	(polyline
 		(pts
-			(xy 477.52 210.82) (xy 690.88 210.82)
+			(xy 477.52 210.82) (xy 741.68 210.82)
 		)
 		(stroke
 			(width 1)
@@ -14557,6 +14599,16 @@
 			(type default)
 		)
 		(uuid "f0487ca4-1d4f-4e98-b296-c56f44fba672")
+	)
+	(polyline
+		(pts
+			(xy 601.98 220.98) (xy 632.46 220.98)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "f04fa6dd-7de6-4522-8d0e-173691ebb758")
 	)
 	(wire
 		(pts
