@@ -6008,6 +6008,18 @@
 		)
 		(uuid "2d68e354-2b6f-4a0c-81b5-de315ccf1c38")
 	)
+	(text "PN532 - NFC / RFID Controller"
+		(exclude_from_sim no)
+		(at 408.94 215.9 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "57fe497e-df17-48dd-bdba-07903dc7aafe")
+	)
 	(text "SX1276 - LoRa Transceiver"
 		(exclude_from_sim no)
 		(at 469.9 20.32 0)
@@ -6201,6 +6213,12 @@
 		(uuid "30bd6e92-65f5-4a74-bb34-3cc0f7d13aad")
 	)
 	(junction
+		(at 452.12 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30f15d9d-2ec4-4495-927b-ef775bca398b")
+	)
+	(junction
 		(at 486.41 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6315,12 +6333,6 @@
 		(uuid "6a4ccc36-117d-444c-bd9e-5b3dbfcf3bf1")
 	)
 	(junction
-		(at 416.56 281.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a5e5370-4452-48e7-bee1-ef0f233954be")
-	)
-	(junction
 		(at 325.12 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6381,12 +6393,6 @@
 		(uuid "7fc6bd81-42bf-4474-9679-0f70bda27dd0")
 	)
 	(junction
-		(at 452.12 259.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "812edc9b-1486-40fb-9ee5-038fcbfa0338")
-	)
-	(junction
 		(at 106.68 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6421,6 +6427,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c15d860-1c9c-4462-b16b-ca40280276a6")
+	)
+	(junction
+		(at 392.43 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c64a278-4e77-4370-876d-50446c060942")
 	)
 	(junction
 		(at 447.04 259.08)
@@ -6499,12 +6511,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac2549ae-7c2c-48f7-afc8-ac2cc45ecce5")
-	)
-	(junction
-		(at 416.56 274.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "adf68876-5d3e-4472-9f64-7ac08a210e05")
 	)
 	(junction
 		(at 440.69 181.61)
@@ -6667,12 +6673,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9319bfb-0845-40f0-b6fd-05536e88c1ad")
-	)
-	(junction
-		(at 392.43 248.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f98f8e00-8bc5-47d4-9c1a-b9c3a0837139")
 	)
 	(junction
 		(at 149.86 254)
@@ -7372,7 +7372,7 @@
 	)
 	(polyline
 		(pts
-			(xy 238.76 210.82) (xy 523.24 210.82)
+			(xy 292.1 210.82) (xy 523.24 210.82)
 		)
 		(stroke
 			(width 1)
@@ -7392,7 +7392,7 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 250.19) (xy 429.26 250.19)
+			(xy 422.91 250.19) (xy 429.26 250.19)
 		)
 		(stroke
 			(width 0)
@@ -7682,7 +7682,7 @@
 	)
 	(wire
 		(pts
-			(xy 417.83 242.57) (xy 417.83 269.24)
+			(xy 420.37 242.57) (xy 420.37 265.43)
 		)
 		(stroke
 			(width 0)
@@ -7870,6 +7870,16 @@
 		)
 		(uuid "382e530a-3440-4037-957e-9da1536de8da")
 	)
+	(polyline
+		(pts
+			(xy 376.174 211.582) (xy 376.174 219.202)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "385148fd-6d3f-4274-9c84-8b936f71dd96")
+	)
 	(wire
 		(pts
 			(xy 125.73 261.62) (xy 125.73 266.7)
@@ -7949,6 +7959,16 @@
 			(type default)
 		)
 		(uuid "3c6e38fb-978f-4b46-b3a1-cbede96cf3ab")
+	)
+	(wire
+		(pts
+			(xy 419.1 265.43) (xy 420.37 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d465719-fbe2-4fcf-a1fe-7a651438a8e3")
 	)
 	(wire
 		(pts
@@ -8222,7 +8242,7 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 281.94) (xy 416.56 281.94)
+			(xy 410.21 281.94) (xy 427.99 281.94)
 		)
 		(stroke
 			(width 0)
@@ -8540,6 +8560,16 @@
 		)
 		(uuid "590f1462-f692-437a-915d-19db85f8c420")
 	)
+	(polyline
+		(pts
+			(xy 442.214 219.202) (xy 442.214 211.582)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "592fccac-f3ab-4a27-a348-4c0ad3eb3519")
+	)
 	(wire
 		(pts
 			(xy 447.04 246.38) (xy 447.04 248.92)
@@ -8742,7 +8772,7 @@
 	)
 	(polyline
 		(pts
-			(xy 238.76 210.82) (xy 238.76 340.36)
+			(xy 292.1 210.82) (xy 292.1 340.36)
 		)
 		(stroke
 			(width 1)
@@ -8772,7 +8802,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 248.92) (xy 405.13 248.92)
+			(xy 392.43 248.92) (xy 396.24 248.92)
 		)
 		(stroke
 			(width 0)
@@ -8782,7 +8812,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 274.32) (xy 426.72 274.32)
+			(xy 410.21 274.32) (xy 426.72 274.32)
 		)
 		(stroke
 			(width 0)
@@ -9092,7 +9122,7 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 250.19) (xy 419.1 271.78)
+			(xy 422.91 250.19) (xy 422.91 271.78)
 		)
 		(stroke
 			(width 0)
@@ -9289,6 +9319,16 @@
 			(type default)
 		)
 		(uuid "84527044-d913-4fc4-86d1-6bce10cb79ae")
+	)
+	(wire
+		(pts
+			(xy 411.48 271.78) (xy 410.21 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8481e348-1814-42e7-a066-6fbe9ecfb614")
 	)
 	(wire
 		(pts
@@ -9772,16 +9812,6 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 274.32) (xy 416.56 274.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98621941-e2ca-4ab4-9049-a35f15f0737f")
-	)
-	(wire
-		(pts
 			(xy 195.58 271.78) (xy 196.85 271.78)
 		)
 		(stroke
@@ -10032,6 +10062,16 @@
 	)
 	(wire
 		(pts
+			(xy 410.21 265.43) (xy 410.21 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b98ed6-fc8c-44ae-abc7-98ce9e048e1c")
+	)
+	(wire
+		(pts
 			(xy 361.95 115.57) (xy 389.89 115.57)
 		)
 		(stroke
@@ -10059,6 +10099,16 @@
 			(type default)
 		)
 		(uuid "a8748e8d-46b8-43f5-bd58-876655aa1ee1")
+	)
+	(polyline
+		(pts
+			(xy 376.174 219.202) (xy 442.214 219.202)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "a96c7cb2-498b-48c4-bb3a-e8b2b01e45e5")
 	)
 	(wire
 		(pts
@@ -10189,16 +10239,6 @@
 			(type default)
 		)
 		(uuid "b13cc178-1fd5-4c24-9518-e376db549d14")
-	)
-	(wire
-		(pts
-			(xy 416.56 281.94) (xy 427.99 281.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b14d9b73-c011-42f5-a3eb-1738145f2002")
 	)
 	(wire
 		(pts
@@ -10352,7 +10392,7 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 271.78) (xy 410.21 271.78)
+			(xy 422.91 271.78) (xy 419.1 271.78)
 		)
 		(stroke
 			(width 0)
@@ -10512,7 +10552,7 @@
 	)
 	(wire
 		(pts
-			(xy 417.83 242.57) (xy 429.26 242.57)
+			(xy 420.37 242.57) (xy 429.26 242.57)
 		)
 		(stroke
 			(width 0)
@@ -10839,6 +10879,16 @@
 			(type default)
 		)
 		(uuid "d3a6829d-5314-47db-b394-a148cdac4974")
+	)
+	(wire
+		(pts
+			(xy 410.21 265.43) (xy 411.48 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d488c5bb-ec6e-4efd-bb7a-8358937e07f2")
 	)
 	(wire
 		(pts
@@ -11422,7 +11472,7 @@
 	)
 	(wire
 		(pts
-			(xy 405.13 246.38) (xy 405.13 248.92)
+			(xy 396.24 246.38) (xy 396.24 248.92)
 		)
 		(stroke
 			(width 0)
@@ -11442,7 +11492,7 @@
 	)
 	(polyline
 		(pts
-			(xy 523.24 340.36) (xy 238.76 340.36)
+			(xy 523.24 340.36) (xy 292.1 340.36)
 		)
 		(stroke
 			(width 1)
@@ -11689,16 +11739,6 @@
 			(type default)
 		)
 		(uuid "fc44771c-7df9-44a9-a654-04406f99d8c8")
-	)
-	(wire
-		(pts
-			(xy 417.83 269.24) (xy 410.21 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc962825-19c1-4f5c-9790-da18beaa88f3")
 	)
 	(wire
 		(pts
@@ -14673,87 +14713,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 416.56 278.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1048b91b-e1ac-4f66-ada6-16ab4a817ff1")
-		(property "Reference" "R20"
-			(at 417.83 276.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 418.084 278.892 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 414.782 278.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 416.56 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 416.56 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f8a7ae85-cdc4-4c6a-a13a-1fd97e47580f")
-		)
-		(pin "1"
-			(uuid "f37f6d19-0539-486e-bb32-386f1644195a")
-		)
-		(instances
-			(project "Flipper black ki cad"
-				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 317.5 90.17 90)
 		(unit 1)
@@ -15485,7 +15444,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "200nH"
+		(property "Value" "220pf"
 			(at 472.44 253.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19288,8 +19247,8 @@
 				)
 			)
 		)
-		(property "Value" "0.1uf"
-			(at 427.482 280.67 90)
+		(property "Value" "1nf"
+			(at 428.752 280.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22720,7 +22679,7 @@
 				)
 			)
 		)
-		(property "Value" "1.6k"
+		(property "Value" "1k"
 			(at 448.818 273.304 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23553,10 +23512,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8efe3233-9803-4bb8-988e-1c9c7e5d6797")
+			(uuid "8efe3233-9803-4bb8-988e-1c9c7e5d6798")
 		)
 		(pin "1"
-			(uuid "6ab6d25d-d6d0-4df2-9c93-361ec01a3999")
+			(uuid "6ab6d25d-d6d0-4df2-9c93-361ec01a399a")
 		)
 		(instances
 			(project "Flipper black ki cad"
@@ -24029,10 +23988,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "825e3a1c-2a5e-4c2e-86d3-fd6d152edb5d")
+			(uuid "825e3a1c-2a5e-4c2e-86d3-fd6d152edb5e")
 		)
 		(pin "2"
-			(uuid "e0f7d17f-6beb-4c9a-a56e-3fa28acccafa")
+			(uuid "e0f7d17f-6beb-4c9a-a56e-3fa28acccafb")
 		)
 		(instances
 			(project "Flipper black ki cad"
@@ -24434,7 +24393,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 405.13 246.38 0)
+		(at 396.24 246.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24444,7 +24403,7 @@
 		(dnp no)
 		(uuid "79ed42fb-13b4-41fe-8afa-1deae1b26c60")
 		(property "Reference" "#PWR093"
-			(at 405.13 250.19 0)
+			(at 396.24 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24455,7 +24414,7 @@
 			)
 		)
 		(property "Value" "VDD33"
-			(at 404.876 242.57 0)
+			(at 395.986 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24465,7 +24424,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 405.13 246.38 0)
+			(at 396.24 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24476,7 +24435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 405.13 246.38 0)
+			(at 396.24 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24487,7 +24446,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 405.13 246.38 0)
+			(at 396.24 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25949,7 +25908,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "100pf"
 			(at 426.212 273.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26156,10 +26115,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8efe3233-9803-4bb8-988e-1c9c7e5d6797")
+			(uuid "8efe3233-9803-4bb8-988e-1c9c7e5d6799")
 		)
 		(pin "1"
-			(uuid "6ab6d25d-d6d0-4df2-9c93-361ec01a3999")
+			(uuid "6ab6d25d-d6d0-4df2-9c93-361ec01a399b")
 		)
 		(instances
 			(project "Flipper black ki cad"
@@ -26242,6 +26201,85 @@
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 415.29 265.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "90c64006-857f-44fe-8b90-cc3768274a79")
+		(property "Reference" "R20"
+			(at 411.988 263.144 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10R"
+			(at 417.322 263.144 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 415.29 267.208 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 415.29 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 415.29 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31d21236-55c1-4794-acaa-28dda4e15d19")
+		)
+		(pin "2"
+			(uuid "8f4c39dd-c015-42dc-84d7-ba6f43c75d30")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -26653,10 +26691,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8efe3233-9803-4bb8-988e-1c9c7e5d6797")
+			(uuid "8efe3233-9803-4bb8-988e-1c9c7e5d679a")
 		)
 		(pin "1"
-			(uuid "6ab6d25d-d6d0-4df2-9c93-361ec01a3999")
+			(uuid "6ab6d25d-d6d0-4df2-9c93-361ec01a399c")
 		)
 		(instances
 			(project "Flipper black ki cad"
@@ -29277,7 +29315,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "200nH"
+		(property "Value" "220pf"
 			(at 472.44 242.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29322,10 +29360,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "798456b1-dd8a-417d-b953-7e3465add4d1")
+			(uuid "798456b1-dd8a-417d-b953-7e3465add4d2")
 		)
 		(pin "2"
-			(uuid "02ce03be-2675-44c8-8053-69cb9ae32a56")
+			(uuid "02ce03be-2675-44c8-8053-69cb9ae32a57")
 		)
 		(instances
 			(project "Flipper black ki cad"
@@ -29669,10 +29707,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8efe3233-9803-4bb8-988e-1c9c7e5d6797")
+			(uuid "8efe3233-9803-4bb8-988e-1c9c7e5d679b")
 		)
 		(pin "1"
-			(uuid "6ab6d25d-d6d0-4df2-9c93-361ec01a3999")
+			(uuid "6ab6d25d-d6d0-4df2-9c93-361ec01a399d")
 		)
 		(instances
 			(project "Flipper black ki cad"
@@ -29834,6 +29872,85 @@
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 415.29 271.78 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b24f7dc1-a400-4e43-b752-6633abd673eb")
+		(property "Reference" "R22"
+			(at 412.496 269.494 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10R"
+			(at 418.592 270.002 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 415.29 273.558 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 415.29 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 415.29 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31d21236-55c1-4794-acaa-28dda4e15d19")
+		)
+		(pin "2"
+			(uuid "8f4c39dd-c015-42dc-84d7-ba6f43c75d30")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -34181,10 +34298,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "798456b1-dd8a-417d-b953-7e3465add4d1")
+			(uuid "798456b1-dd8a-417d-b953-7e3465add4d3")
 		)
 		(pin "2"
-			(uuid "02ce03be-2675-44c8-8053-69cb9ae32a56")
+			(uuid "02ce03be-2675-44c8-8053-69cb9ae32a58")
 		)
 		(instances
 			(project "Flipper black ki cad"
@@ -34721,10 +34838,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "60cf60ff-4416-42df-9509-77b6688c8a59")
+			(uuid "60cf60ff-4416-42df-9509-77b6688c8a5a")
 		)
 		(pin "1"
-			(uuid "1304723d-8f70-436c-af48-6161469e6246")
+			(uuid "1304723d-8f70-436c-af48-6161469e6247")
 		)
 		(instances
 			(project "Flipper black ki cad"
