@@ -3,4 +3,5 @@
 	(lib (name "Flipper Black Custom lib") (type "KiCad") (uri "${KIPRJMOD}/Flipper Black Custom lib.kicad_sym") (options "") (descr ""))
 	(lib (name "CC1101") (type "Legacy") (uri "F:/Downloads/CC1101/CC1101.lib") (options "") (descr ""))
 	(lib (name "PE4259") (type "Legacy") (uri "F:/Downloads/PE4259/PE4259.lib") (options "") (descr ""))
+	(lib (name "BGA725L6") (type "Legacy") (uri "F:/Downloads/BGA725L6/BGA725L6.lib") (options "") (descr ""))
 )
