@@ -120,7 +120,7 @@
     "files": [
       {
         "name": "Flipper black ki cad.kicad_sch",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
