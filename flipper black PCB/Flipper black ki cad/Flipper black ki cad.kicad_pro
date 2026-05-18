@@ -634,7 +634,7 @@
         "uuid": "aadf5baa-c41c-48f9-af5f-e274c89cf282"
       }
     ],
-    "used_designators": "U13-14,#PWR154-156",
+    "used_designators": "U14-16,Q1-2,#PWR157-161,D2-4,IR_LEDs1-2,R29-31",
     "variants": []
   },
   "sheets": [

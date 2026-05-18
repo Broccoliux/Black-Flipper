@@ -119,8 +119,8 @@
   "project": {
     "files": [
       {
-        "name": "Flipper black ki cad.kicad_sch",
-        "open": true,
+        "name": "Flipper black ki cad.kicad_pcb",
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
