@@ -634,7 +634,7 @@
         "uuid": "aadf5baa-c41c-48f9-af5f-e274c89cf282"
       }
     ],
-    "used_designators": "PCB_ANT1,CC1101_ANT1,U11-13,#PWR117-121,#PWR132-153,C84-88,C94-101,PN532_ANT1,GPS_ANT1,R23,R26-29,J2-3",
+    "used_designators": "U13-14,#PWR154-156",
     "variants": []
   },
   "sheets": [
