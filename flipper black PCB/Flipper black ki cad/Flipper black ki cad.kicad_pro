@@ -634,7 +634,7 @@
         "uuid": "aadf5baa-c41c-48f9-af5f-e274c89cf282"
       }
     ],
-    "used_designators": "U14-18,Q1-2,#PWR157-166,D2-4,IR_LEDs1-3,R29-37,C87,C101",
+    "used_designators": "U14-19,Q1-3,#PWR157-179,D2-5,IR_LEDs1-3,R29-41,C87,C101-105,P1-3",
     "variants": []
   },
   "sheets": [
