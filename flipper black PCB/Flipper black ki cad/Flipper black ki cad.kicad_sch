@@ -13716,7 +13716,7 @@
 	)
 	(text "BUTTON"
 		(exclude_from_sim no)
-		(at 562.102 349.758 0)
+		(at 591.82 350.52 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -13737,6 +13737,18 @@
 			)
 		)
 		(uuid "f578b8f6-4417-422a-ac1d-cde20954b409")
+	)
+	(text "Test Points"
+		(exclude_from_sim no)
+		(at 747.268 349.758 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "fe914d73-0614-4fde-a204-d7bf55be354a")
 	)
 	(junction
 		(at 436.88 246.38)
@@ -15190,6 +15202,16 @@
 		)
 		(uuid "10907b8a-1d9e-424b-8fb5-7750740457cd")
 	)
+	(polyline
+		(pts
+			(xy 822.96 345.44) (xy 822.96 434.34)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "10a7c4b6-53be-421d-a4ff-0d41235b3989")
+	)
 	(wire
 		(pts
 			(xy 260.35 309.88) (xy 260.35 306.07)
@@ -15259,6 +15281,16 @@
 			(type default)
 		)
 		(uuid "13a6e0df-1204-443f-a9f1-2418c74b4730")
+	)
+	(polyline
+		(pts
+			(xy 731.52 353.06) (xy 764.54 353.06)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "13d63612-ed4e-4458-a16d-1a1f3a90632d")
 	)
 	(polyline
 		(pts
@@ -15682,7 +15714,7 @@
 	)
 	(polyline
 		(pts
-			(xy 574.04 353.06) (xy 574.04 345.44)
+			(xy 603.758 353.822) (xy 603.758 346.202)
 		)
 		(stroke
 			(width 1)
@@ -15759,6 +15791,16 @@
 			(type default)
 		)
 		(uuid "2391127f-f537-4183-a7b6-42ca0c4bc931")
+	)
+	(polyline
+		(pts
+			(xy 764.54 353.06) (xy 764.54 345.44)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "23bd0324-75b5-467e-b7c0-e2cc119c69ca")
 	)
 	(wire
 		(pts
@@ -15949,6 +15991,16 @@
 			(type default)
 		)
 		(uuid "29183651-6b24-4a97-a70a-c24f319a3333")
+	)
+	(polyline
+		(pts
+			(xy 822.96 434.34) (xy 670.56 434.34)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "294d75b9-8131-4770-8b44-9a4605012266")
 	)
 	(wire
 		(pts
@@ -16529,6 +16581,16 @@
 			(type default)
 		)
 		(uuid "382e530a-3440-4037-957e-9da1536de8da")
+	)
+	(polyline
+		(pts
+			(xy 731.52 345.44) (xy 731.52 353.06)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "384467ce-3c8f-4800-be73-e42a857d6fdd")
 	)
 	(polyline
 		(pts
@@ -19782,6 +19844,16 @@
 	)
 	(polyline
 		(pts
+			(xy 670.56 345.44) (xy 670.56 434.34)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "9e61faea-b6fd-4457-b69e-3f4d6433c4b3")
+	)
+	(polyline
+		(pts
 			(xy 15.24 345.44) (xy 142.24 345.44)
 		)
 		(stroke
@@ -21242,7 +21314,7 @@
 	)
 	(polyline
 		(pts
-			(xy 551.18 353.06) (xy 574.04 353.06)
+			(xy 580.898 353.822) (xy 603.758 353.822)
 		)
 		(stroke
 			(width 1)
@@ -21799,6 +21871,16 @@
 			(type default)
 		)
 		(uuid "da3f9b23-4041-44fc-9f46-dd532467a379")
+	)
+	(polyline
+		(pts
+			(xy 670.56 345.44) (xy 822.96 345.44)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "da5ebab0-fc3a-4b77-9f44-da897a420237")
 	)
 	(wire
 		(pts
@@ -23042,7 +23124,7 @@
 	)
 	(polyline
 		(pts
-			(xy 551.18 345.44) (xy 551.18 353.06)
+			(xy 580.898 346.202) (xy 580.898 353.822)
 		)
 		(stroke
 			(width 1)
@@ -23059,16 +23141,6 @@
 			(type default)
 		)
 		(uuid "ffb80c05-7759-486f-8933-4f67e057e425")
-	)
-	(label "GPIO26"
-		(at 152.4 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f36593f7-1da8-4d3d-b6d8-897d5afe1657")
 	)
 	(global_label "SPI_SCK"
 		(shape input)
