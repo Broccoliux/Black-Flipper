@@ -15107,6 +15107,16 @@
 	)
 	(wire
 		(pts
+			(xy 787.4 375.92) (xy 787.4 379.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab63032-e3d8-489e-a0fb-7f091f96a358")
+	)
+	(wire
+		(pts
 			(xy 393.7 256.54) (xy 393.7 259.08)
 		)
 		(stroke
@@ -19557,6 +19567,16 @@
 	)
 	(wire
 		(pts
+			(xy 685.8 408.94) (xy 685.8 415.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e52b22-b872-46d9-ba17-e794881bb8fb")
+	)
+	(wire
+		(pts
 			(xy 739.14 266.7) (xy 746.76 266.7)
 		)
 		(stroke
@@ -23730,6 +23750,30 @@
 			)
 		)
 	)
+	(global_label "EN_BTN"
+		(shape input)
+		(at 685.8 415.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ff359bc-e286-4a4d-8c6b-f5828033953f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 695.8004 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GPS_RESET"
 		(shape input)
 		(at 83.82 95.25 180)
@@ -25910,6 +25954,30 @@
 		(uuid "d7eb7574-5203-4a18-9b25-5ffae5bac314")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 813.4872 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BOOT_BTN"
+		(shape input)
+		(at 787.4 379.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dad76b42-992f-49db-a5c3-324b5655e3ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 799.8195 379.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
