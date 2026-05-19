@@ -23825,14 +23825,13 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left)
 		)
 		(uuid "20e1a6d5-4867-45dc-a887-e0bf135d136b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.5978 135.89 0)
+			(at 165.1218 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25306,6 +25305,31 @@
 			)
 		)
 	)
+	(global_label "TP_UART_RX"
+		(shape input)
+		(at 151.13 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "9b81bc56-d6c8-4844-a3f7-082aa3dd1f48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.4242 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "BTN_POWER"
 		(shape input)
 		(at 539.75 373.38 180)
@@ -26090,14 +26114,13 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left)
 		)
 		(uuid "e186a71b-9467-4ddd-9b9d-989434fa3527")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 751.0678 415.29 0)
+			(at 750.5918 415.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
