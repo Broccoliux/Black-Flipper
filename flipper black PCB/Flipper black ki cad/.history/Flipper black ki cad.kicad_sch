@@ -16697,6 +16697,16 @@
 	)
 	(wire
 		(pts
+			(xy 736.6 408.94) (xy 736.6 415.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f3ca70-f796-4503-a5cb-2106d0605c52")
+	)
+	(wire
+		(pts
 			(xy 74.93 377.19) (xy 82.55 377.19)
 		)
 		(stroke
@@ -18657,7 +18667,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 135.89) (xy 182.88 135.89)
+			(xy 175.26 135.89) (xy 182.88 135.89)
 		)
 		(stroke
 			(width 0)
@@ -18977,7 +18987,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 135.89) (xy 166.37 135.89)
+			(xy 151.13 135.89) (xy 167.64 135.89)
 		)
 		(stroke
 			(width 0)
@@ -21997,6 +22007,16 @@
 	)
 	(wire
 		(pts
+			(xy 711.2 408.94) (xy 711.2 415.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ada9df-501f-4323-a914-a3c2a3441f2d")
+	)
+	(wire
+		(pts
 			(xy 204.47 416.56) (xy 204.47 419.1)
 		)
 		(stroke
@@ -23798,6 +23818,32 @@
 			)
 		)
 	)
+	(global_label "TP_UART_TX"
+		(shape input)
+		(at 151.13 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "20e1a6d5-4867-45dc-a887-e0bf135d136b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.5978 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "BTN_UP"
 		(shape input)
 		(at 631.19 374.65 180)
@@ -24781,14 +24827,13 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left)
 		)
 		(uuid "6e075895-a356-4f45-b673-1ab1d7ae746c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 771.9926 379.73 0)
+			(at 771.5166 379.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25233,6 +25278,31 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "TP_UART_RX"
+		(shape input)
+		(at 711.2 415.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "91fb7278-83e6-4e4f-bbb8-1fa3796aad55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 725.4942 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -26010,6 +26080,32 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "TP_UART_TX"
+		(shape input)
+		(at 736.6 415.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e186a71b-9467-4ddd-9b9d-989434fa3527")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 751.0678 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -37346,7 +37442,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 170.18 135.89 90)
+		(at 171.45 135.89 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37356,7 +37452,7 @@
 		(dnp no)
 		(uuid "495e8fe0-880f-412f-90f9-c91b258af93a")
 		(property "Reference" "R6"
-			(at 165.608 134.874 90)
+			(at 167.894 135.128 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37366,7 +37462,7 @@
 			)
 		)
 		(property "Value" "499Ohm"
-			(at 176.276 134.62 90)
+			(at 177.8 134.874 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37376,7 +37472,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.434 134.874 90)
+			(at 171.704 134.874 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37387,7 +37483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 135.89 0)
+			(at 171.45 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37398,7 +37494,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 170.18 135.89 0)
+			(at 171.45 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42304,7 +42400,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "TP_UART_RX"
 			(at 713.74 406.9079 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51484,7 +51580,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "TP_UART_TX"
 			(at 739.14 406.9079 0)
 			(show_name no)
 			(do_not_autoplace no)
