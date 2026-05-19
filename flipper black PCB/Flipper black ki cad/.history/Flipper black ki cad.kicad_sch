@@ -15022,6 +15022,16 @@
 	)
 	(wire
 		(pts
+			(xy 647.7 374.65) (xy 647.7 375.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cec45f9-e76c-472d-add5-07360399eccd")
+	)
+	(wire
+		(pts
 			(xy 621.03 321.31) (xy 621.03 325.12)
 		)
 		(stroke
@@ -15450,6 +15460,16 @@
 		)
 		(uuid "19a09145-2e7b-4469-ae28-6517d23e349f")
 	)
+	(wire
+		(pts
+			(xy 556.26 401.32) (xy 556.26 402.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19dc9344-6f36-4ee1-bc6b-fa86a1f65023")
+	)
 	(polyline
 		(pts
 			(xy 723.9 233.68) (xy 723.9 335.28)
@@ -15712,6 +15732,16 @@
 	)
 	(wire
 		(pts
+			(xy 641.35 402.59) (xy 647.7 402.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "234e17aa-8dea-4701-948c-6204d5e13270")
+	)
+	(wire
+		(pts
 			(xy 334.01 396.24) (xy 334.01 403.86)
 		)
 		(stroke
@@ -15819,6 +15849,16 @@
 			(type default)
 		)
 		(uuid "26c379eb-6074-421b-8a4c-2e13b8d2b7b4")
+	)
+	(wire
+		(pts
+			(xy 556.26 382.27) (xy 556.26 383.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26c85329-8880-462d-8f90-4a9c19645bd3")
 	)
 	(wire
 		(pts
@@ -16042,6 +16082,16 @@
 	)
 	(wire
 		(pts
+			(xy 641.35 374.65) (xy 647.7 374.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d76fdca-515b-4f31-a0a4-597d58ccec0a")
+	)
+	(wire
+		(pts
 			(xy 434.34 410.21) (xy 434.34 412.75)
 		)
 		(stroke
@@ -16169,6 +16219,16 @@
 			(type default)
 		)
 		(uuid "30a6cee0-a706-4e3c-ba27-f575b9b2a806")
+	)
+	(wire
+		(pts
+			(xy 599.44 373.38) (xy 599.44 374.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30cc1d07-d588-487b-9e1f-18c4751d15fa")
 	)
 	(wire
 		(pts
@@ -17662,6 +17722,16 @@
 	)
 	(wire
 		(pts
+			(xy 647.7 402.59) (xy 647.7 403.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c9281d0-9ad3-42bb-9df1-13f6b8fc33bc")
+	)
+	(wire
+		(pts
 			(xy 648.97 309.88) (xy 648.97 312.42)
 		)
 		(stroke
@@ -18062,7 +18132,7 @@
 	)
 	(polyline
 		(pts
-			(xy 515.62 434.34) (xy 632.46 434.34)
+			(xy 515.62 434.34) (xy 665.48 434.34)
 		)
 		(stroke
 			(width 1)
@@ -18432,7 +18502,7 @@
 	)
 	(polyline
 		(pts
-			(xy 515.62 345.44) (xy 632.46 345.44)
+			(xy 515.62 345.44) (xy 665.48 345.44)
 		)
 		(stroke
 			(width 1)
@@ -18492,7 +18562,7 @@
 	)
 	(wire
 		(pts
-			(xy 546.1 373.38) (xy 546.1 384.81)
+			(xy 556.26 373.38) (xy 556.26 374.65)
 		)
 		(stroke
 			(width 0)
@@ -18559,6 +18629,16 @@
 			(type default)
 		)
 		(uuid "7c64de0e-6936-4b80-882e-4994fb4b471b")
+	)
+	(wire
+		(pts
+			(xy 599.44 401.32) (xy 599.44 402.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc9ee95-0d81-459e-b148-f9cfcd8e6dc2")
 	)
 	(wire
 		(pts
@@ -19560,6 +19640,16 @@
 		)
 		(uuid "9b32761c-06b5-4f56-93a6-946f97c789de")
 	)
+	(wire
+		(pts
+			(xy 593.09 401.32) (xy 599.44 401.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b473bc7-3d6e-4042-a68a-f4aa16a5fc36")
+	)
 	(polyline
 		(pts
 			(xy 147.32 434.34) (xy 403.86 434.34)
@@ -19952,6 +20042,16 @@
 	)
 	(wire
 		(pts
+			(xy 593.09 373.38) (xy 599.44 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82d0fec-8c7a-4345-9a99-673f8558f00f")
+	)
+	(wire
+		(pts
 			(xy 453.39 91.44) (xy 455.93 91.44)
 		)
 		(stroke
@@ -20302,7 +20402,7 @@
 	)
 	(wire
 		(pts
-			(xy 539.75 373.38) (xy 546.1 373.38)
+			(xy 549.91 373.38) (xy 556.26 373.38)
 		)
 		(stroke
 			(width 0)
@@ -20769,6 +20869,16 @@
 			(type default)
 		)
 		(uuid "c2247aa8-4976-48ed-aa0b-3fe42bb4cedf")
+	)
+	(wire
+		(pts
+			(xy 599.44 410.21) (xy 599.44 411.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c280aa00-026e-4ba2-b976-cd4153b04479")
 	)
 	(wire
 		(pts
@@ -21250,6 +21360,16 @@
 		)
 		(uuid "cce8de22-0ce8-4eb4-ae12-c96912f971cf")
 	)
+	(wire
+		(pts
+			(xy 647.7 411.48) (xy 647.7 412.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd086672-1973-453f-8f45-849660048dde")
+	)
 	(polyline
 		(pts
 			(xy 731.52 81.28) (xy 711.2 81.28)
@@ -21382,7 +21502,7 @@
 	)
 	(polyline
 		(pts
-			(xy 632.46 434.34) (xy 632.46 345.44)
+			(xy 665.48 434.34) (xy 665.48 345.44)
 		)
 		(stroke
 			(width 1)
@@ -21399,6 +21519,16 @@
 			(type default)
 		)
 		(uuid "d2eb0174-534d-464f-a82b-93f188a93d88")
+	)
+	(wire
+		(pts
+			(xy 549.91 401.32) (xy 556.26 401.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d30de728-a254-4210-a969-35f83b1792db")
 	)
 	(polyline
 		(pts
@@ -21919,6 +22049,16 @@
 			(type default)
 		)
 		(uuid "dfa17163-8e60-43b9-8e55-d5d132006561")
+	)
+	(wire
+		(pts
+			(xy 647.7 383.54) (xy 647.7 384.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfbf35f9-ae5c-4eb4-8336-08633344d23f")
 	)
 	(wire
 		(pts
@@ -22799,6 +22939,26 @@
 			(type default)
 		)
 		(uuid "fba201b5-a676-4d5e-9435-d5c5f84ea315")
+	)
+	(wire
+		(pts
+			(xy 599.44 382.27) (xy 599.44 383.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb4030e-3f40-406a-8003-f31cbedbb4f7")
+	)
+	(wire
+		(pts
+			(xy 556.26 410.21) (xy 556.26 411.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc95fba-ae12-4fd7-a25f-7ae4e6d2980d")
 	)
 	(wire
 		(pts
@@ -27389,7 +27549,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 570.23 401.32 0)
+		(at 588.01 401.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27400,7 +27560,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f9edce2-669f-48a2-980c-c3d4585894c2")
 		(property "Reference" "SW7"
-			(at 570.23 393.7 0)
+			(at 588.01 393.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27410,7 +27570,7 @@
 			)
 		)
 		(property "Value" "BTN_LEFT"
-			(at 570.23 396.24 0)
+			(at 588.01 396.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27420,7 +27580,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 570.23 396.24 0)
+			(at 588.01 396.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27431,7 +27591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 570.23 396.24 0)
+			(at 588.01 396.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27442,7 +27602,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 570.23 401.32 0)
+			(at 588.01 401.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29769,8 +29929,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 603.25 401.32 0)
+		(lib_id "power:+3V3")
+		(at 647.7 412.75 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29778,10 +29938,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1eb73237-afa0-4005-9162-57cd693516d5")
-		(property "Reference" "SW8"
-			(at 603.25 393.7 0)
+		(uuid "1d6908d9-5123-4bc9-ab81-53ca2ac59045")
+		(property "Reference" "#PWR0185"
+			(at 647.7 408.94 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29790,8 +29950,8 @@
 				)
 			)
 		)
-		(property "Value" "BTN_RIGHT"
-			(at 603.25 396.24 0)
+		(property "Value" "VDD33"
+			(at 647.7 417.068 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29801,7 +29961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 603.25 396.24 0)
+			(at 647.7 412.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29812,7 +29972,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 603.25 396.24 0)
+			(at 647.7 412.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 647.7 412.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf3b9d99-b540-4ede-9c40-cb89881a498a")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 636.27 402.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eb73237-afa0-4005-9162-57cd693516d5")
+		(property "Reference" "SW8"
+			(at 636.27 394.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BTN_RIGHT"
+			(at 636.27 397.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 636.27 397.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 636.27 397.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29823,7 +30060,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 603.25 401.32 0)
+			(at 636.27 402.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32309,7 +32546,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 534.67 373.38 0)
+		(at 544.83 373.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32320,7 +32557,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ce4ac4a-28a4-4d97-8b9b-1434baaca8f2")
 		(property "Reference" "SW3"
-			(at 534.67 365.76 0)
+			(at 544.83 365.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32330,7 +32567,7 @@
 			)
 		)
 		(property "Value" "BTN_POWER"
-			(at 534.67 368.3 0)
+			(at 544.83 368.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32340,7 +32577,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 534.67 368.3 0)
+			(at 544.83 368.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32351,7 +32588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 534.67 368.3 0)
+			(at 544.83 368.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32362,7 +32599,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 534.67 373.38 0)
+			(at 544.83 373.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34378,6 +34615,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 647.7 379.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b9b18a8-3c71-46df-97aa-ffb7a4ab17ba")
+		(property "Reference" "R41"
+			(at 649.224 378.206 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10R"
+			(at 649.224 381 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 645.922 379.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 647.7 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 647.7 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51e8db25-39da-43c2-891f-d44e74f925f5")
+		)
+		(pin "2"
+			(uuid "2cb7d071-dc78-4ae3-b9ff-4673f2a3b98d")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 184.15 146.05 90)
 		(unit 1)
@@ -34531,6 +34849,87 @@
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
 					(reference "C66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 556.26 406.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3bd9d0fa-4cee-46d3-8f82-362645e4a590")
+		(property "Reference" "R42"
+			(at 557.784 404.876 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10R"
+			(at 557.784 407.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 554.482 406.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 556.26 406.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 556.26 406.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d756bdc-c0e0-4211-9e9a-c8888e46e5ea")
+		)
+		(pin "2"
+			(uuid "3f01db91-4c60-471b-b4d0-4446171ea16e")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -35797,6 +36196,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 599.44 406.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "47fa1005-7398-488b-9bb3-51f004de8ea5")
+		(property "Reference" "R43"
+			(at 600.964 404.876 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10R"
+			(at 600.964 407.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 597.662 406.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 599.44 406.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 599.44 406.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7ef31bd-ff6b-45a7-96cf-7b443d8460ea")
+		)
+		(pin "2"
+			(uuid "5a06d8db-c7cb-449c-91f8-1e223b03fda5")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 579.12 152.4 0)
 		(unit 1)
@@ -35961,6 +36441,83 @@
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
 					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 599.44 411.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "48fcf6a0-651b-49b4-a406-68b7acace4f0")
+		(property "Reference" "#PWR0184"
+			(at 599.44 407.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD33"
+			(at 599.44 415.798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 599.44 411.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 599.44 411.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 599.44 411.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de329d1b-68cd-4922-927a-0ea21cd721b7")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "#PWR0184")
 					(unit 1)
 				)
 			)
@@ -37040,6 +37597,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 647.7 384.81 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "51ab5065-7962-416d-8e35-dcef882a696c")
+		(property "Reference" "#PWR0182"
+			(at 647.7 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD33"
+			(at 647.7 389.128 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 647.7 384.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 647.7 384.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 647.7 384.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "577f036f-d5b6-4ace-a2b1-2dfc417e003a")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "#PWR0182")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 154.94 273.05 90)
 		(unit 1)
@@ -37917,7 +38551,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 534.67 401.32 0)
+		(at 544.83 401.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37928,7 +38562,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bd8215d-df75-4ce1-9f6a-2a7f507f80f7")
 		(property "Reference" "SW6"
-			(at 534.67 393.7 0)
+			(at 544.83 393.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37938,7 +38572,7 @@
 			)
 		)
 		(property "Value" "BTN_DOWN"
-			(at 534.67 396.24 0)
+			(at 544.83 396.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37948,7 +38582,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 534.67 396.24 0)
+			(at 544.83 396.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37959,7 +38593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 534.67 396.24 0)
+			(at 544.83 396.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37970,7 +38604,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 534.67 401.32 0)
+			(at 544.83 401.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38250,7 +38884,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 603.25 373.38 0)
+		(at 636.27 374.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38261,7 +38895,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e42721d-2032-4df0-bdf8-4fab61431b86")
 		(property "Reference" "SW5"
-			(at 603.25 365.76 0)
+			(at 636.27 367.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38271,7 +38905,7 @@
 			)
 		)
 		(property "Value" "BTN_UP"
-			(at 603.25 368.3 0)
+			(at 636.27 369.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38281,7 +38915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 603.25 368.3 0)
+			(at 636.27 369.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38292,7 +38926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 603.25 368.3 0)
+			(at 636.27 369.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38303,7 +38937,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 603.25 373.38 0)
+			(at 636.27 374.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38648,6 +39282,87 @@
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 599.44 378.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f8587d2-31bf-4663-9411-db6f3fb28ca5")
+		(property "Reference" "R38"
+			(at 600.964 376.936 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10R"
+			(at 600.964 379.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 597.662 378.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 599.44 378.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 599.44 378.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14c12c66-b8a1-4e59-aaa5-e286146176c2")
+		)
+		(pin "2"
+			(uuid "6b3f3cf5-52d7-4c14-9a97-a4616ebf178a")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -39987,6 +40702,83 @@
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 599.44 383.54 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "69ccfcfe-94e7-4ce6-b97d-3b661454f5b2")
+		(property "Reference" "#PWR0181"
+			(at 599.44 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD33"
+			(at 599.44 387.858 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 599.44 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 599.44 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 599.44 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cac63b1c-b882-465a-92fb-05defe565899")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "#PWR0181")
 					(unit 1)
 				)
 			)
@@ -43256,6 +44048,87 @@
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
 					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 556.26 378.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8aa0e250-2c56-42f9-a0a5-585041220f85")
+		(property "Reference" "R37"
+			(at 557.784 376.936 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10R"
+			(at 557.784 379.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 554.482 378.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 556.26 378.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 556.26 378.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96388406-baf4-41fa-9622-261a45d08362")
+		)
+		(pin "2"
+			(uuid "6a86fe9b-07da-4675-bd59-f6c84d9bedee")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -49135,6 +50008,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 556.26 411.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b365f7cb-0bf6-4487-aa66-44568638a188")
+		(property "Reference" "#PWR0183"
+			(at 556.26 407.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD33"
+			(at 556.26 415.798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 556.26 411.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 556.26 411.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 556.26 411.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2e38b19-058e-499f-9d34-3b44e7e52cec")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "#PWR0183")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 125.73 387.35 90)
 		(unit 1)
@@ -53151,7 +54101,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 570.23 373.38 0)
+		(at 588.01 373.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -53162,7 +54112,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5c45637-6972-4087-8a6e-70ffbdc70c19")
 		(property "Reference" "SW4"
-			(at 570.23 365.76 0)
+			(at 588.01 365.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53172,7 +54122,7 @@
 			)
 		)
 		(property "Value" "BTN_OK"
-			(at 570.23 368.3 0)
+			(at 588.01 368.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53182,7 +54132,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 570.23 368.3 0)
+			(at 588.01 368.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53193,7 +54143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 570.23 368.3 0)
+			(at 588.01 368.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53204,7 +54154,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 570.23 373.38 0)
+			(at 588.01 373.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56501,6 +57451,87 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 647.7 407.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "efdd9b48-0aeb-4261-a5e1-17988735d6a1")
+		(property "Reference" "R44"
+			(at 649.224 406.146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10R"
+			(at 649.224 408.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 645.922 407.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 647.7 407.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 647.7 407.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a2f65ae-3746-4c90-86e8-992c55628aa3")
+		)
+		(pin "2"
+			(uuid "8ae3128e-7c71-4b22-b3b2-90ff1463599c")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 212.09 144.78 0)
 		(unit 1)
 		(body_style 1)
@@ -57635,6 +58666,83 @@
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 556.26 383.54 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f89db6aa-8720-4de8-8a34-ef599d62a8b9")
+		(property "Reference" "#PWR0180"
+			(at 556.26 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD33"
+			(at 556.26 387.858 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 556.26 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 556.26 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 556.26 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02c57311-b5c9-47ce-b3be-2ecc2b892834")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "#PWR0180")
 					(unit 1)
 				)
 			)
