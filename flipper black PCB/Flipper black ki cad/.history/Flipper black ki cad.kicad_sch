@@ -13716,7 +13716,7 @@
 	)
 	(text "BUTTON"
 		(exclude_from_sim no)
-		(at 562.102 349.758 0)
+		(at 591.82 350.52 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -15682,7 +15682,7 @@
 	)
 	(polyline
 		(pts
-			(xy 574.04 353.06) (xy 574.04 345.44)
+			(xy 603.758 353.822) (xy 603.758 346.202)
 		)
 		(stroke
 			(width 1)
@@ -21242,7 +21242,7 @@
 	)
 	(polyline
 		(pts
-			(xy 551.18 353.06) (xy 574.04 353.06)
+			(xy 580.898 353.822) (xy 603.758 353.822)
 		)
 		(stroke
 			(width 1)
@@ -23042,7 +23042,7 @@
 	)
 	(polyline
 		(pts
-			(xy 551.18 345.44) (xy 551.18 353.06)
+			(xy 580.898 346.202) (xy 580.898 353.822)
 		)
 		(stroke
 			(width 1)
@@ -23059,16 +23059,6 @@
 			(type default)
 		)
 		(uuid "ffb80c05-7759-486f-8933-4f67e057e425")
-	)
-	(label "GPIO26"
-		(at 152.4 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f36593f7-1da8-4d3d-b6d8-897d5afe1657")
 	)
 	(global_label "SPI_SCK"
 		(shape input)
@@ -24056,6 +24046,30 @@
 		(uuid "515570e3-a106-410c-9cea-53efae00935c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 810.8866 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BTN_RIGHT"
+		(shape input)
+		(at 182.88 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53f8b2ac-c783-44b8-8153-db2faac0abe8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.8438 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
