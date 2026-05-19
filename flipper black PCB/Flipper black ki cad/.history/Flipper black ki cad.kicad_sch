@@ -38613,10 +38613,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f52b2bb7-b63b-4292-a772-ff3262ffd116")
+			(uuid "f52b2bb7-b63b-4292-a772-ff3262ffd117")
 		)
 		(pin "2"
-			(uuid "ccf630f9-b288-484c-97b2-31efac4abb7e")
+			(uuid "ccf630f9-b288-484c-97b2-31efac4abb7f")
 		)
 		(instances
 			(project "Flipper black ki cad"
@@ -48540,10 +48540,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed24d9c9-a50a-45ea-be79-f2369697e609")
+			(uuid "ed24d9c9-a50a-45ea-be79-f2369697e60a")
 		)
 		(pin "2"
-			(uuid "6d92f358-84dd-4f54-9c0a-9683903ed7b0")
+			(uuid "6d92f358-84dd-4f54-9c0a-9683903ed7b1")
 		)
 		(instances
 			(project "Flipper black ki cad"
@@ -52232,10 +52232,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d9b91733-656a-49d8-b014-ffe6e94b44b3")
+			(uuid "d9b91733-656a-49d8-b014-ffe6e94b44b4")
 		)
 		(pin "1"
-			(uuid "5bca15f8-db7b-4cf8-b977-4db143ceb6ea")
+			(uuid "5bca15f8-db7b-4cf8-b977-4db143ceb6eb")
 		)
 		(instances
 			(project "Flipper black ki cad"
@@ -55045,10 +55045,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7acaee85-835c-4293-876e-44273274c41c")
+			(uuid "7acaee85-835c-4293-876e-44273274c41d")
 		)
 		(pin "2"
-			(uuid "82ae7153-a84d-4a99-8e07-5b6515b9f8f2")
+			(uuid "82ae7153-a84d-4a99-8e07-5b6515b9f8f3")
 		)
 		(instances
 			(project "Flipper black ki cad"
