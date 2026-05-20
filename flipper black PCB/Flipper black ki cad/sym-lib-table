@@ -6,4 +6,5 @@
 	(lib (name "BGA725L6") (type "Legacy") (uri "F:/Downloads/BGA725L6/BGA725L6.lib") (options "") (descr ""))
 	(lib (name "FS8205A") (type "Legacy") (uri "F:/Downloads/FS8205A/FS8205A.lib") (options "") (descr ""))
 	(lib (name "JST-2") (type "Legacy") (uri "F:/Downloads/PHR-2/PHR-2.lib") (options "") (descr ""))
+	(lib (name "PESD5V0L4UG_115") (type "Legacy") (uri "F:/Downloads/PESD5V0L4UG_115/PESD5V0L4UG_115.lib") (options "") (descr ""))
 )
