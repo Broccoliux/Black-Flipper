@@ -28840,8 +28840,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 51.308 88.392 0)
+		(property "Value" "boot"
+			(at 49.022 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29478,7 +29478,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.0 pF"
+		(property "Value" "1.0pF"
 			(at 178.816 284.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31197,7 +31197,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22pf"
 			(at 599.186 308.864 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39340,7 +39340,7 @@
 				)
 			)
 		)
-		(property "Value" "NC"
+		(property "Value" "0R"
 			(at 499.618 68.072 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42300,7 +42300,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1nf"
 			(at 596.646 299.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45486,7 +45486,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "REST"
 			(at 179.07 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47229,7 +47229,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10uf"
 			(at 379.73 420.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50059,10 +50059,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a2418f3e-9106-4e34-995a-e49f702c7176")
 		(property "Reference" "C26"
-			(at 203.2 271.78 90)
+			(at 202.946 273.558 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50071,8 +50070,8 @@
 				)
 			)
 		)
-		(property "Value" "1.5 pf"
-			(at 203.2 274.32 90)
+		(property "Value" "1.5pf"
+			(at 202.946 276.098 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50218,7 +50217,7 @@
 		(dnp no)
 		(uuid "a31b76e6-d596-4e70-858b-cf4cd569ff0b")
 		(property "Reference" "L11"
-			(at 207.01 286.512 90)
+			(at 207.264 289.052 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50228,7 +50227,7 @@
 			)
 		)
 		(property "Value" "2.7nH"
-			(at 207.01 288.798 90)
+			(at 212.344 290.068 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50297,7 +50296,7 @@
 		(dnp no)
 		(uuid "a48156fd-a34b-4e1b-a783-4d79f9fb0ab7")
 		(property "Reference" "C27"
-			(at 197.104 285.75 90)
+			(at 196.596 292.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50306,7 +50305,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5 pF"
+		(property "Value" "1.5pF"
 			(at 199.136 287.528 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55124,8 +55123,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 754.126 265.684 90)
+		(property "Value" "10K"
+			(at 755.396 265.684 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55365,7 +55364,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.0 pF"
+		(property "Value" "1.0pF"
 			(at 185.674 180.086 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59125,7 +59124,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10uf"
 			(at 368.3 421.132 0)
 			(show_name no)
 			(do_not_autoplace no)
