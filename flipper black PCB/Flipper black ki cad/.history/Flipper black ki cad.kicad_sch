@@ -28144,7 +28144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 690.88 408.94 0)
 			(hide yes)
 			(show_name no)
@@ -28301,7 +28301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 741.68 375.92 0)
 			(hide yes)
 			(show_name no)
@@ -28380,7 +28380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 708.66 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -28613,7 +28613,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 400.05 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -28848,7 +28848,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 46.99 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -28927,7 +28927,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 181.61 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -29168,7 +29168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 626.872 285.75 90)
 			(hide yes)
 			(show_name no)
@@ -29248,7 +29248,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 379.73 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -29405,7 +29405,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
 			(at 588.01 396.24 0)
 			(hide yes)
 			(show_name no)
@@ -29723,7 +29723,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 317.5 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -29887,7 +29887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 708.66 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -30810,7 +30810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 767.08 408.94 0)
 			(hide yes)
 			(show_name no)
@@ -31514,7 +31514,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 504.19 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -32080,7 +32080,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
 			(at 636.27 397.51 0)
 			(hide yes)
 			(show_name no)
@@ -32159,7 +32159,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 191.77 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -33026,7 +33026,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 130.81 285.75 0)
 			(hide yes)
 			(show_name no)
@@ -33338,7 +33338,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 130.81 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -34619,7 +34619,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
 			(at 544.83 368.3 0)
 			(hide yes)
 			(show_name no)
@@ -34779,7 +34779,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 403.86 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -35021,7 +35021,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 407.67 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -36219,7 +36219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESP_Antenna:ESPRESSIF_ESP32_MIFA_2.4GHz_Right"
 			(at 448.31 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -36372,7 +36372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 461.01 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -39189,7 +39189,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 605.79 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -39747,7 +39747,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 154.94 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -39903,7 +39903,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 483.87 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -39982,7 +39982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 172.72 408.94 0)
 			(hide yes)
 			(show_name no)
@@ -40779,7 +40779,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
 			(at 544.83 396.24 0)
 			(hide yes)
 			(show_name no)
@@ -40861,7 +40861,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 391.16 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -41112,7 +41112,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
 			(at 636.27 369.57 0)
 			(hide yes)
 			(show_name no)
@@ -41984,7 +41984,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 172.72 403.86 0)
 			(hide yes)
 			(show_name no)
@@ -42776,7 +42776,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 478.79 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -43615,7 +43615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 716.28 408.94 0)
 			(hide yes)
 			(show_name no)
@@ -44945,7 +44945,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 379.73 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -45493,7 +45493,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 179.07 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -45732,7 +45732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 650.24 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -46680,7 +46680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 209.55 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -47551,7 +47551,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 167.64 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -49920,7 +49920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 147.32 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -50233,7 +50233,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 207.01 290.83 0)
 			(hide yes)
 			(show_name no)
@@ -50549,7 +50549,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 92.71 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -51502,7 +51502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 635 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -51842,7 +51842,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 443.23 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -52794,7 +52794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 741.68 408.94 0)
 			(hide yes)
 			(show_name no)
@@ -53030,7 +53030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11015_1x15-1MP_P0.5mm_Horizontal"
 			(at 731.52 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -53465,7 +53465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 690.88 375.92 0)
 			(hide yes)
 			(show_name no)
@@ -54009,7 +54009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 767.08 375.92 0)
 			(hide yes)
 			(show_name no)
@@ -54960,7 +54960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JST_PHR-2"
+		(property "Footprint" "Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal"
 			(at 281.94 379.73 0)
 			(hide yes)
 			(show_name no)
@@ -55212,7 +55212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 227.33 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -55925,7 +55925,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 450.85 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -56395,7 +56395,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 617.22 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -56477,7 +56477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 716.28 375.92 0)
 			(hide yes)
 			(show_name no)
@@ -56800,7 +56800,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
 			(at 588.01 368.3 0)
 			(hide yes)
 			(show_name no)
@@ -58332,7 +58332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Wuerth_694108106102_2.5x5.5mm"
 			(at 609.854 294.64 0)
 			(hide yes)
 			(show_name no)
@@ -58648,7 +58648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 792.48 375.92 0)
 			(hide yes)
 			(show_name no)
@@ -59833,7 +59833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 215.9 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -60547,7 +60547,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11"
 			(at 435.61 387.35 0)
 			(hide yes)
 			(show_name no)
@@ -60740,7 +60740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
 			(at 561.34 290.83 0)
 			(hide yes)
 			(show_name no)
@@ -61357,7 +61357,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BGA725L6E6327:BGA725L6E6327"
 			(at 681.99 309.88 0)
 			(hide yes)
 			(show_name no)
@@ -61773,7 +61773,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 168.91 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -62866,7 +62866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 101.6 59.69 0)
 			(hide yes)
 			(show_name no)

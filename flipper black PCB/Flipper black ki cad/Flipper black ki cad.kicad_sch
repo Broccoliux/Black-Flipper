@@ -28144,7 +28144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 690.88 408.94 0)
 			(hide yes)
 			(show_name no)
@@ -28301,7 +28301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 741.68 375.92 0)
 			(hide yes)
 			(show_name no)
@@ -29405,7 +29405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_SH-7010B"
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
 			(at 588.01 396.24 0)
 			(hide yes)
 			(show_name no)
@@ -30810,7 +30810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 767.08 408.94 0)
 			(hide yes)
 			(show_name no)
@@ -32080,7 +32080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_SH-7010B"
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
 			(at 636.27 397.51 0)
 			(hide yes)
 			(show_name no)
@@ -34619,7 +34619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_SH-7010B"
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
 			(at 544.83 368.3 0)
 			(hide yes)
 			(show_name no)
@@ -40779,7 +40779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_SH-7010B"
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
 			(at 544.83 396.24 0)
 			(hide yes)
 			(show_name no)
@@ -41112,7 +41112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_SH-7010B"
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
 			(at 636.27 369.57 0)
 			(hide yes)
 			(show_name no)
@@ -43615,7 +43615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 716.28 408.94 0)
 			(hide yes)
 			(show_name no)
@@ -52794,7 +52794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 741.68 408.94 0)
 			(hide yes)
 			(show_name no)
@@ -53465,7 +53465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 690.88 375.92 0)
 			(hide yes)
 			(show_name no)
@@ -54009,7 +54009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 767.08 375.92 0)
 			(hide yes)
 			(show_name no)
@@ -56477,7 +56477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 716.28 375.92 0)
 			(hide yes)
 			(show_name no)
@@ -56800,7 +56800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_SH-7010B"
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
 			(at 588.01 368.3 0)
 			(hide yes)
 			(show_name no)
@@ -58648,7 +58648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 792.48 375.92 0)
 			(hide yes)
 			(show_name no)
@@ -61357,7 +61357,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BGA725L6E6327:BGA725L6E6327"
 			(at 681.99 309.88 0)
 			(hide yes)
 			(show_name no)
