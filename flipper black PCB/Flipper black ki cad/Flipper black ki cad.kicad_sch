@@ -14746,16 +14746,16 @@
 		(uuid "11e063f2-7033-4c62-be60-a10b2095cdbc")
 	)
 	(junction
+		(at 412.75 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "152581c5-e871-4d8a-a00c-e64ce1d3c7a7")
+	)
+	(junction
 		(at 215.9 279.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "155f8085-bd48-44a0-ae6b-4155e63f98b4")
-	)
-	(junction
-		(at 410.21 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18a0979a-bb8c-42bd-aafd-190096bccc50")
 	)
 	(junction
 		(at 415.29 259.08)
@@ -14900,6 +14900,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e8bb8af-0c14-446e-a4a9-d87be59a580f")
+	)
+	(junction
+		(at 391.16 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f60fa06-6108-4743-88a5-4f3124567cd7")
 	)
 	(junction
 		(at 62.23 247.65)
@@ -15362,12 +15368,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca6c4106-e1f8-46be-a173-3eeac6a24b33")
-	)
-	(junction
-		(at 392.43 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb41eb47-0068-4ae3-847c-c5a57a1c53a6")
 	)
 	(junction
 		(at 554.99 247.65)
@@ -16065,16 +16065,6 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 66.04) (xy 400.05 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e01f1d5-0bbd-4a3f-9e86-8d1736c1cb7b")
-	)
-	(wire
-		(pts
 			(xy 739.14 31.75) (xy 739.14 33.02)
 		)
 		(stroke
@@ -16322,16 +16312,6 @@
 			(type default)
 		)
 		(uuid "15b2b3e2-c576-4ed0-a96c-06f9c33b133b")
-	)
-	(wire
-		(pts
-			(xy 410.21 66.04) (xy 414.02 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15e40c90-e82e-431e-ba2b-126069254bda")
 	)
 	(wire
 		(pts
@@ -17895,7 +17875,7 @@
 	)
 	(wire
 		(pts
-			(xy 421.64 66.04) (xy 429.26 66.04)
+			(xy 424.18 66.04) (xy 429.26 66.04)
 		)
 		(stroke
 			(width 0)
@@ -18112,6 +18092,16 @@
 			(type default)
 		)
 		(uuid "47d00528-8274-41aa-a3be-dc39b94385df")
+	)
+	(wire
+		(pts
+			(xy 412.75 66.04) (xy 416.56 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d41a9d-6c24-491c-8559-4007c4692c0d")
 	)
 	(wire
 		(pts
@@ -18495,7 +18485,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 66.04) (xy 392.43 66.04)
+			(xy 383.54 66.04) (xy 391.16 66.04)
 		)
 		(stroke
 			(width 0)
@@ -19515,7 +19505,7 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 66.04) (xy 410.21 66.04)
+			(xy 407.67 66.04) (xy 412.75 66.04)
 		)
 		(stroke
 			(width 0)
@@ -19742,6 +19732,16 @@
 			(type default)
 		)
 		(uuid "7aaefe96-9495-446a-bfbe-b738ccfd2fdc")
+	)
+	(wire
+		(pts
+			(xy 391.16 66.04) (xy 400.05 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b483b50-a329-4a99-83ca-411511964e01")
 	)
 	(wire
 		(pts
@@ -22965,7 +22965,7 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 66.04) (xy 410.21 68.58)
+			(xy 412.75 66.04) (xy 412.75 68.58)
 		)
 		(stroke
 			(width 0)
@@ -24866,14 +24866,13 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify right)
 		)
 		(uuid "273cbe05-e6f8-41eb-8ad9-efa17e74cef2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.7193 397.51 0)
+			(at 68.1953 397.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25572,14 +25571,13 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left)
 		)
 		(uuid "5bf7e2bc-5c0c-4a92-9d1d-a47584e8dfe6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.9631 414.02 0)
+			(at 51.4871 414.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27326,14 +27324,13 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left)
 		)
 		(uuid "ee0f35d0-13d2-41ff-966f-1ea07b39af95")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.1626 398.78 0)
+			(at 226.6866 398.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28383,7 +28380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 708.66 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -28616,7 +28613,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 400.05 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -28851,7 +28848,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 46.99 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -28930,7 +28927,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 181.61 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -29150,7 +29147,7 @@
 		(dnp no)
 		(uuid "0cfeda53-8760-418a-a858-b54b6f76c59d")
 		(property "Reference" "FB1"
-			(at 630.174 284.988 0)
+			(at 633.476 285.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29171,7 +29168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 626.872 285.75 90)
 			(hide yes)
 			(show_name no)
@@ -29251,7 +29248,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 379.73 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -29408,7 +29405,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_SH-7010B"
 			(at 588.01 396.24 0)
 			(hide yes)
 			(show_name no)
@@ -29726,7 +29723,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 317.5 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -29890,7 +29887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 708.66 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -31517,7 +31514,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 504.19 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -32083,7 +32080,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_SH-7010B"
 			(at 636.27 397.51 0)
 			(hide yes)
 			(show_name no)
@@ -32162,7 +32159,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 191.77 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -33029,7 +33026,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 130.81 285.75 0)
 			(hide yes)
 			(show_name no)
@@ -33341,7 +33338,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 130.81 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -34622,7 +34619,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_SH-7010B"
 			(at 544.83 368.3 0)
 			(hide yes)
 			(show_name no)
@@ -34763,7 +34760,7 @@
 		(dnp no)
 		(uuid "2e47c179-d546-4c8c-92aa-d737e1aca29e")
 		(property "Reference" "L19"
-			(at 400.812 63.5 90)
+			(at 400.812 64.516 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34773,7 +34770,7 @@
 			)
 		)
 		(property "Value" "2.7nH"
-			(at 406.654 63.5 90)
+			(at 406.654 64.516 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34782,7 +34779,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 403.86 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -35024,7 +35021,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 407.67 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -36222,7 +36219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESP_Antenna:ESPRESSIF_ESP32_MIFA_2.4GHz_Right"
 			(at 448.31 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -36375,7 +36372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 461.01 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -39192,7 +39189,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 605.79 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -39750,7 +39747,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 154.94 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -39906,7 +39903,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 483.87 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -39985,7 +39982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 172.72 408.94 0)
 			(hide yes)
 			(show_name no)
@@ -40782,7 +40779,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_SH-7010B"
 			(at 544.83 396.24 0)
 			(hide yes)
 			(show_name no)
@@ -40832,7 +40829,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 392.43 69.85 180)
+		(at 391.16 69.85 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40843,7 +40840,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c4f3f3d-021f-417e-a9db-ceb668516108")
 		(property "Reference" "L18"
-			(at 393.7 68.5799 0)
+			(at 392.43 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40854,7 +40851,7 @@
 			)
 		)
 		(property "Value" "2.7nH"
-			(at 393.7 71.1199 0)
+			(at 392.43 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40864,8 +40861,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 392.43 69.85 0)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 391.16 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40876,7 +40873,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 392.43 69.85 0)
+			(at 391.16 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40887,7 +40884,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 392.43 69.85 0)
+			(at 391.16 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40898,7 +40895,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 392.43 69.85 0)
+			(at 391.16 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41115,7 +41112,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_SH-7010B"
 			(at 636.27 369.57 0)
 			(hide yes)
 			(show_name no)
@@ -41987,7 +41984,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 172.72 403.86 0)
 			(hide yes)
 			(show_name no)
@@ -42779,7 +42776,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 478.79 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -44765,7 +44762,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 410.21 76.2 0)
+		(at 412.75 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -44775,7 +44772,7 @@
 		(dnp no)
 		(uuid "7bcb8c79-f993-493a-90d6-717b2c185b5c")
 		(property "Reference" "#PWR066"
-			(at 410.21 82.55 0)
+			(at 412.75 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44786,7 +44783,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 410.21 80.264 0)
+			(at 412.75 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44796,7 +44793,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 410.21 76.2 0)
+			(at 412.75 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44807,7 +44804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 410.21 76.2 0)
+			(at 412.75 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44818,7 +44815,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 410.21 76.2 0)
+			(at 412.75 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44948,7 +44945,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 379.73 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -45496,7 +45493,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 179.07 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -45735,7 +45732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 650.24 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -46683,7 +46680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 209.55 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -47554,7 +47551,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 167.64 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -48596,7 +48593,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 417.83 66.04 90)
+		(at 420.37 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -48606,7 +48603,7 @@
 		(dnp no)
 		(uuid "99cfdc95-a7e9-4262-a7ed-be1c01603d84")
 		(property "Reference" "C45"
-			(at 415.544 61.976 90)
+			(at 418.084 61.976 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48616,7 +48613,7 @@
 			)
 		)
 		(property "Value" "3.3pf"
-			(at 420.878 62.738 90)
+			(at 423.418 62.738 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48626,7 +48623,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 421.64 65.0748 0)
+			(at 424.18 65.0748 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48637,7 +48634,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 417.83 66.04 0)
+			(at 420.37 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48648,7 +48645,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 417.83 66.04 0)
+			(at 420.37 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49923,7 +49920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 147.32 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -50236,7 +50233,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 207.01 290.83 0)
 			(hide yes)
 			(show_name no)
@@ -50552,7 +50549,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 92.71 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -51505,7 +51502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 635 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -51845,7 +51842,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 443.23 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -52051,7 +52048,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 392.43 73.66 0)
+		(at 391.16 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -52061,7 +52058,7 @@
 		(dnp no)
 		(uuid "b188ecaf-af6e-40c1-bb1f-7efa1c257b53")
 		(property "Reference" "#PWR065"
-			(at 392.43 80.01 0)
+			(at 391.16 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52072,7 +52069,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 392.176 77.724 0)
+			(at 390.906 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52082,7 +52079,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 392.43 73.66 0)
+			(at 391.16 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52093,7 +52090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 392.43 73.66 0)
+			(at 391.16 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52104,7 +52101,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 392.43 73.66 0)
+			(at 391.16 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53033,7 +53030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11015_1x15-1MP_P0.5mm_Horizontal"
 			(at 731.52 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -54963,7 +54960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JST_PHR-2"
+		(property "Footprint" "Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal"
 			(at 281.94 379.73 0)
 			(hide yes)
 			(show_name no)
@@ -55215,7 +55212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 227.33 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -55928,7 +55925,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 450.85 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -56398,7 +56395,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 617.22 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -56803,7 +56800,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_SH-7010B"
 			(at 588.01 368.3 0)
 			(hide yes)
 			(show_name no)
@@ -57488,7 +57485,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 410.21 72.39 0)
+		(at 412.75 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -57496,10 +57493,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "de1eaaea-e787-4536-87ec-8d839055ccb3")
 		(property "Reference" "C44"
-			(at 414.02 71.1199 0)
+			(at 415.29 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57510,7 +57506,7 @@
 			)
 		)
 		(property "Value" "3.3pf"
-			(at 414.02 73.6599 0)
+			(at 415.036 74.422 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57521,7 +57517,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 411.1752 76.2 0)
+			(at 413.7152 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57532,7 +57528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 410.21 72.39 0)
+			(at 412.75 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57543,7 +57539,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 410.21 72.39 0)
+			(at 412.75 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58336,7 +58332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Wuerth_694108106102_2.5x5.5mm"
 			(at 609.854 294.64 0)
 			(hide yes)
 			(show_name no)
@@ -59837,7 +59833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 215.9 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -60551,7 +60547,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11"
 			(at 435.61 387.35 0)
 			(hide yes)
 			(show_name no)
@@ -60744,7 +60740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
 			(at 561.34 290.83 0)
 			(hide yes)
 			(show_name no)
@@ -61777,7 +61773,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 168.91 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -62870,7 +62866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 101.6 59.69 0)
 			(hide yes)
 			(show_name no)
