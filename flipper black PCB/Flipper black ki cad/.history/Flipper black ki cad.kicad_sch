@@ -28446,7 +28446,7 @@
 				)
 			)
 		)
-		(property "Value" "2.7nH"
+		(property "Value" "100nH"
 			(at 400.05 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31500,7 +31500,7 @@
 				)
 			)
 		)
-		(property "Value" "2.7nH"
+		(property "Value" "22nH"
 			(at 508 136.652 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34919,7 +34919,7 @@
 				)
 			)
 		)
-		(property "Value" "2.7nH"
+		(property "Value" "68nH"
 			(at 406.654 64.516 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35237,7 +35237,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.7nH"
+		(property "Value" "100nH"
 			(at 408.94 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36666,7 +36666,7 @@
 				)
 			)
 		)
-		(property "Value" "2.7nH"
+		(property "Value" "120nH"
 			(at 464.058 97.282 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39313,7 +39313,7 @@
 				)
 			)
 		)
-		(property "Value" "2.7nH"
+		(property "Value" "120nH"
 			(at 608.838 70.612 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40027,7 +40027,7 @@
 				)
 			)
 		)
-		(property "Value" "2.7nH"
+		(property "Value" "22nH"
 			(at 489.458 137.414 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40907,7 +40907,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.7nH"
+		(property "Value" "68nH"
 			(at 392.43 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42746,7 +42746,7 @@
 				)
 			)
 		)
-		(property "Value" "2.7nH"
+		(property "Value" "120nH"
 			(at 481.838 97.282 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48471,7 +48471,7 @@
 		(dnp no)
 		(uuid "99cfdc95-a7e9-4262-a7ed-be1c01603d84")
 		(property "Reference" "C45"
-			(at 418.084 61.976 90)
+			(at 417.068 64.516 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48481,7 +48481,7 @@
 			)
 		)
 		(property "Value" "3.3pf"
-			(at 423.418 62.738 90)
+			(at 423.926 64.516 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51781,7 +51781,7 @@
 				)
 			)
 		)
-		(property "Value" "2.7nH"
+		(property "Value" "120nH"
 			(at 446.278 97.282 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56018,7 +56018,7 @@
 				)
 			)
 		)
-		(property "Value" "2.7nH"
+		(property "Value" "22nH"
 			(at 450.85 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56411,8 +56411,8 @@
 				)
 			)
 		)
-		(property "Value" "2.7nH"
-			(at 622.808 164.338 90)
+		(property "Value" "100nH"
+			(at 623.062 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
