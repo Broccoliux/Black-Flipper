@@ -43469,7 +43469,7 @@
 		(dnp no)
 		(uuid "709ce2da-23e1-4b8b-bc5b-688598a763fb")
 		(property "Reference" "FB2"
-			(at 417.322 414.782 0)
+			(at 418.338 419.354 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -43479,8 +43479,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FerriteBead"
-			(at 411.48 417.83 0)
+		(property "Value" "BLM21PG221SN1D"
+			(at 411.988 421.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
