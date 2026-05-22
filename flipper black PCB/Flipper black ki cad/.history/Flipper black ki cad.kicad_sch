@@ -29021,7 +29021,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "BLM21PG221SN1D"
 			(at 630.936 287.528 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43490,7 +43490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 422.402 416.56 90)
 			(hide yes)
 			(show_name no)
