@@ -45417,11 +45417,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d8ff07d-1249-4e2b-b043-aa2ee0867750")
-		(property "Reference" "FIL1"
-			(at 464.82 66.04 0)
-			(hide yes)
+		(property "Reference" "X1"
+			(at 466.598 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45431,9 +45429,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "SF2136E"
-			(at 464.82 66.04 0)
-			(hide yes)
+		(property "Value" "433MHz SAW Filter"
+			(at 474.726 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45523,7 +45520,7 @@
 		(instances
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
-					(reference "FIL1")
+					(reference "X1")
 					(unit 1)
 				)
 			)
