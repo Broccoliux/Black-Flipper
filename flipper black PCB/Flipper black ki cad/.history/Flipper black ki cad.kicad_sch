@@ -18769,6 +18769,16 @@
 	)
 	(wire
 		(pts
+			(xy 769.62 140.97) (xy 774.7 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db9bdc7-c184-49d5-936e-204e9792f9dc")
+	)
+	(wire
+		(pts
 			(xy 82.55 374.65) (xy 82.55 377.19)
 		)
 		(stroke
@@ -20649,7 +20659,7 @@
 	)
 	(wire
 		(pts
-			(xy 769.62 140.97) (xy 774.7 140.97)
+			(xy 758.19 140.97) (xy 762 140.97)
 		)
 		(stroke
 			(width 0)
@@ -24226,6 +24236,16 @@
 			(type default)
 		)
 		(uuid "fcf547db-1afd-4b81-a153-59e2322b19a6")
+	)
+	(wire
+		(pts
+			(xy 758.19 140.97) (xy 758.19 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0b0a36-c09b-4609-911a-7689f5d4b911")
 	)
 	(wire
 		(pts
@@ -38879,7 +38899,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 769.62 140.97 0)
+		(at 758.19 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38889,7 +38909,7 @@
 		(dnp no)
 		(uuid "4c6df62e-a716-4572-936f-948e9a253018")
 		(property "Reference" "#PWR0156"
-			(at 769.62 144.78 0)
+			(at 758.19 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38900,7 +38920,7 @@
 			)
 		)
 		(property "Value" "VDD33"
-			(at 769.62 137.414 0)
+			(at 758.19 131.064 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38910,7 +38930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 769.62 140.97 0)
+			(at 758.19 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38921,7 +38941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 769.62 140.97 0)
+			(at 758.19 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38932,7 +38952,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 769.62 140.97 0)
+			(at 758.19 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59848,6 +59868,85 @@
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 765.81 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec3db67b-4a90-4d82-ac42-cc9347c7ba6f")
+		(property "Reference" "R45"
+			(at 760.73 139.954 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 770.382 139.954 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 765.81 142.748 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 765.81 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 765.81 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50e21197-5917-4815-b338-25215f8f22e7")
+		)
+		(pin "2"
+			(uuid "3ee852ca-6b51-4578-a20d-b7320afbdd7d")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "R45")
 					(unit 1)
 				)
 			)
