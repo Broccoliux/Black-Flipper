@@ -14776,6 +14776,12 @@
 		(uuid "065f5800-f936-4942-862b-2d848be5764c")
 	)
 	(junction
+		(at 712.47 309.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "096d20c0-83f9-4643-8131-c14fdfa76852")
+	)
+	(junction
 		(at 119.38 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16025,7 +16031,7 @@
 	)
 	(wire
 		(pts
-			(xy 708.66 307.34) (xy 708.66 309.88)
+			(xy 712.47 307.34) (xy 712.47 309.88)
 		)
 		(stroke
 			(width 0)
@@ -18165,7 +18171,7 @@
 	)
 	(wire
 		(pts
-			(xy 708.66 294.64) (xy 708.66 299.72)
+			(xy 712.47 294.64) (xy 712.47 299.72)
 		)
 		(stroke
 			(width 0)
@@ -22435,7 +22441,7 @@
 	)
 	(wire
 		(pts
-			(xy 694.69 309.88) (xy 708.66 309.88)
+			(xy 694.69 309.88) (xy 712.47 309.88)
 		)
 		(stroke
 			(width 0)
@@ -28388,7 +28394,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna")
-		(at 708.66 289.56 0)
+		(at 712.47 289.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28396,10 +28402,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "05aaf83d-3f03-4e8f-879f-0b8b54b960f7")
 		(property "Reference" "GPS_ANT1"
-			(at 711.2 288.9249 0)
+			(at 708.914 282.956 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28410,7 +28415,7 @@
 			)
 		)
 		(property "Value" "50ohm"
-			(at 711.2 291.4649 0)
+			(at 708.914 285.496 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28421,7 +28426,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 708.66 289.56 0)
+			(at 712.47 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28432,7 +28437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 708.66 289.56 0)
+			(at 712.47 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28443,7 +28448,7 @@
 			)
 		)
 		(property "Description" "Antenna"
-			(at 708.66 289.56 0)
+			(at 712.47 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30049,7 +30054,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 708.66 303.53 0)
+		(at 712.47 303.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30057,10 +30062,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "11d12ff2-659c-4916-85ec-9fcd20a9ac50")
 		(property "Reference" "L27"
-			(at 709.93 302.2599 0)
+			(at 712.47 299.974 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30071,7 +30075,7 @@
 			)
 		)
 		(property "Value" "5.6nH"
-			(at 709.93 304.7999 0)
+			(at 713.74 302.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30082,7 +30086,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 708.66 303.53 0)
+			(at 712.47 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30093,7 +30097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 708.66 303.53 0)
+			(at 712.47 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30104,7 +30108,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 708.66 303.53 0)
+			(at 712.47 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42223,6 +42227,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 712.47 317.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "625a2459-1d0b-444a-8d75-fc799e319fa5")
+		(property "Reference" "#PWR0186"
+			(at 712.47 323.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 712.47 321.056 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 712.47 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 712.47 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 712.47 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f757c1a3-7324-46b6-b426-dddd26750197")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "#PWR0186")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 444.5 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -52028,6 +52109,87 @@
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
 					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 712.47 313.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0497c80-86c7-48c7-bd64-79cc152e784d")
+		(property "Reference" "C105"
+			(at 715.518 312.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100pf"
+			(at 715.518 314.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 713.4352 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 712.47 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 712.47 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "875beef8-7170-476a-b25b-2805bd491c22")
+		)
+		(pin "1"
+			(uuid "12443f34-c472-47ed-b69e-89b7c2a18e6d")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "C105")
 					(unit 1)
 				)
 			)
