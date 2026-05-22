@@ -28029,7 +28029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 690.88 408.94 0)
 			(hide yes)
 			(show_name no)
@@ -28186,7 +28186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 741.68 375.92 0)
 			(hide yes)
 			(show_name no)
@@ -29289,7 +29289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
+		(property "Footprint" "PTS645SH43SMTR92LFS buttons:SW_PTS645SH43SMTR92LFS"
 			(at 588.01 396.24 0)
 			(hide yes)
 			(show_name no)
@@ -30238,7 +30238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P210X110-5N"
+		(property "Footprint" "PESD5V0L4UG_115:SOT65P210X110-5N"
 			(at 487.68 419.1 0)
 			(hide yes)
 			(show_name no)
@@ -30770,7 +30770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 767.08 408.94 0)
 			(hide yes)
 			(show_name no)
@@ -32117,7 +32117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
+		(property "Footprint" "PTS645SH43SMTR92LFS buttons:SW_PTS645SH43SMTR92LFS"
 			(at 636.27 397.51 0)
 			(hide yes)
 			(show_name no)
@@ -34810,7 +34810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
+		(property "Footprint" "PTS645SH43SMTR92LFS buttons:SW_PTS645SH43SMTR92LFS"
 			(at 544.83 368.3 0)
 			(hide yes)
 			(show_name no)
@@ -40877,7 +40877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
+		(property "Footprint" "PTS645SH43SMTR92LFS buttons:SW_PTS645SH43SMTR92LFS"
 			(at 544.83 396.24 0)
 			(hide yes)
 			(show_name no)
@@ -41210,7 +41210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
+		(property "Footprint" "PTS645SH43SMTR92LFS buttons:SW_PTS645SH43SMTR92LFS"
 			(at 636.27 369.57 0)
 			(hide yes)
 			(show_name no)
@@ -43721,7 +43721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 716.28 408.94 0)
 			(hide yes)
 			(show_name no)
@@ -45445,7 +45445,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RFM-SAW-3X3MM"
+		(property "Footprint" "SF2136E:RFM-SAW-3X3MM"
 			(at 464.566 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -45992,10 +45992,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2456eace-f591-41fb-ac92-3653cfa49a01")
+			(uuid "2456eace-f591-41fb-ac92-3653cfa49a02")
 		)
 		(pin "2"
-			(uuid "97885d2a-f0d1-47fe-967a-2b8555021d52")
+			(uuid "97885d2a-f0d1-47fe-967a-2b8555021d53")
 		)
 		(instances
 			(project "Flipper black ki cad"
@@ -48122,7 +48122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P215X110-6N"
+		(property "Footprint" "PE4259:SOT65P215X110-6N"
 			(at 552.45 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -51812,7 +51812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P215X110-6N"
+		(property "Footprint" "PE4259:SOT65P215X110-6N"
 			(at 551.18 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -53181,7 +53181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 741.68 408.94 0)
 			(hide yes)
 			(show_name no)
@@ -53852,7 +53852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 690.88 375.92 0)
 			(hide yes)
 			(show_name no)
@@ -53930,7 +53930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-8N"
+		(property "Footprint" "FS8205A:SOP65P640X120-8N"
 			(at 269.24 420.37 0)
 			(hide yes)
 			(show_name no)
@@ -54473,7 +54473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 767.08 375.92 0)
 			(hide yes)
 			(show_name no)
@@ -55347,7 +55347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 281.94 379.73 0)
 			(hide yes)
 			(show_name no)
@@ -56787,7 +56787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 716.28 375.92 0)
 			(hide yes)
 			(show_name no)
@@ -57110,7 +57110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
+		(property "Footprint" "PTS645SH43SMTR92LFS buttons:SW_PTS645SH43SMTR92LFS"
 			(at 588.01 368.3 0)
 			(hide yes)
 			(show_name no)
@@ -58722,7 +58722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 792.48 375.92 0)
 			(hide yes)
 			(show_name no)
@@ -61290,7 +61290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "QLP20"
+		(property "Footprint" "CC1101 real:QLP20"
 			(at 59.69 275.59 0)
 			(hide yes)
 			(show_name no)
