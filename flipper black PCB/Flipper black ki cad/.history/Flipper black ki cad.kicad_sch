@@ -14616,6 +14616,12 @@
 		(uuid "11e063f2-7033-4c62-be60-a10b2095cdbc")
 	)
 	(junction
+		(at 334.01 403.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1514b87b-89ed-4dbf-a655-5590ac886021")
+	)
+	(junction
 		(at 412.75 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14790,12 +14796,6 @@
 		(uuid "4127db6f-2f07-4bba-9ede-b98e034ecd3f")
 	)
 	(junction
-		(at 431.8 412.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "413ff2a2-feb1-42f6-9b62-0d5a47234901")
-	)
-	(junction
 		(at 739.14 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14946,6 +14946,12 @@
 		(uuid "72945a30-edb8-4624-baa5-d950f54f4419")
 	)
 	(junction
+		(at 767.08 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "754c78fd-71fd-4303-b1fc-5c64544254ab")
+	)
+	(junction
 		(at 544.83 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15016,6 +15022,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c64a278-4e77-4370-876d-50446c060942")
+	)
+	(junction
+		(at 779.78 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "908cb088-83f3-4a40-a0f2-e39375d599d9")
 	)
 	(junction
 		(at 393.7 259.08)
@@ -15198,6 +15210,12 @@
 		(uuid "c3a10aeb-8305-4296-b0a3-fb8c4f5b62a4")
 	)
 	(junction
+		(at 431.8 420.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c53a9925-d496-44e5-916d-c3ae873f9127")
+	)
+	(junction
 		(at 497.84 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15250,12 +15268,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2fa7ff1-e103-4f70-9664-a6f1fde3a4ff")
-	)
-	(junction
-		(at 334.01 403.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d33c688b-82b3-4670-9037-a00b9a3611f7")
 	)
 	(junction
 		(at 570.23 314.96)
@@ -15967,6 +15979,16 @@
 	)
 	(wire
 		(pts
+			(xy 424.18 420.37) (xy 431.8 420.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e7941fc-7d94-4112-a7db-6ae2334c5e85")
+	)
+	(wire
+		(pts
 			(xy 148.59 273.05) (xy 151.13 273.05)
 		)
 		(stroke
@@ -16007,7 +16029,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 416.56) (xy 431.8 412.75)
+			(xy 431.8 410.21) (xy 431.8 420.37)
 		)
 		(stroke
 			(width 0)
@@ -16345,16 +16367,6 @@
 		)
 		(uuid "1b649a30-dc81-40aa-8c0d-045ed2be000b")
 	)
-	(wire
-		(pts
-			(xy 424.18 412.75) (xy 431.8 412.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b799231-9762-4da6-9d06-582948767028")
-	)
 	(polyline
 		(pts
 			(xy 15.875 14.605) (xy 255.905 14.605)
@@ -16607,7 +16619,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 396.24) (xy 334.01 403.86)
+			(xy 334.01 398.78) (xy 334.01 403.86)
 		)
 		(stroke
 			(width 0)
@@ -18037,6 +18049,16 @@
 	)
 	(wire
 		(pts
+			(xy 431.8 420.37) (xy 431.8 424.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49fc432c-7f3c-40e6-afe0-8027ec70b10d")
+	)
+	(wire
+		(pts
 			(xy 383.54 250.19) (xy 387.35 250.19)
 		)
 		(stroke
@@ -18264,6 +18286,16 @@
 			(type default)
 		)
 		(uuid "50782bf2-8ae9-4f44-97d8-f467e15ba609")
+	)
+	(wire
+		(pts
+			(xy 763.27 91.44) (xy 767.08 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5089267f-3379-4ac8-aba6-8c32987d8ce3")
 	)
 	(wire
 		(pts
@@ -18897,16 +18929,6 @@
 	)
 	(wire
 		(pts
-			(xy 787.4 110.49) (xy 787.4 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6585b78f-a718-4415-a9b6-eccab4d27f61")
-	)
-	(wire
-		(pts
 			(xy 530.86 265.43) (xy 549.91 265.43)
 		)
 		(stroke
@@ -19214,6 +19236,16 @@
 			(type default)
 		)
 		(uuid "6e9da22f-e7a5-4bfb-9e6d-e49e5be1284e")
+	)
+	(wire
+		(pts
+			(xy 787.4 91.44) (xy 787.4 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eca6899-7ba3-403e-846e-4c4ba78dc10e")
 	)
 	(wire
 		(pts
@@ -20635,6 +20667,16 @@
 		)
 		(uuid "97b8e5a4-d716-4d05-a95c-d8e661ec26e4")
 	)
+	(wire
+		(pts
+			(xy 779.78 91.44) (xy 787.4 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d4ebf2-a1d3-4a28-861c-24032be61dc2")
+	)
 	(polyline
 		(pts
 			(xy 15.24 340.36) (xy 15.24 210.82)
@@ -20797,7 +20839,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 386.08) (xy 334.01 388.62)
+			(xy 334.01 388.62) (xy 334.01 391.16)
 		)
 		(stroke
 			(width 0)
@@ -21684,16 +21726,6 @@
 			(type default)
 		)
 		(uuid "b9d3d48f-7ba2-4e0b-b50b-02716f257815")
-	)
-	(wire
-		(pts
-			(xy 431.8 412.75) (xy 431.8 410.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba2f0bf9-6a9b-44b9-89d5-d70dff36fdaa")
 	)
 	(wire
 		(pts
@@ -23754,6 +23786,16 @@
 			(type default)
 		)
 		(uuid "ee190542-754e-400d-b81b-e85b35ad0e2c")
+	)
+	(wire
+		(pts
+			(xy 767.08 91.44) (xy 779.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee2d20da-55b3-4d2c-98a3-2513a6efd233")
 	)
 	(polyline
 		(pts
@@ -28484,83 +28526,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 787.4 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "08ad73df-978c-477f-8475-211e45cf7cd2")
-		(property "Reference" "#PWR0154"
-			(at 787.4 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VDD33"
-			(at 787.4 106.934 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 787.4 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 787.4 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 787.4 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "25dfb5a4-3d10-4ff2-a464-9a38c2531ca5")
-		)
-		(instances
-			(project "Flipper black ki cad"
-				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
-					(reference "#PWR0154")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 508 74.93 0)
 		(unit 1)
@@ -31532,6 +31497,83 @@
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
 					(reference "L22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 763.27 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b8eed6e-e114-4cb0-b8f5-b0a2326309e4")
+		(property "Reference" "#PWR0154"
+			(at 763.27 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD33"
+			(at 763.27 87.884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 763.27 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 763.27 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 763.27 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6a5e35d-7bb2-4271-a817-011fcfdc672e")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -42474,6 +42516,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 779.78 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "65572b9d-e76d-420c-b102-789e335f40b7")
+		(property "Reference" "C106"
+			(at 780.542 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uf"
+			(at 780.288 97.536 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 780.7452 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 779.78 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 779.78 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2456eace-f591-41fb-ac92-3653cfa49a01")
+		)
+		(pin "2"
+			(uuid "97885d2a-f0d1-47fe-967a-2b8555021d52")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "C106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 786.13 299.72 0)
 		(unit 1)
@@ -43329,6 +43452,87 @@
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 424.18 416.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "709ce2da-23e1-4b8b-bc5b-688598a763fb")
+		(property "Reference" "FB2"
+			(at 417.322 414.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 411.48 417.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 422.402 416.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 424.18 416.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 424.18 416.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3e7bbf37-ef2c-4526-840c-f5ef47030865")
+		)
+		(pin "1"
+			(uuid "1d86d3a7-df00-4545-9c8d-c5f45e86ff02")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -45696,6 +45900,87 @@
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
 					(reference "SX1276_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 767.08 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "82a19f65-837b-4b4e-868a-e3be3e9a36f3")
+		(property "Reference" "C107"
+			(at 768.35 92.456 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 768.35 97.536 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 768.0452 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 767.08 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 767.08 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2456eace-f591-41fb-ac92-3653cfa49a01")
+		)
+		(pin "2"
+			(uuid "97885d2a-f0d1-47fe-967a-2b8555021d52")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -50151,7 +50436,7 @@
 				)
 			)
 		)
-		(property "Value" "2.7nH"
+		(property "Value" "23nH"
 			(at 212.344 290.068 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50221,7 +50506,7 @@
 		(dnp no)
 		(uuid "a48156fd-a34b-4e1b-a783-4d79f9fb0ab7")
 		(property "Reference" "C27"
-			(at 196.596 292.1 90)
+			(at 196.088 291.846 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52446,7 +52731,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 334.01 386.08 0)
+		(at 334.01 388.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -52456,7 +52741,7 @@
 		(dnp no)
 		(uuid "b3f32370-35e1-49f7-857a-c56cdb183072")
 		(property "Reference" "#PWR0172"
-			(at 334.01 389.89 0)
+			(at 334.01 392.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52467,7 +52752,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 334.01 382.27 0)
+			(at 334.01 384.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52477,7 +52762,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 334.01 386.08 0)
+			(at 334.01 388.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52488,7 +52773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 334.01 386.08 0)
+			(at 334.01 388.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52499,7 +52784,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 334.01 386.08 0)
+			(at 334.01 388.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54371,7 +54656,7 @@
 	)
 	(symbol
 		(lib_id "Diode:MBR1020VL")
-		(at 334.01 392.43 90)
+		(at 334.01 394.97 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -54381,7 +54666,7 @@
 		(dnp no)
 		(uuid "c50b3d67-26b3-4952-bad6-b30537c7730c")
 		(property "Reference" "D4"
-			(at 330.454 389.636 90)
+			(at 330.454 392.176 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54392,7 +54677,7 @@
 			)
 		)
 		(property "Value" "MBR1020VL"
-			(at 321.056 392.176 90)
+			(at 321.056 394.716 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54403,7 +54688,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 338.455 392.43 0)
+			(at 338.455 394.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54414,7 +54699,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MBR1020VL-D.PDF"
-			(at 334.01 392.43 0)
+			(at 334.01 394.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54425,7 +54710,7 @@
 			)
 		)
 		(property "Description" "20V, 1A, 340 mV, Schottky Diode Rectifier, SOD-123F"
-			(at 334.01 392.43 0)
+			(at 334.01 394.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60128,6 +60413,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 779.78 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f1ad490b-8a54-49ea-a611-ecf7ab516483")
+		(property "Reference" "#PWR0190"
+			(at 779.78 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 779.78 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 779.78 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 779.78 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 779.78 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ee59a29-8fd3-4101-babc-ed532b735a0d")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "#PWR0190")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 405.13 234.95 90)
 		(unit 1)
@@ -60559,7 +60921,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 431.8 416.56 0)
+		(at 431.8 424.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -60569,7 +60931,7 @@
 		(dnp no)
 		(uuid "f59385f6-5dcf-452c-8ad5-265bd18a7c38")
 		(property "Reference" "#PWR0179"
-			(at 431.8 422.91 0)
+			(at 431.8 430.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60580,7 +60942,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 431.8 420.624 0)
+			(at 431.8 428.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -60590,7 +60952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 431.8 416.56 0)
+			(at 431.8 424.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60601,7 +60963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 431.8 416.56 0)
+			(at 431.8 424.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60612,7 +60974,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 431.8 416.56 0)
+			(at 431.8 424.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61897,6 +62259,83 @@
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
 					(reference "#PWR0188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 767.08 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fabd4ba9-943e-40ea-a965-8d48a6086a63")
+		(property "Reference" "#PWR0186"
+			(at 767.08 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 767.08 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 767.08 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 767.08 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 767.08 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0ae3497-b2d3-4ce0-9acf-eb85ee401fc9")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "#PWR0186")
 					(unit 1)
 				)
 			)
