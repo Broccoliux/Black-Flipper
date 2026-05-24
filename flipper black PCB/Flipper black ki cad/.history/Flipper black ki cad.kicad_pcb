@@ -3793,7 +3793,7 @@
 			)
 		)
 		(property "Value" "MCP23017x-x-SS"
-			(at 0 6.05 90)
+			(at -1.989269 7.357176 90)
 			(layer "F.Fab")
 			(uuid "120ea990-31b8-4a0a-b2e3-508b0dc2eaab")
 			(effects
@@ -5505,7 +5505,7 @@
 	(footprint "ESP_Antenna:ESPRESSIF_ESP32_MIFA_2.4GHz_Right"
 		(layer "F.Cu")
 		(uuid "1f676bb8-f9e9-4fc8-9734-bc538cff52be")
-		(at 193.342824 74.760731)
+		(at 193.45 75.375)
 		(descr "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf")
 		(tags "PCB antenna")
 		(property "Reference" "PN532_ANT1"
@@ -42248,7 +42248,7 @@
 	(footprint "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11015_1x15-1MP_P0.5mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "2719d688-2385-4d6e-be09-dccc9294b011")
-		(at 197.892824 71.510731)
+		(at 198 72.125)
 		(descr "Amphenol F32Q/T FPC connector, 15 top-side contacts, 0.5mm pitch, SMT, https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/f32q-f32t.pdf")
 		(tags "F32T")
 		(property "Reference" "J2"
@@ -42264,7 +42264,7 @@
 			)
 		)
 		(property "Value" "Value: DISP_3.5_WAVESHARE"
-			(at -0.5 5.5 180)
+			(at -0.392824 4.739269 180)
 			(layer "B.Fab")
 			(uuid "ff209e17-f9b1-455f-be79-29d05972d940")
 			(effects
