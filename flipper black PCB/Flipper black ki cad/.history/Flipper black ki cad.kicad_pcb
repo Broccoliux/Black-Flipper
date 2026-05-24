@@ -43091,9 +43091,9 @@
 	(footprint "NFC_ANTENNA:NFC_ANT"
 		(layer "B.Cu")
 		(uuid "db2c51f1-6703-44e5-825f-a622f8ccadb0")
-		(at 168.5 131.5 -90)
+		(at 146 136.25 -90)
 		(property "Reference" "PN532_ANT1"
-			(at -5.25 0.25 90)
+			(at 4 -3.75 90)
 			(layer "B.SilkS")
 			(uuid "92660a37-cf59-406f-9c0a-14b297c3536d")
 			(effects
@@ -43105,7 +43105,7 @@
 			)
 		)
 		(property "Value" "50ohm"
-			(at 0 0 90)
+			(at 6.25 0.75 90)
 			(layer "B.SilkS")
 			(uuid "e5064767-1514-40f8-a69a-dbd4a23e1cc0")
 			(effects
