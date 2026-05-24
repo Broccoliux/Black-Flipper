@@ -32888,7 +32888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESP_Antenna:ESPRESSIF_ESP32_MIFA_2.4GHz_Right"
+		(property "Footprint" "NFC_ANTENNA:NFC_ANT"
 			(at 448.31 246.38 0)
 			(hide yes)
 			(show_name no)
