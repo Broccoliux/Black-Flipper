@@ -13925,12 +13925,6 @@
 		(uuid "fe914d73-0614-4fde-a204-d7bf55be354a")
 	)
 	(junction
-		(at 436.88 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01e2ad46-e8ca-42ce-9ec2-190b3d9e944a")
-	)
-	(junction
 		(at 123.19 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14363,12 +14357,6 @@
 		(uuid "9bce756d-3904-4e9a-b0f3-d3a312c80649")
 	)
 	(junction
-		(at 436.88 245.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f5ec84e-9715-4968-a664-5bf282e2d398")
-	)
-	(junction
 		(at 163.83 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14597,12 +14585,6 @@
 		(uuid "f571ed96-a370-46d1-a9d5-33e0f156fc8d")
 	)
 	(junction
-		(at 436.88 247.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7738fb3-c775-4183-8e38-e6783f661928")
-	)
-	(junction
 		(at 415.29 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14741,16 +14723,6 @@
 			(type default)
 		)
 		(uuid "025f58f8-26c0-4a81-84ec-bc2102ac6795")
-	)
-	(wire
-		(pts
-			(xy 436.88 246.38) (xy 436.88 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0277dbf8-5b66-489d-9cbe-3396e920e6b1")
 	)
 	(wire
 		(pts
@@ -17074,16 +17046,6 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 245.11) (xy 436.88 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "498f382e-0061-46a7-b3dd-2e9ccf0d1ab1")
-	)
-	(wire
-		(pts
 			(xy 755.65 246.38) (xy 763.27 246.38)
 		)
 		(stroke
@@ -17694,16 +17656,6 @@
 	)
 	(wire
 		(pts
-			(xy 415.29 246.38) (xy 436.88 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ce4057c-ca24-498e-b28b-7d2da1fd9612")
-	)
-	(wire
-		(pts
 			(xy 769.62 140.97) (xy 774.7 140.97)
 		)
 		(stroke
@@ -17761,6 +17713,16 @@
 			(type default)
 		)
 		(uuid "6164d986-ed91-4850-938c-81407ace54f4")
+	)
+	(wire
+		(pts
+			(xy 443.23 247.65) (xy 436.88 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f96b0e-a7a1-4846-a6e6-e7516e151f21")
 	)
 	(wire
 		(pts
@@ -19681,6 +19643,16 @@
 			(type default)
 		)
 		(uuid "a2f747b8-bd5c-42dc-bb83-c0f034d30c51")
+	)
+	(wire
+		(pts
+			(xy 443.23 245.11) (xy 436.88 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a44f69-2bd1-4df1-82b4-8e435f32ed09")
 	)
 	(wire
 		(pts
@@ -27168,7 +27140,7 @@
 				)
 			)
 		)
-		(property "Value" "560nH"
+		(property "Value" "220nH"
 			(at 379.73 240.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33169,7 +33141,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna_Loop")
-		(at 441.96 245.11 270)
+		(at 448.31 245.11 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33180,7 +33152,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b044044-f789-420c-a757-abfc149e4ba7")
 		(property "Reference" "AE1"
-			(at 447.04 245.1099 90)
+			(at 453.39 245.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33191,7 +33163,7 @@
 			)
 		)
 		(property "Value" "Antenna_Loop"
-			(at 447.04 247.6499 90)
+			(at 453.39 247.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33201,8 +33173,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 441.96 245.11 0)
+		(property "Footprint" "KiCad_Package coil:NFC_45x45_N4_NXP_PN5180"
+			(at 448.31 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33213,7 +33185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 441.96 245.11 0)
+			(at 448.31 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33224,7 +33196,7 @@
 			)
 		)
 		(property "Description" "Loop antenna"
-			(at 441.96 245.11 0)
+			(at 448.31 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39761,7 +39733,7 @@
 				)
 			)
 		)
-		(property "Value" "560nH"
+		(property "Value" "220nH"
 			(at 379.984 251.968 90)
 			(show_name no)
 			(do_not_autoplace no)
