@@ -33,7 +33,6 @@
       "vias",
       "footprint_text",
       "footprint_anchors",
-      "ratsnest",
       "footprints_front",
       "footprints_back",
       "footprint_values",
@@ -125,25 +124,13 @@
   "project": {
     "files": [
       {
-        "name": "Flipper black ki cad.kicad_sch",
+        "name": "Flipper black ki cad.kicad_pcb",
         "open": true,
         "window": {
           "display": 0,
           "maximized": true,
           "pos_x": -8,
           "pos_y": -8,
-          "size_x": 1382,
-          "size_y": 784
-        }
-      },
-      {
-        "name": "Flipper black ki cad.kicad_pro",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -16,
-          "pos_y": -16,
           "size_x": 1382,
           "size_y": 784
         }
