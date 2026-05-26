@@ -2646,6 +2646,137 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Antenna_Loop"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "AE"
+				(at 1.27 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Antenna_Loop"
+				(at 1.27 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Loop antenna"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "loop antenna"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Antenna_Loop_0_1"
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy 2.54 -2.54) (xy 5.08 0) (xy 1.27 3.81) (xy -2.54 0) (xy 0 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Antenna_Loop_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -14232,6 +14363,12 @@
 		(uuid "9bce756d-3904-4e9a-b0f3-d3a312c80649")
 	)
 	(junction
+		(at 436.88 245.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f5ec84e-9715-4968-a664-5bf282e2d398")
+	)
+	(junction
 		(at 163.83 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14460,6 +14597,12 @@
 		(uuid "f571ed96-a370-46d1-a9d5-33e0f156fc8d")
 	)
 	(junction
+		(at 436.88 247.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7738fb3-c775-4183-8e38-e6783f661928")
+	)
+	(junction
 		(at 415.29 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14601,7 +14744,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 246.38) (xy 436.88 259.08)
+			(xy 436.88 246.38) (xy 436.88 247.65)
 		)
 		(stroke
 			(width 0)
@@ -14911,7 +15054,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 234.95) (xy 436.88 246.38)
+			(xy 436.88 234.95) (xy 436.88 245.11)
 		)
 		(stroke
 			(width 0)
@@ -16371,6 +16514,16 @@
 	)
 	(wire
 		(pts
+			(xy 436.88 247.65) (xy 436.88 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3872b5e1-751f-4199-a033-31a88b5b2154")
+	)
+	(wire
+		(pts
 			(xy 124.46 280.67) (xy 124.46 285.75)
 		)
 		(stroke
@@ -16918,6 +17071,16 @@
 			(type default)
 		)
 		(uuid "48f79191-b176-4c9d-9aea-0c62abef3d48")
+	)
+	(wire
+		(pts
+			(xy 436.88 245.11) (xy 436.88 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "498f382e-0061-46a7-b3dd-2e9ccf0d1ab1")
 	)
 	(wire
 		(pts
@@ -19178,16 +19341,6 @@
 			(type default)
 		)
 		(uuid "94932e4e-cb89-4fef-9ab8-8d083a6b149d")
-	)
-	(wire
-		(pts
-			(xy 436.88 246.38) (xy 443.23 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94c29b7b-7bf5-4beb-b272-ab6e4dce0aaa")
 	)
 	(polyline
 		(pts
@@ -32855,85 +33008,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Antenna")
-		(at 448.31 246.38 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38cbabeb-0df0-45c1-9853-8a4b620e931e")
-		(property "Reference" "PN532_ANT1"
-			(at 452.12 245.1099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50ohm"
-			(at 452.12 247.6499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "NFC_ANTENNA:NFC_ANT"
-			(at 448.31 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 448.31 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Antenna"
-			(at 448.31 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "90dc4449-1c0a-4e03-8e3e-3e1a82eb5c6f")
-		)
-		(instances
-			(project "Flipper black ki cad"
-				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
-					(reference "PN532_ANT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 378.46 281.94 90)
 		(unit 1)
@@ -33088,6 +33162,88 @@
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
 					(reference "C99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna_Loop")
+		(at 441.96 245.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b044044-f789-420c-a757-abfc149e4ba7")
+		(property "Reference" "AE1"
+			(at 447.04 245.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna_Loop"
+			(at 447.04 247.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 441.96 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 441.96 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Loop antenna"
+			(at 441.96 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf8f4124-b43a-4927-8a0c-d09e15f7c3ab")
+		)
+		(pin "2"
+			(uuid "3e8c8000-8c9f-40a3-be90-c605af921d81")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "AE1")
 					(unit 1)
 				)
 			)
