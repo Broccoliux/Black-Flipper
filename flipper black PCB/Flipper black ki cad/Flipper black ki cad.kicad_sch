@@ -33162,7 +33162,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Antenna_Loop"
+		(property "Value" "PN532 ANT"
 			(at 453.39 247.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
