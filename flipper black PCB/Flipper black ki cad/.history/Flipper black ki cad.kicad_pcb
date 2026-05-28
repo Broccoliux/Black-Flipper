@@ -113,7 +113,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -42582,9 +42581,9 @@
 		(uuid "74753672-9aff-45ad-ad2f-d130795b039c")
 		(at 128.2 100.5 -90)
 		(property "Reference" "AE1"
-			(at 0 0 90)
+			(at -2.9 0 0)
 			(layer "B.SilkS")
-			(uuid "293bc1b9-a3c7-461b-80e9-467fc10d6f69")
+			(uuid "b5b93506-b572-4900-a7a7-7909ad60b540")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42593,9 +42592,9 @@
 			)
 		)
 		(property "Value" "PN532 ANT"
-			(at -0.1 -2.2 90)
+			(at -4.9 0.2 0)
 			(layer "B.Fab")
-			(uuid "8c2638cb-b6c0-461a-92e8-34b9a3cb1541")
+			(uuid "2727b3ec-7f42-4df7-a7ed-ef5b8a48f643")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42607,7 +42606,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2a70a65a-453e-4574-bf9d-085ed47cf183")
+			(uuid "8072dc9f-7d44-462d-b07b-e3a507fd34da")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42619,7 +42618,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b3e0d7cb-8808-4f0c-b5f6-bcc887dbe160")
+			(uuid "cc822bb0-24e8-4394-81b5-ecdf3c421bfb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42840,7 +42839,7 @@
 		)
 		(pad "1" smd rect
 			(at -17.1 -21.9 270)
-			(size 2 1.2)
+			(size 2 0.8)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(AE1-Pad1)")
 			(pintype "input")
@@ -42848,7 +42847,7 @@
 		)
 		(pad "2" smd rect
 			(at -16.8 -12 270)
-			(size 1.2 2)
+			(size 0.8 2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(AE1-Pad2)")
 			(pintype "input")
@@ -58727,12 +58726,12 @@
 		(uuid "7cd936a0-4178-4705-99b0-3a08f84a62c5")
 	)
 	(segment
-		(start 223.9875 108.9875)
-		(end 223.95 108.9875)
+		(start 237.431076 113.73)
+		(end 233.501076 109.8)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "GPS_SAFEBOOT")
-		(uuid "0606ff1a-d48a-4e22-af4f-14e7eb6f7010")
+		(uuid "13f62c80-ad8d-40ad-911c-d358768fcafe")
 	)
 	(segment
 		(start 223.95 108.9875)
@@ -58759,12 +58758,12 @@
 		(uuid "6e5cb797-5dfb-4568-bb2c-953990dc543b")
 	)
 	(segment
-		(start 233.501076 109.8)
-		(end 224.8 109.8)
+		(start 224.8 109.8)
+		(end 223.9875 108.9875)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "GPS_SAFEBOOT")
-		(uuid "74d435da-8d82-4e42-892b-a03ee9844c01")
+		(uuid "851bbbf2-0067-464a-85a3-6ecac7ff73d2")
 	)
 	(segment
 		(start 200.13934 117.053554)
@@ -58796,15 +58795,23 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "GPS_SAFEBOOT")
-		(uuid "caadab0a-40f4-4d11-b064-8d2397694194")
+		(uuid "c3335bb3-9f31-42f6-927f-4958f1ed22dc")
 	)
 	(segment
-		(start 237.431076 113.73)
-		(end 233.501076 109.8)
+		(start 223.9875 108.9875)
+		(end 223.95 108.9875)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "GPS_SAFEBOOT")
-		(uuid "ce1c46f4-683d-4f07-88a6-5ceb2d782055")
+		(uuid "c452ea50-305e-4422-8bbd-6237957b9408")
+	)
+	(segment
+		(start 233.501076 109.8)
+		(end 224.8 109.8)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GPS_SAFEBOOT")
+		(uuid "d4c5fc42-0091-47d7-91c7-d3c8d6a87415")
 	)
 	(segment
 		(start 195.846446 116.546446)
@@ -58813,14 +58820,6 @@
 		(layer "F.Cu")
 		(net "GPS_SAFEBOOT")
 		(uuid "d91b8aa6-d08f-46b4-be8c-da27e31a9e5e")
-	)
-	(segment
-		(start 224.8 109.8)
-		(end 223.9875 108.9875)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GPS_SAFEBOOT")
-		(uuid "daee00bd-30d1-4ddc-9c2c-8ed1ad4aa161")
 	)
 	(segment
 		(start 200.599999 116.592893)
