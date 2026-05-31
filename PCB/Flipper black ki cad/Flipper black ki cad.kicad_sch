@@ -1262,6 +1262,405 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Micro_SD_Card_Det2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -16.51 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Micro_SD_Card_Det2"
+				(at 16.51 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 52.07 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=&productname=&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Micro SD Card Socket with two card detection pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector SD microsd"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "microSD*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Micro_SD_Card_Det2_0_1"
+				(polyline
+					(pts
+						(xy -8.89 -8.89) (xy -8.89 11.43) (xy -1.27 11.43) (xy 2.54 15.24) (xy 3.81 15.24) (xy 3.81 13.97)
+						(xy 6.35 13.97) (xy 7.62 15.24) (xy 20.32 15.24) (xy 20.32 -8.89) (xy -8.89 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -7.62 10.795)
+					(end -5.08 9.525)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 8.255)
+					(end -5.08 6.985)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 5.715)
+					(end -5.08 4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 3.175)
+					(end -5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 0.635)
+					(end -5.08 -0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -1.905)
+					(end -5.08 -3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -4.445)
+					(end -5.08 -5.715)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -6.985)
+					(end -5.08 -8.255)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 15.24) (xy 16.51 16.51) (xy -19.05 16.51) (xy -19.05 -16.51) (xy 16.51 -16.51) (xy 16.51 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Micro_SD_Card_Det2_1_1"
+				(pin bidirectional line
+					(at -22.86 10.16 0)
+					(length 3.81)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 7.62 0)
+					(length 3.81)
+					(name "DAT3/CD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 5.08 0)
+					(length 3.81)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 2.54 0)
+					(length 3.81)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 0 0)
+					(length 3.81)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 -2.54 0)
+					(length 3.81)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -5.08 0)
+					(length 3.81)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -7.62 0)
+					(length 3.81)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -12.7 0)
+					(length 3.81)
+					(name "DET_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -10.16 0)
+					(length 3.81)
+					(name "DET_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -12.7 180)
+					(length 3.81)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -13756,6 +14155,18 @@
 		)
 		(uuid "33e85204-6ebc-45e4-b9d7-ac1050df4775")
 	)
+	(text "Micro SD Card"
+		(exclude_from_sim no)
+		(at 76.2 443.484 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "35eddbef-d5a2-4449-8d96-75b2d09cfcff")
+	)
 	(text "CC1101 - Sub-GHz Transceiver"
 		(exclude_from_sim no)
 		(at 119.888 214.63 0)
@@ -14875,6 +15286,16 @@
 			(type default)
 		)
 		(uuid "06af6d5f-11e2-4f7f-9bd8-d3112712d44f")
+	)
+	(polyline
+		(pts
+			(xy 60.96 447.04) (xy 91.44 447.04)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "06b704a5-72d1-420d-8fef-d505262269e8")
 	)
 	(wire
 		(pts
@@ -16806,6 +17227,16 @@
 		)
 		(uuid "41d8a6de-04a3-47ea-84d0-5e5438209bcb")
 	)
+	(polyline
+		(pts
+			(xy 91.44 447.04) (xy 91.44 439.928)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "41e82015-c5d0-40ed-be5b-1ac13f51d1b1")
+	)
 	(wire
 		(pts
 			(xy 341.63 256.54) (xy 341.63 259.08)
@@ -17265,6 +17696,16 @@
 			(type solid)
 		)
 		(uuid "4fb7c8a9-910e-4387-82b6-6e99380b6afe")
+	)
+	(polyline
+		(pts
+			(xy 15.24 439.42) (xy 15.24 508)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "4fd4c952-cda1-4fd7-a38d-091b0b91b517")
 	)
 	(polyline
 		(pts
@@ -18595,6 +19036,16 @@
 			(type default)
 		)
 		(uuid "7cc9ee95-0d81-459e-b148-f9cfcd8e6dc2")
+	)
+	(polyline
+		(pts
+			(xy 142.24 439.42) (xy 142.24 508)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "7d23e64f-8c88-424e-b5cd-71427579523e")
 	)
 	(wire
 		(pts
@@ -21288,6 +21739,16 @@
 	)
 	(polyline
 		(pts
+			(xy 142.24 508) (xy 15.24 508)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "d3adc57b-40e8-4db9-9184-4872ad19c362")
+	)
+	(polyline
+		(pts
 			(xy 695.96 205.74) (xy 746.76 205.74)
 		)
 		(stroke
@@ -21295,6 +21756,16 @@
 			(type solid)
 		)
 		(uuid "d3dbc4fa-c2f6-4749-ba61-223186408882")
+	)
+	(polyline
+		(pts
+			(xy 60.96 439.928) (xy 60.96 447.04)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "d46e025a-8299-4a2e-b176-8263f09e7393")
 	)
 	(wire
 		(pts
@@ -22465,6 +22936,16 @@
 			(type default)
 		)
 		(uuid "f536002b-782a-43dd-9068-e0463b0dd169")
+	)
+	(polyline
+		(pts
+			(xy 15.24 439.42) (xy 142.24 439.42)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "f547bbb9-0c54-43e6-9a58-42c2be175b63")
 	)
 	(polyline
 		(pts
@@ -53139,6 +53620,113 @@
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
 					(reference "#PWR0201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Micro_SD_Card_Det2")
+		(at 76.2 477.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb878f0f-d0b6-4d90-a723-0919c6934957")
+		(property "Reference" "J1"
+			(at 76.835 455.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Micro_SD_Card_Det2"
+			(at 76.835 458.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 459.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=&productname=&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en"
+			(at 78.74 474.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Micro SD Card Socket with two card detection pins"
+			(at 76.2 477.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "dac5724f-33fb-4161-81db-a892dae8ccce")
+		)
+		(pin "8"
+			(uuid "cfc7d44a-bfac-406f-ab9b-872a844cf98a")
+		)
+		(pin "2"
+			(uuid "eff561be-3370-4f23-bace-398338d131a6")
+		)
+		(pin "7"
+			(uuid "125c85eb-292c-4e72-80a4-3a17303e6fc4")
+		)
+		(pin "1"
+			(uuid "14c5bdb1-2d2e-4069-b769-839d71d24c0b")
+		)
+		(pin "3"
+			(uuid "383fa9ee-8163-4ff4-a483-b4ebfb15f6c5")
+		)
+		(pin "6"
+			(uuid "8b1dd71f-d1cc-4938-91ec-444bfd908273")
+		)
+		(pin "4"
+			(uuid "be45cd1d-d079-4184-8e1f-f64301900f72")
+		)
+		(pin "SH"
+			(uuid "350ecd2c-ad40-461e-9403-b54e9240ae80")
+		)
+		(pin "10"
+			(uuid "65f5a1bd-e9aa-41ea-98d0-0c036aef82bc")
+		)
+		(pin "9"
+			(uuid "24e93c1e-a8a2-49f1-ae0e-a9ab820575d2")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "J1")
 					(unit 1)
 				)
 			)
