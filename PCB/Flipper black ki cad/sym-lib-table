@@ -8,4 +8,5 @@
 	(lib (name "JST-2") (type "Legacy") (uri "F:/Downloads/PHR-2/PHR-2.lib") (options "") (descr ""))
 	(lib (name "PESD5V0L4UG_115") (type "Legacy") (uri "F:/Downloads/PESD5V0L4UG_115/PESD5V0L4UG_115.lib") (options "") (descr ""))
 	(lib (name "SF2136E") (type "Legacy") (uri "F:/Downloads/SF2136E/SF2136E.lib") (options "") (descr ""))
+	(lib (name "MEM2067 SD card") (type "Legacy") (uri "F:/Downloads/MEM2067-02-180-00-A_REVB/MEM2067-02-180-00-A_REVB.lib") (options "") (descr ""))
 )

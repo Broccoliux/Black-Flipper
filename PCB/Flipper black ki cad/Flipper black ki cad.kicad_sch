@@ -14648,6 +14648,12 @@
 		(uuid "754c78fd-71fd-4303-b1fc-5c64544254ab")
 	)
 	(junction
+		(at 38.1 467.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79b1eebc-a940-4b87-82c2-612c0413a352")
+	)
+	(junction
 		(at 339.09 255.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15088,20 +15094,24 @@
 		(uuid "77e8e6db-676f-4c3f-bd89-182a7cc4fcb3")
 	)
 	(no_connect
-		(at 800.1 143.51)
-		(uuid "87179517-853e-48f4-b853-eb08724a4a6a")
+		(at 66.04 467.36)
+		(uuid "8d1e7cee-393d-46c9-adc7-e45aa186e987")
 	)
 	(no_connect
 		(at 356.87 289.56)
 		(uuid "919ee1ec-e73f-4a0a-ae4b-32c309dee060")
 	)
 	(no_connect
+		(at 109.22 490.22)
+		(uuid "966ab0b5-201c-44ff-aaf2-b1689ca87f70")
+	)
+	(no_connect
 		(at 316.23 271.78)
 		(uuid "9d5d54bd-67a5-4dcf-94b1-05480b223ca7")
 	)
 	(no_connect
-		(at 800.1 140.97)
-		(uuid "c2320cf9-0aae-487a-9d31-946106b5cda8")
+		(at 66.04 485.14)
+		(uuid "b69205d1-2704-484e-820f-aa2209da7d33")
 	)
 	(no_connect
 		(at 800.1 153.67)
@@ -15439,6 +15449,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 474.98) (xy 45.72 474.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b977f23-1cae-48be-b1b7-e59b81ffe6e0")
+	)
+	(wire
+		(pts
 			(xy 361.95 153.67) (xy 364.49 153.67)
 		)
 		(stroke
@@ -15717,6 +15737,16 @@
 		)
 		(uuid "13d74906-73d4-4efe-a51a-0899329fa6d4")
 	)
+	(wire
+		(pts
+			(xy 48.26 480.06) (xy 48.26 481.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e3ce79-070e-4ce3-813a-7ebdb9f9fd3f")
+	)
 	(polyline
 		(pts
 			(xy 208.28 363.22) (xy 304.8 363.22)
@@ -15816,6 +15846,16 @@
 			(type default)
 		)
 		(uuid "163fedea-133a-4e13-aacf-ae36aa3c0a02")
+	)
+	(wire
+		(pts
+			(xy 38.1 480.06) (xy 38.1 482.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16857452-b958-44ce-b4fe-364021fe8a5e")
 	)
 	(wire
 		(pts
@@ -16116,6 +16156,16 @@
 			(type default)
 		)
 		(uuid "2200a796-bf78-41aa-805e-2fa6ec90ac3f")
+	)
+	(wire
+		(pts
+			(xy 109.22 490.22) (xy 113.03 490.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220180ea-fbc7-4a59-8530-e8748119660b")
 	)
 	(wire
 		(pts
@@ -17279,6 +17329,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 467.36) (xy 38.1 472.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43066883-66d8-4892-9311-c7b6cce55633")
+	)
+	(wire
+		(pts
 			(xy 67.31 247.65) (xy 67.31 251.46)
 		)
 		(stroke
@@ -17426,6 +17486,16 @@
 			(type default)
 		)
 		(uuid "46c3134b-3600-45f5-a43a-8e31588d2bd8")
+	)
+	(wire
+		(pts
+			(xy 60.96 490.22) (xy 60.96 495.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e2ab33-a859-432f-8651-1e801037b3f4")
 	)
 	(wire
 		(pts
@@ -18509,6 +18579,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 487.68) (xy 52.07 487.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6570b1-8dfe-4795-9944-efa5897aff9c")
+	)
+	(wire
+		(pts
 			(xy 534.67 118.11) (xy 534.67 133.35)
 		)
 		(stroke
@@ -19279,6 +19359,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 480.06) (xy 48.26 480.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "872a5012-8763-4d15-90e4-b7c9d3cd75d5")
+	)
+	(wire
+		(pts
 			(xy 133.35 80.01) (xy 133.35 38.1)
 		)
 		(stroke
@@ -19839,6 +19929,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 467.36) (xy 38.1 467.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97247c3a-9266-4670-8bd0-da60c4389f4d")
+	)
+	(wire
+		(pts
 			(xy 758.19 140.97) (xy 762 140.97)
 		)
 		(stroke
@@ -19856,6 +19956,16 @@
 			(type default)
 		)
 		(uuid "97d4ebf2-a1d3-4a28-861c-24032be61dc2")
+	)
+	(wire
+		(pts
+			(xy 52.07 496.57) (xy 52.07 499.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981dbace-5837-45bd-ad82-d0148906ad32")
 	)
 	(polyline
 		(pts
@@ -20176,6 +20286,16 @@
 			(type default)
 		)
 		(uuid "a47f2ceb-58b7-4842-813f-640959500949")
+	)
+	(wire
+		(pts
+			(xy 45.72 474.98) (xy 45.72 467.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a528b192-c49b-4265-83da-492dba354acd")
 	)
 	(wire
 		(pts
@@ -20729,6 +20849,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 466.09) (xy 38.1 467.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b725f56c-6871-4ab1-a87b-f8f1bdc79200")
+	)
+	(wire
+		(pts
 			(xy 328.93 97.79) (xy 317.5 97.79)
 		)
 		(stroke
@@ -21206,6 +21336,16 @@
 			(type default)
 		)
 		(uuid "c4209c39-ae71-4be0-97f4-43b2f65cfd4a")
+	)
+	(wire
+		(pts
+			(xy 113.03 490.22) (xy 113.03 494.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c454559b-66c8-444a-9b07-2aa677950e64")
 	)
 	(polyline
 		(pts
@@ -22717,6 +22857,16 @@
 		)
 		(uuid "ee2d20da-55b3-4d2c-98a3-2513a6efd233")
 	)
+	(wire
+		(pts
+			(xy 52.07 487.68) (xy 52.07 488.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec349c4-3979-4b7d-ac36-6d7e5c53135e")
+	)
 	(polyline
 		(pts
 			(xy 469.9 340.36) (xy 238.76 340.36)
@@ -22996,6 +23146,16 @@
 			(type default)
 		)
 		(uuid "f82ece00-24dc-4808-9be5-5bc463955e1d")
+	)
+	(wire
+		(pts
+			(xy 66.04 490.22) (xy 60.96 490.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f903cd-f731-4481-a2be-50d88319781b")
 	)
 	(polyline
 		(pts
@@ -24683,6 +24843,30 @@
 			)
 		)
 	)
+	(global_label "SD_CS"
+		(shape input)
+		(at 800.1 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73407e48-49eb-4a26-b207-0c14e3f93644")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 809.0118 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "TP_UART_RX"
 		(shape input)
 		(at 151.13 138.43 0)
@@ -25025,6 +25209,30 @@
 			)
 		)
 	)
+	(global_label "SPI_MOSI"
+		(shape input)
+		(at 66.04 472.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9176f9b8-b58f-4d65-8ccd-9a10986d923f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.4067 472.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "TP_UART_RX"
 		(shape input)
 		(at 711.2 415.29 0)
@@ -25074,6 +25282,30 @@
 			)
 		)
 	)
+	(global_label "SD_CD"
+		(shape input)
+		(at 800.1 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96e21d78-5f77-453d-bdee-c866aebfe604")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 809.0723 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "BTN_POWER"
 		(shape input)
 		(at 539.75 378.46 180)
@@ -25119,6 +25351,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SD_CD"
+		(shape input)
+		(at 66.04 487.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a38d7bf5-e1ec-4cbc-8510-8b519d8b1e4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.0677 487.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -25379,6 +25635,30 @@
 		(uuid "bda45c75-9870-43a4-a400-0f0858577c1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 70.9771 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SD_CS"
+		(shape input)
+		(at 66.04 469.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c04992ab-ae8e-4af2-a2a7-8e04651b56ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.1282 469.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26070,6 +26350,54 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SPI_SCK"
+		(shape input)
+		(at 66.04 477.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef16a197-8149-44f0-9601-66e6c871e1c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.2534 477.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SPI_MISO"
+		(shape input)
+		(at 66.04 482.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f347a585-d808-459f-a4c7-34a09e0f72e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.4067 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -28104,6 +28432,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 52.07 499.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1165bfa3-13df-4cf2-9a7f-e8d0f525f7dd")
+		(property "Reference" "#PWR037"
+			(at 52.07 495.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD33"
+			(at 52.07 502.666 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 499.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 499.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 52.07 499.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ec134bf-7b2e-4da2-9237-7a25a837205c")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 554.99 251.46 0)
 		(unit 1)
@@ -29907,6 +30312,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 38.1 476.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1eefb58f-5c17-45d1-b731-0efa3c8f4d29")
+		(property "Reference" "C29"
+			(at 40.64 474.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 40.64 477.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 39.0652 480.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 476.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 38.1 476.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "edb40f0c-a0b1-4b83-8c47-a25e917ac863")
+		)
+		(pin "2"
+			(uuid "85ced0de-9a0b-42f2-b0eb-dd608b0bebef")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 191.77 173.99 90)
 		(unit 1)
@@ -30296,6 +30782,83 @@
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 495.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "221067e8-913b-48d7-8f09-0bfbd7e3dba4")
+		(property "Reference" "#PWR048"
+			(at 60.96 501.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 499.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 495.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 495.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 495.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd49587a-858d-4bfc-ab4f-091b8f7ae742")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -35560,6 +36123,83 @@
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
 					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 481.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d824b15-208a-47bf-b20d-f410c55071b2")
+		(property "Reference" "#PWR052"
+			(at 48.26 487.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 484.886 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 481.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 481.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 481.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4595b91d-60dc-4cd1-af0f-8f462594d6f0")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -45035,6 +45675,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 52.07 492.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a70c7b54-2b22-4487-aa74-94e50213bc02")
+		(property "Reference" "R8"
+			(at 53.594 491.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 53.594 494.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 50.292 492.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 492.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.07 492.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba5a9d1f-4d3e-40e9-bff8-8329dfc0fbb1")
+		)
+		(pin "2"
+			(uuid "89391816-5c8c-4914-a42a-732bbda8db48")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 792.48 254 0)
 		(unit 1)
@@ -45264,6 +45985,83 @@
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
 					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 38.1 466.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a8fee5aa-c3d5-4843-8a9a-162fa2d57eaf")
+		(property "Reference" "#PWR051"
+			(at 38.1 469.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD33"
+			(at 38.1 462.534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 466.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 466.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 38.1 466.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8fc5bae-8b58-4adc-a0ab-f79ff047b064")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -52053,6 +52851,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 38.1 482.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e05a43fb-8005-440a-8257-140cdadb28fe")
+		(property "Reference" "#PWR050"
+			(at 38.1 488.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 486.156 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d331c6a2-8ad4-4b1d-a637-c66fecf14661")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V8")
 		(at 510.54 245.11 0)
 		(unit 1)
@@ -52437,6 +53312,83 @@
 			(project "Flipper black ki cad"
 				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
 					(reference "IR_LEDs2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 494.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7579556-a4d9-42cd-87e3-9ed308830ae7")
+		(property "Reference" "#PWR049"
+			(at 113.03 500.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 497.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 494.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 494.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 494.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4248a304-00db-492a-991c-b2a6392c1eff")
+		)
+		(instances
+			(project "Flipper black ki cad"
+				(path "/aadf5baa-c41c-48f9-af5f-e274c89cf282"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -53627,7 +54579,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Micro_SD_Card_Det2")
-		(at 76.2 477.52 0)
+		(at 88.9 477.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -53638,7 +54590,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb878f0f-d0b6-4d90-a723-0919c6934957")
 		(property "Reference" "J1"
-			(at 76.835 455.93 0)
+			(at 89.535 455.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53648,7 +54600,7 @@
 			)
 		)
 		(property "Value" "Micro_SD_Card_Det2"
-			(at 76.835 458.47 0)
+			(at 89.535 458.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53657,8 +54609,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 128.27 459.74 0)
+		(property "Footprint" "MEM2067-02-180-00-A_REVB:GCT_MEM2067-02-180-00-A_REVB"
+			(at 140.97 459.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53669,7 +54621,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=&productname=&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en"
-			(at 78.74 474.98 0)
+			(at 91.44 474.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53680,7 +54632,7 @@
 			)
 		)
 		(property "Description" "Micro SD Card Socket with two card detection pins"
-			(at 76.2 477.52 0)
+			(at 88.9 477.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
