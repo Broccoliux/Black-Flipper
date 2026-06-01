@@ -1,3 +1,12 @@
+![ESP32-S3](https://img.shields.io/badge/MCU-ESP32--S3-red?style=flat-square)
+![CC1101](https://img.shields.io/badge/Sub--GHz-CC1101%20%2B%20PA-orange?style=flat-square)
+![SX1262](https://img.shields.io/badge/LoRa-SX1262%2010km-blue?style=flat-square)
+![PN532](https://img.shields.io/badge/NFC-PN532-green?style=flat-square)
+![GPS](https://img.shields.io/badge/GPS-MAX--M8Q-brightgreen?style=flat-square)
+![KiCad](https://img.shields.io/badge/PCB-KiCad%2010-blue?style=flat-square)
+![4-Layer](https://img.shields.io/badge/Layers-4--Layer%20ENIG-yellow?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
+
 # Flipper Black
 
 A custom open-source wireless security research tool built from raw chips on a 4-layer PCB designed in KiCad. No modules. No dev boards. No kits. Every IC hand-placed, every trace manually routed.
@@ -5,6 +14,60 @@ A custom open-source wireless security research tool built from raw chips on a 4
 Built to outclass the Flipper Zero in hardware — more range, more protocols, faster processor, bigger screen, GPS, LoRa, and WiFi — all on one board, all from scratch.
 
 > Solo build by a 19-year-old from Punjab, Pakistan.
+
+---
+
+## Gallery
+
+### CAD & Assembly
+
+| | |
+|:---:|:---:|
+| ![Assembled Device](imgs/Ahh%20soo%20cool.png) | ![Final Design](imgs/final%20design.png) |
+| Fully assembled device — 4 antennas, front panel | Closed enclosure, final form factor |
+
+| |
+|:---:|
+| ![Enclosure Bodies](imgs/both%20bodies.png) |
+| CNC aluminum enclosure — top and bottom halves |
+
+### PCB
+
+| | |
+|:---:|:---:|
+| ![PCB 3D Model](imgs/PCB%203D%20model.png) | ![RAW Design](imgs/RAW%20design.png) |
+| PCB 3D render — components placed | Enclosure CAD — bare shell |
+
+---
+
+## Features
+
+- 4-layer PCB designed from scratch in KiCad 10, fabricated by JLCPCB with ENIG finish
+- ESP32-S3 QFN56 bare die — 240MHz dual-core, no dev board, direct chip placement
+- WiFi 802.11 b/g/n built in — no addon required
+- BLE 5.0 — scanning and interaction
+- CC1101 raw chip + PA amplifier — sub-GHz 300–928MHz, extended range over stock Flipper
+- SX1262 raw chip — LoRa up to 10km, off-grid encrypted text chat with zero infrastructure
+- PN532 raw chip — NFC/RFID 13.56MHz full stack, read/write/emulate
+- MAX-M8Q raw chip — multi-constellation GPS (GPS + GLONASS + Galileo + BeiDou)
+- GPS-tagged signal logging — every captured RF signal stamped with location automatically
+- GPS-aware automation — device behavior changes based on physical location
+- Dual-core parallel operation — WiFi and sub-GHz scanning run simultaneously on separate cores
+- Waveshare 3.5" IPS capacitive touchscreen (ST7796S + FT6336U) — full color vs Flipper's 1.4" monochrome
+- W25Q128 — 16MB SPI flash
+- MicroSD card slot — external storage for captures and logs
+- TP4056 + DW01A + AP2112K — LiPo charging, cell protection, and clean regulation
+- TLV70018 1.8V LDO for GPS supply rail
+- TXB0102 level shifter for mixed-voltage IO
+- MCP23017 GPIO expander
+- BGA725L6 GPS LNA + SAFFB1G58KA0F0A SAW filter — clean GPS receive chain
+- PE4259 RF switches for antenna routing
+- CNC aluminum enclosure — custom modeled in Fusion 360 to fit PCB exactly
+- Firmware on ESP-IDF (C) + FreeRTOS — dedicated task per module
+- LVGL UI on the touchscreen
+- Total BOM cost: ~$280
+
+**Not supported (yet):** 125kHz RFID and iButton/1-Wire were cut to save GPIOs. Firmware is early — architecture is done, implementation in progress.
 
 ---
 
@@ -47,25 +110,6 @@ Built to outclass the Flipper Zero in hardware — more range, more protocols, f
 
 ---
 
-## Images
-
-### Assembled Device
-![Assembled Flipper Black](imgs/Ahh%20soo%20cool.png)
-
-### Final Design
-![Final Design](imgs/final%20design.png)
-
-### Enclosure — Both Sides
-![Enclosure Bodies](imgs/both%20bodies.png)
-
-### PCB 3D Render
-![PCB 3D Model](imgs/PCB%203D%20model.png)
-
-### Raw PCB Layout
-![RAW PCB Layout](imgs/RAW%20design.png)
-
----
-
 ## Why I Built This
 
 Flipper Zero costs $200 and then nickels-and-dimes you for WiFi, better range, GPS — everything interesting. I wanted a single device that does it all, with better hardware, built from actual components instead of modules.
@@ -87,19 +131,6 @@ Every IC on this board was placed by hand. Every trace was routed by me. The enc
 - Core 1: UI, GPS, WiFi, system logic
 
 Full architecture doc: [`flipper black firmware/`](./flipper%20black%20firmware/)
-
----
-
-## What It Can Do
-
-- **Sub-GHz scanning** — 300–928MHz capture and replay (CC1101 + PA for extended range)
-- **LoRa encrypted chat** — off-grid encrypted messaging up to 10km, zero internet required
-- **NFC/RFID** — 13.56MHz read/write/emulate
-- **GPS signal logging** — every captured RF signal gets GPS-tagged automatically
-- **WiFi** — scanning, packet capture, deauth detection
-- **BLE 5.0** — scanning and interaction
-- **GPS-aware automation** — device behavior changes based on physical location
-- **Dual-core parallel operation** — WiFi scanning and sub-GHz capture simultaneously
 
 ---
 
