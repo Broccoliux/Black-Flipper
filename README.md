@@ -112,9 +112,9 @@ Total estimated cost: **~$280**
 
 **broccoli 🥦** — age 19, Punjab, Pakistan
 
-Solo build. Designed entirely from scratch in KiCad. No AI-generated designs. No copied tutorials.
+Solo build. Designed entirely from scratch in KiCad.
 
-[github.com/fussdeek-del/Black-Flipper](https://github.com/fussdeek-del/Black-Flipper)
+[here](https://github.com/fussdeek-del/Black-Flipper)
 
 ---
 
