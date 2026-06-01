@@ -1,123 +1,165 @@
-# Flipper Black 🖤
+# Flipper Black
 
-> A custom-built, open-source wireless security research tool that outclasses Flipper Zero in every spec. Built solo from scratch.
+A custom open-source wireless security research tool built from raw chips on a 4-layer PCB designed in KiCad. No modules. No dev boards. No kits. Every IC hand-placed, every trace manually routed.
 
-![Final Design](final%20design.png)
+Built to outclass the Flipper Zero in hardware — more range, more protocols, faster processor, bigger screen, GPS, LoRa, and WiFi — all on one board, all from scratch.
 
----
-
-## What is Flipper Black?
-
-Flipper Black is a handheld wireless security research device built entirely from raw chips and a custom PCB. No modules. No kits. No shortcuts. Every chip is placed directly on a 4-layer custom PCB designed in KiCad, fabricated at JLCPCB, with firmware built on ESP-IDF.
-
-It is inspired by Flipper Zero but outclasses it in every hardware specification — adding WiFi, LoRa 10km range, GPS signal logging, a 3.5" color IPS touchscreen, and a significantly more powerful dual-core MCU. Features Flipper Zero literally cannot do even with addons.
+> Solo build by a 19-year-old from Punjab, Pakistan.
 
 ---
 
-## Why I built it
+## What's Inside
 
-Flipper Zero costs $169, has a 400+ person team behind it, and still lacks WiFi, SDR, LoRa, and GPS. I wanted to build something more powerful, fully open source, and designed from scratch by one person. I also wanted to prove that a solo teenage builder in Pakistan could design and ship hardware that competes with a commercial product built by a funded company.
+| Component | Part | Spec |
+|---|---|---|
+| MCU | ESP32-S3 QFN56 | 240MHz dual-core, WiFi + BLE 5.0 |
+| Sub-GHz Radio | CC1101 + PA amp | 300–928MHz, extended range |
+| LoRa | SX1262 | Up to 10km range |
+| NFC/RFID | PN532 | 13.56MHz full stack |
+| GPS | MAX-M8Q | GPS + GLONASS + Galileo + BeiDou |
+| Flash | W25Q128 | 16MB SPI |
+| Display | Waveshare 3.5" IPS | ST7796S + FT6336U capacitive touch |
+| Storage | MicroSD slot | — |
+| Power | TP4056 + DW01A + AP2112K | LiPo charge + protection + regulation |
+| PCB | 4-layer, ENIG finish | JLCPCB fabrication |
+| Enclosure | CNC aluminum | Custom designed in Fusion 360 |
 
-This was built for Hack Club Fallout — Burnout track.
+**Supporting ICs:** TLV70018 (1.8V LDO for GPS), TXB0102 (level shifter), MCP23017 (GPIO expander), BGA725L6 (GPS LNA), SAFFB1G58KA0F0A (SAW filter), PE4259 (RF switches)
+
+**Total BOM cost: ~$280**
 
 ---
 
-## What it can do
+## Flipper Black vs Flipper Zero
 
 | Feature | Flipper Black | Flipper Zero |
 |---|---|---|
-| Sub-GHz 300-928MHz | ✅ CC1101 + PA amplifier | ✅ CC1101 basic |
-| NFC / RFID 13.56MHz | ✅ PN532 full stack | ✅ Basic NFC |
-| Infrared TX/RX | ✅ High power array | ✅ Standard |
-| Bad USB | ✅ | ✅ |
-| WiFi 2.4GHz | ✅ Built in | ❌ Needs addon |
-| LoRa 10km range | ✅ SX1262 | ❌ Not available |
-| GPS multi-constellation | ✅ MAX-M8Q | ❌ Not available |
-| BLE | ✅ BLE 5.0 | ✅ BLE 4.2 |
-| Display | ✅ 3.5" color IPS touch | ❌ 1.4" monochrome |
-| MCU | ✅ 240MHz dual core | ❌ 64MHz single core |
-| Battery | ✅ 2500-3000mAh | ❌ 2000mAh |
-| SD Card | ✅ MicroSD slot | ✅ MicroSD slot |
-| Enclosure | ✅ CNC aluminum | ✅ Plastic |
-
-**Unique capabilities no other handheld tool has:**
-- GPS-tagged signal logging — every captured RF signal stamped with exact coordinates
-- LoRa encrypted text chat up to 10km with zero internet or phone network
-- WiFi + sub-GHz scanning simultaneously using dual-core ESP32-S3
-- Full color touchscreen UI with waveform visualization
+| CPU | ESP32-S3 @ 240MHz dual-core | STM32WB55 @ 64MHz single-core |
+| WiFi | Built-in | Paid addon required |
+| BLE | 5.0 | 4.2 |
+| Sub-GHz | CC1101 + PA (extended range) | CC1101 stock |
+| LoRa | SX1262, up to 10km | Not available |
+| NFC | PN532 13.56MHz | Yes |
+| 125kHz RFID | No (GPIO constraint) | Yes |
+| GPS | MAX-M8Q multi-constellation | Not available |
+| Display | 3.5" color IPS capacitive touch | 1.4" monochrome |
+| Firmware maturity | Early — architecture done | 3 years of community firmware |
 
 ---
 
-## How to use it
+## Images
 
-1. Power on — main menu appears on 3.5" touchscreen
-2. Navigate using touch or physical buttons
-3. Select any module — Sub-GHz, NFC, IR, WiFi, BLE, LoRa, GPS
-4. Sub-GHz: point at any remote or sensor, press capture, signal is recorded and GPS-tagged automatically
-5. NFC: hold near any card, press read, card data displays on screen. Press clone to write to blank card.
-6. LoRa chat: open chat app, type message on touchscreen keyboard, send — reaches another Flipper Black up to 10km away with no infrastructure
-7. All captured data saved to microSD card
+### Assembled Device
+![Assembled Flipper Black](imgs/Ahh%20soo%20cool.png)
+
+### Final Design
+![Final Design](imgs/final%20design.png)
+
+### Enclosure — Both Sides
+![Enclosure Bodies](imgs/both%20bodies.png)
+
+### PCB 3D Render
+![PCB 3D Model](imgs/PCB%203D%20model.png)
+
+### Raw PCB Layout
+![RAW PCB Layout](imgs/RAW%20design.png)
 
 ---
 
-## Hardware
+## Why I Built This
 
-### Key components
-- **MCU:** ESP32-S3 QFN56 bare die — 240MHz dual core, WiFi + BLE 5.0
-- **Sub-GHz:** CC1101 + PA amplifier — 300-928MHz
-- **LoRa:** SX1262 — 137-1020MHz, up to 10km range
-- **NFC/RFID:** PN532 full stack — 13.56MHz
-- **GPS:** MAX-M8Q — GPS + GLONASS + Galileo + BeiDou
-- **Flash:** W25Q128 — 16MB SPI NOR flash
-- **Display:** Waveshare 3.5" IPS capacitive touchscreen — ST7796S + FT6336U touch
-- **Storage:** MicroSD card slot
-- **Power:** TP4056 + DW01A + AP2112K — LiPo charging, protection, regulation
-- **PCB:** 4-layer custom, JLCPCB fabrication, ENIG finish
+Flipper Zero costs $200 and then nickels-and-dimes you for WiFi, better range, GPS — everything interesting. I wanted a single device that does it all, with better hardware, built from actual components instead of modules.
 
-### PCB
-![PCB 3D Model](PCB%203D%20model.png)
-![RAW Design](RAW%20design.png)
+I also wanted to prove I could. This is my third KiCad PCB project. The first was a music-reactive LED board. The second was an 84-key wireless mechanical keyboard with per-key RGB. This is the third — and the hardest.
 
-### Enclosure
-![Both Bodies](both%20bodies.png)
-![Ahh Soo Cool](Ahh%20soo%20cool.png)
+Every IC on this board was placed by hand. Every trace was routed by me. The enclosure was modeled in Fusion 360 to fit the PCB exactly.
 
 ---
 
 ## Firmware
 
-Firmware is built on ESP-IDF framework in C. Architecture uses FreeRTOS with separate tasks per module running concurrently on both cores.
+**Status: Architecture complete, implementation in progress.**
 
-Full firmware architecture and structure is in `/firmware/architecture/`.
+- Framework: ESP-IDF (C)
+- RTOS: FreeRTOS — each module runs as a dedicated task
+- UI: LVGL on the 3.5" IPS touchscreen
+- Core 0: RF tasks (CC1101, SX1262, PN532)
+- Core 1: UI, GPS, WiFi, system logic
 
-Active development — contributions welcome.
-
----
-
-## BOM
-
-Full BOM with part numbers, suppliers, and links in `/BOM/BOM.csv`
-
-Total estimated cost: **~$280**
+Full architecture doc: [`flipper black firmware/`](./flipper%20black%20firmware/)
 
 ---
 
-## Zine page
+## What It Can Do
 
-![Zine](zine.png)
-
----
-
-## Built by
-
-**broccoli 🥦** — age 19, Punjab, Pakistan
-
-Solo build. Designed entirely from scratch in KiCad.
-
-[here](https://github.com/fussdeek-del/Black-Flipper)
+- **Sub-GHz scanning** — 300–928MHz capture and replay (CC1101 + PA for extended range)
+- **LoRa encrypted chat** — off-grid encrypted messaging up to 10km, zero internet required
+- **NFC/RFID** — 13.56MHz read/write/emulate
+- **GPS signal logging** — every captured RF signal gets GPS-tagged automatically
+- **WiFi** — scanning, packet capture, deauth detection
+- **BLE 5.0** — scanning and interaction
+- **GPS-aware automation** — device behavior changes based on physical location
+- **Dual-core parallel operation** — WiFi scanning and sub-GHz capture simultaneously
 
 ---
 
-## License
+## How to Use
 
-MIT License — open source, build your own.
+> Full guides in [`Flipper Black guide pdfs/`](./Flipper%20Black%20guide%20pdfs/)
+
+### Hardware
+
+1. PCB files in `PCB/` — open `.kicad_pro` in KiCad 8+
+2. Order from JLCPCB: upload gerbers from `PCB/gerbers/`, select 4-layer, ENIG finish
+3. BOM in `BOM/BOM.csv` — order components from LCSC or Mouser
+4. Enclosure: `CAD/` contains the `.step` file — send to a CNC shop or modify as needed
+
+### Firmware
+
+1. Install ESP-IDF v5.x
+2. Clone repo:
+```
+   git clone https://github.com/fussdeek-del/Black-Flipper
+```
+3. Navigate to firmware folder
+4. Build:
+```
+   idf.py build
+```
+5. Flash:
+```
+   idf.py -p PORT flash
+```
+
+> Firmware is under active development. Check the architecture doc before contributing.
+
+---
+
+## Repo Structure
+
+```
+Flipper-Black/
+├── PCB/                        # KiCad project + gerbers
+├── CAD/                        # Fusion 360 enclosure (.step)
+├── flipper black firmware/     # ESP-IDF firmware + architecture
+├── Flipper Black guide pdfs/   # Usage guides
+├── imgs/                       # Photos and renders
+├── BOM/                        # Bill of materials
+└── README.md
+```
+
+---
+
+## Previous Work
+
+This isn't my first PCB.
+
+- **Broccoli Board** — 84-key 75% wireless mechanical keyboard. Custom KiCad PCB, nice!nano V2, ZMK firmware, SK6812 Mini-E per-key RGB. → [github.com/fussdeek-del/Broccoli-board](https://github.com/fussdeek-del/Broccoli-board)
+- **The HUD** — Live game stats on your desk. RP2040 + 2.4" TFT, custom KiCad PCB, C++ firmware. → [github.com/fussdeek-del/N-X-H-desktop-Hud](https://github.com/fussdeek-del/N-X-H-desktop-Hud)
+
+---
+
+## Built By
+
+**broccoli 🥦** — solo hardware builder, Punjab, Pakistan.  
+Hack Club Fallout — Burnout Track
