@@ -65,7 +65,7 @@ This was built for Hack Club Fallout — Burnout track.
 ### Key components
 - **MCU:** ESP32-S3 QFN56 bare die — 240MHz dual core, WiFi + BLE 5.0
 - **Sub-GHz:** CC1101 + PA amplifier — 300-928MHz
-- **LoRa:** SX1276 — 137-1020MHz, up to 10km range
+- **LoRa:** SX1262 — 137-1020MHz, up to 10km range
 - **NFC/RFID:** PN532 full stack — 13.56MHz
 - **GPS:** MAX-M8Q — GPS + GLONASS + Galileo + BeiDou
 - **Flash:** W25Q128 — 16MB SPI NOR flash
