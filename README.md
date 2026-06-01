@@ -31,7 +31,7 @@ This was built for Hack Club Fallout — Burnout track.
 | Infrared TX/RX | ✅ High power array | ✅ Standard |
 | Bad USB | ✅ | ✅ |
 | WiFi 2.4GHz | ✅ Built in | ❌ Needs addon |
-| LoRa 10km range | ✅ SX1276 | ❌ Not available |
+| LoRa 10km range | ✅ SX1262 | ❌ Not available |
 | GPS multi-constellation | ✅ MAX-M8Q | ❌ Not available |
 | BLE | ✅ BLE 5.0 | ✅ BLE 4.2 |
 | Display | ✅ 3.5" color IPS touch | ❌ 1.4" monochrome |
