@@ -181,15 +181,6 @@ Flipper-Black/
 
 ---
 
-## Previous Work
-
-This isn't my first PCB.
-
-- **Broccoli Board** — 84-key 75% wireless mechanical keyboard. Custom KiCad PCB, nice!nano V2, ZMK firmware, SK6812 Mini-E per-key RGB. → [github.com/fussdeek-del/Broccoli-board](https://github.com/fussdeek-del/Broccoli-board)
-- **The HUD** — Live game stats on your desk. RP2040 + 2.4" TFT, custom KiCad PCB, C++ firmware. → [github.com/fussdeek-del/N-X-H-desktop-Hud](https://github.com/fussdeek-del/N-X-H-desktop-Hud)
-
----
-
 ## Built By
 
 **broccoli 🥦** — solo hardware builder, Punjab, Pakistan.  
