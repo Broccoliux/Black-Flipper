@@ -108,5 +108,66 @@ Frimware is not done at all, its not even started yet, i have to give sometime o
 
 ---
 
+## Firmware
 
+**Status: ZZZZZZZZZZZZZZZZZZZZ **
 
+- Framework: ESP-IDF (C)
+- RTOS: FreeRTOS - each module runs as a dedicated task
+- UI: LVGL on the 3.5" IPS touchscreen
+- Core 0: RF tasks (CC1101, SX1262, PN532)
+- Core 1: UI, GPS, WiFi, system logic
+
+Full architecture doc: [`flipper black firmware/`](./flipper%20black%20firmware/)
+
+---
+
+## How to Use
+
+### Hardware
+
+1. PCB files in `PCB/` - open `.kicad_pro` in KiCad 8+
+2. Order from JLCPCB: upload gerbers from `PCB/gerbers/`, select 4-layer
+3. BOM in `BOM/BOM.csv` - order components from LCSC or anyware else
+4. Enclosure: `CAD/` contains the `.step` file - send to a CNC shop or modify as needed
+
+### Firmware (Expected Aricitacture)
+
+1. Install ESP-IDF v5.x
+2. Clone repo:
+```
+   git clone https://github.com/fussdeek-del/Black-Flipper
+```
+3. Navigate to firmware folder
+4. Build:
+```
+   idf.py build
+```
+5. Flash:
+```
+   idf.py -p PORT flash
+```
+
+> Firmware is under active development. Check the architecture doc before contributing.
+
+---
+
+## Repo Structure
+
+```
+Flipper-Black/
+├── PCB/                        # KiCad project + gerbers
+├── CAD/                        # Fusion 360 enclosure (.step)
+├── flipper black firmware/     # ESP-IDF firmware + architecture
+├── Flipper Black guide pdfs/   # Usage guides
+├── imgs/                       # Photos and renders
+├── BOM/                        # Bill of materials
+└── README.md
+```
+
+---
+
+## Built By
+
+**broccoli 🥦** — solo hardware builder, Pakistan.  
+Hack Club Fallout
