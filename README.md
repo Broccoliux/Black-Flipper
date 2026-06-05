@@ -54,4 +54,9 @@ if i be real this is my new passion and a hobby, now i start having fun in these
 - MicroSD card slot - external stroage for capture and logs
 - TP4056 + GW01A + AP2112K - LiPo charging, cell protection and clean regulation
 - TLV70018 1.8v LDO for GPS rail
-- TXB0102 level shifter for mixed voltage
+- TXB0102 level shifter for mixed voltage IO
+- MCP23017 GPIO extender
+- BGA725L6 GPS LNA + SAFFFB1G8KA0F0A SAW filter - clean GPS receive chain
+- PE4259 RF switch for antenna routing
+- CNC aluminum enclosure - custom modeled in Fusion 360 to fit PCB exactly
+- F
