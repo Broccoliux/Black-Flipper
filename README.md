@@ -54,7 +54,7 @@ if i be real this is my new passion and a hobby, now i start having fun in these
 - GPS-aware automation - device behavior changes based on physical location
 - dual-core parallel operation - WiFi and sub-GHz scanning run simutaneosly on seprate cores
 - WaveShare 3.5" IPS capacitive touchscreen (ST7796S + FT6336U) - full colour vs Flipper 1.4" monochrome
-- W25Q128 — 16MB SPI flash
+- W25Q128 - 16MB SPI flash
 - MicroSD card slot - external stroage for capture and logs
 - TP4056 + GW01A + AP2112K - LiPo charging, cell protection and clean regulation
 - TLV70018 1.8v LDO for GPS rail
