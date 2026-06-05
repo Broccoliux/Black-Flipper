@@ -16,6 +16,8 @@ built to outclass Flipper Zero in alomost every aspect, this is better then in h
 # why i built this
 if i be real this is my new passion and a hobby, now i start having fun in these, and i wanted to build something that will check my expertise, and also i need a flipper zero, then i had a chance so i built it. 
 
+---
+
 ## Gallery
 
 ### CAD & Assembly
@@ -36,6 +38,8 @@ if i be real this is my new passion and a hobby, now i start having fun in these
 |:---:|:---:|
 | ![PCB 3D Model](imgs/PCB%203D%20model.png) | ![RAW Design](imgs/RAW%20design.png) |
 | PCB 3D render components placed | Enclosure CAD bare shell |
+
+---
 
 ## Feature
 - 4-layer PCB designed from scratch in KiCad 10, fabricated by JLCPCB with ENIG finish
@@ -61,4 +65,48 @@ if i be real this is my new passion and a hobby, now i start having fun in these
 - CNC aluminum enclosure - custom modeled in Fusion 360 to fit PCB exactly
 - Firmware on ESP-IDF (C) + Free RTOS - dedicated tasks
 - LVGL UI on the touch screen
-- # Total estimate for BOM = $280
+- # Total estimate for BOM = $280-$350
+
+**Not Supported (yet):** 125KHz RFID and iButton/1-Wire were cut to save GPIOs.
+Frimware is not done at all, its not even started yet, i have to give sometime on learing and i might need a team for it too. i will do that after july 10, when my exams will finish.
+
+---
+
+## What's Inside
+| Component | Part | Spec |
+|---|---|---|
+| MCU | ESP32-S3 QFN56 | 240MHz dual-core, WiFi + BLE 5.0 |
+| Sub-GHz Radio | CC1101 + PA amp | 300–928MHz, extended range |
+| LoRa | SX1262 | Up to 10km range |
+| NFC/RFID | PN532 | 13.56MHz full stack |
+| GPS | MAX-M8Q | GPS + GLONASS + Galileo + BeiDou |
+| Flash | W25Q128 | 16MB SPI |
+| Display | Waveshare 3.5" IPS | ST7796S + FT6336U capacitive touch |
+| Storage | MicroSD slot | — |
+| Power | TP4056 + DW01A + AP2112K | LiPo charge + protection + regulation |
+| PCB | 4-layer, PCBA | JLCPCB fabrication |
+| Enclosure | CNC aluminum | Custom designed in Fusion 360 |
+
+**Supporting ICs:** TLV70018 (1.8V LDO FOR GPS), TXB0102 (Level Shifter), MCP23017 (GPIO expander), BGA725L6 (GPS LNA), SAFFB1G58KA0F0A (SAW Filter), PE4259 (RF switches)
+
+---
+
+## Flipper Black vs Flipper Zero
+
+| Feature | Flipper Black | Flipper Zero |
+|---|---|---|
+| CPU | ESP32-S3 @ 240MHz dual-core | STM32WB55 @ 64MHz single-core |
+| WiFi | Built-in | Paid addon required |
+| BLE | 5.0 | 4.2 |
+| Sub-GHz | CC1101 + PA (extended range) | CC1101 stock |
+| LoRa | SX1262, up to 10km | Not available |
+| NFC | PN532 13.56MHz | Yes |
+| 125kHz RFID | No (GPIO constraint) | Yes |
+| GPS | MAX-M8Q multi-constellation | Not available |
+| Display | 3.5" color IPS capacitive touch | 1.4" monochrome |
+| Firmware maturity | Early — architecture done | 3 years of community firmware |
+
+---
+
+
+
