@@ -9,7 +9,9 @@
 
 # Zine
 
-[📖 View the Project Zine](./ZINE.pdf)
+# Zine
+
+[![Zine Preview](imgs/zine-preview.png)](./ZINE.pdf)
 
 ---
 
