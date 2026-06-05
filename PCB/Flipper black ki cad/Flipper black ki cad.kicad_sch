@@ -14918,6 +14918,12 @@
 		(uuid "d2fa7ff1-e103-4f70-9664-a6f1fde3a4ff")
 	)
 	(junction
+		(at 562.61 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d50720c4-7698-49f0-8f65-a09a423209a6")
+	)
+	(junction
 		(at 570.23 314.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14940,12 +14946,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dde2cdf2-75f5-423b-99a0-dc737eef6e29")
-	)
-	(junction
-		(at 562.61 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de28268d-4924-40fe-94b7-dfbbb533dfaf")
 	)
 	(junction
 		(at 340.36 54.61)
@@ -21129,6 +21129,16 @@
 	)
 	(wire
 		(pts
+			(xy 562.61 82.55) (xy 562.61 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c106cae2-1c9d-456c-892b-bbfbf6121632")
+	)
+	(wire
+		(pts
 			(xy 96.52 151.13) (xy 97.79 151.13)
 		)
 		(stroke
@@ -22269,7 +22279,7 @@
 	)
 	(wire
 		(pts
-			(xy 562.61 92.71) (xy 562.61 87.63)
+			(xy 562.61 92.71) (xy 562.61 90.17)
 		)
 		(stroke
 			(width 0)
@@ -51560,7 +51570,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 562.61 83.82 0)
+		(at 562.61 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -51570,7 +51580,7 @@
 		(dnp no)
 		(uuid "d48c0fc3-29a3-4680-a617-bac44bf4cea2")
 		(property "Reference" "C116"
-			(at 562.61 81.534 0)
+			(at 562.61 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51581,7 +51591,7 @@
 			)
 		)
 		(property "Value" "1nf"
-			(at 562.864 86.106 0)
+			(at 562.864 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51592,7 +51602,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 563.5752 87.63 0)
+			(at 563.5752 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51603,7 +51613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 562.61 83.82 0)
+			(at 562.61 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51614,7 +51624,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 562.61 83.82 0)
+			(at 562.61 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
