@@ -169,5 +169,6 @@ Flipper-Black/
 
 ## Built By
 
-**broccoli 🥦** — solo hardware builder, Pakistan.  
+**broccoli 🥦** - solo hardware builder, Pakistan.  # Chasing what i love.
+to the MIT inshaallah
 Hack Club Fallout
