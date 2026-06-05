@@ -14,7 +14,7 @@ A custom open souurce wireless hacking tool, similar concept as Flipper zero but
 built to outclass Flipper Zero in alomost every aspect, this is better then in hardware, range, more protocols, faster processor, bigger and touch screen, GPS, LORA, and wifi all on one board all from scratch. the only things i need is a good team to make a best frimware.
 
 # why i built this
-if i be real this is my new passion and a hobby, now i start having fun in these, and i wanted to build something that will check my expertise, and also i need a flipper zero, then i had a chance so i built it. 
+if i be real this is my new passion and a hobby, now i start having fun in these, and i wanted to build something that will check my expertise, and also i need a flipper zero, then i had a chance so i built it. Also i want to go to MIT so this might help alot.
 
 ---
 
