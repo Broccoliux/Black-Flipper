@@ -104,7 +104,7 @@ Frimware is not done at all, its not even started yet, i have to give sometime o
 | 125kHz RFID | No (GPIO constraint) | Yes |
 | GPS | MAX-M8Q multi-constellation | Not available |
 | Display | 3.5" color IPS capacitive touch | 1.4" monochrome |
-| Firmware maturity | Early — architecture done | 3 years of community firmware |
+| Firmware maturity | Not done at all | 3 years of community firmware |
 
 ---
 
