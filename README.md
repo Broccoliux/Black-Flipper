@@ -11,9 +11,9 @@
 
 # Flipper Black
 
-A custom open-source wireless hacking tool inspired by Flipper Zero, but designed with significantly more flexibility and power. Built on a 4-layer PCB and designed entirely in KiCad, it uses no modules—only bare ICs—with every trace routed by hand.
+A custom open-source wireless hacking tool inspired by Flipper Zero, but designed with significantly more flexibility and power. Built on a 4-layer PCB and designed entirely in KiCad, it uses no modules only bare ICs with every trace routed by hand.
 
-Designed to outperform Flipper Zero in many hardware aspects, including range, protocol support, processing power, display size, touchscreen capability, GPS, LoRa, and Wi-Fi integration. The only thing still missing is a strong firmware team to unlock its full potential.
+Designed to outperform Flipper Zero in many hardware aspects, including range, protocol support, processing power, display size, touchscreen capability, GPS, LoRa, and WiFi integration. The only thing still missing is a strong firmware team to unlock its full potential.
 
 # Why I Built This
 
@@ -191,7 +191,7 @@ Flipper-Black/
 
 ## Built By
 
-**broccoli 🥦** — Solo hardware builder from Pakistan.
+**broccoli 🥦** - Solo hardware builder from Pakistan.
 
 *Chasing what I love.*
 
