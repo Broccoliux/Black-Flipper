@@ -23,16 +23,16 @@ if i be real this is my new passion and a hobby, now i start having fun in these
 | | |
 |:---:|:---:|
 | ![Assembled Device](imgs/Ahh%20soo%20cool.png) | ![Final Design](imgs/final%20design.png) |
-| Fully assembled device — 4 antennas, front panel | Closed enclosure, final form factor |
+| Fully assembled device 5 antennas, front panel | Closed enclosure, final form factor |
 
 | |
 |:---:|
 | ![Enclosure Bodies](imgs/both%20bodies.png) |
-| CNC aluminum enclosure — top and bottom halves |
+| CNC aluminum enclosure - top and bottom halves |
 
 ### PCB
 
 | | |
 |:---:|:---:|
 | ![PCB 3D Model](imgs/PCB%203D%20model.png) | ![RAW Design](imgs/RAW%20design.png) |
-| PCB 3D render — components placed | Enclosure CAD — bare shell |
+| PCB 3D render components placed | Enclosure CAD bare shell |
