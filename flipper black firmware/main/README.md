@@ -1,6 +1,8 @@
+This is just an idea, frimware is not started at all
+
 # Flipper Black Firmware
 
-Custom firmware for Flipper Black — an advanced open-source wireless security research tool based on **ESP32-S3 raw chip**.
+Custom firmware for Flipper Black - an advanced open-source wireless security research tool based on **ESP32-S3 raw chip**.
 
 ## Hardware
 - Main MCU: ESP32-S3 (QFN56)
