@@ -9,10 +9,13 @@
 
 # Zine
 
-# Zine
+[![Zine Preview](imgs/ZINE.png)](./ZINE.pdf)
 
-[![Zine Preview](imgs/zine-preview.png)](./ZINE.pdf)
+> Click the preview above to open the full Zine PDF.
 
+---
+
+# Flipper Black
 ---
 
 # Flipper Black
