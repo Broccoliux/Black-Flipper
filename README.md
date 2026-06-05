@@ -36,3 +36,22 @@ if i be real this is my new passion and a hobby, now i start having fun in these
 |:---:|:---:|
 | ![PCB 3D Model](imgs/PCB%203D%20model.png) | ![RAW Design](imgs/RAW%20design.png) |
 | PCB 3D render components placed | Enclosure CAD bare shell |
+
+## Feature
+- 4-layer PCB designed from scratch in KiCad 10, fabricated by JLCPCB with ENIG finish
+- ESP32 S3 QFN56 bare die - 240MHz dual-core, no dev board, directs chip placment
+- WiFi 802.11 b/g/n built in - no addon required
+- BLE 5.0 - scanning and interaction
+- CC1101 raw chip + PA amplifier - sub-GHz 300-928MHz, extended range over stock Fliiper
+- SX1262 raw chip - Lora up 10km, off grid encrypted text with zero infrastructure
+- PN532 raw chip - NFC/RFID 13.56 full stack, read/write/emulate
+- MAX-M8Q raw chip - multi-constellation GPS (GPS + GLONASS + Galilio + beiDuo)
+- GPS tagged signal logging - every captured RF signal stamped with location automatically
+- GPS-aware automation - device behavior changes based on physical location
+- dual-core parallel operation - WiFi and sub-GHz scanning run simutaneosly on seprate cores
+- WaveShare 3.5" IPS capacitive touchscreen (ST7796S + FT6336U) - full colour vs Flipper 1.4" monochrome
+- W25Q128 — 16MB SPI flash
+- MicroSD card slot - external stroage for capture and logs
+- TP4056 + GW01A + AP2112K - LiPo charging, cell protection and clean regulation
+- TLV70018 1.8v LDO for GPS rail
+- TXB0102 level shifter for mixed voltage
