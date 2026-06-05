@@ -11,7 +11,7 @@
 
 A custom open-source wireless security research tool built from raw chips on a 4-layer PCB designed in KiCad. No modules. No dev boards. No kits. Every IC hand-placed, every trace manually routed.
 
-Built to outclass the Flipper Zero in hardware — more range, more protocols, faster processor, bigger screen, GPS, LoRa, and WiFi — all on one board, all from scratch.
+Built to outclass the Flipper Zero in hardware — more range, more protocols, faster processor, bigger screen, GPS, LoRa, and WiFi all on one board, all from scratch.
 
 > Solo build by a 19-year-old from Punjab, Pakistan.
 
