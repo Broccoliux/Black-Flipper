@@ -1,20 +1,29 @@
 ![ESP32-S3](https://img.shields.io/badge/MCU-ESP32--S3-red?style=flat-square)
-![cc1101](https://img.shields.io/badge/Sub--GHz-CC1101%20%2B%20PA-orange?style=flat-square)
+![CC1101](https://img.shields.io/badge/Sub--GHz-CC1101%20%2B%20PA-orange?style=flat-square)
 ![SX1262](https://img.shields.io/badge/LoRa-SX1262%2010km-blue?style=flat-square)
 ![PN532](https://img.shields.io/badge/NFC-PN532-green?style=flat-square)
 ![GPS](https://img.shields.io/badge/GPS-MAX--M8Q-brightgreen?style=flat-square)
-![KIKAD](https://img.shields.io/badge/PCB-KiCad%2010-blue?style=flat-square)
+![KiCad](https://img.shields.io/badge/PCB-KiCad%2010-blue?style=flat-square)
 ![4-Layer](https://img.shields.io/badge/Layers-4--Layer%20ENIG-yellow?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 
+# Zine
+
+[📖 View the Project Zine](./ZINE.pdf)
+
+---
+
 # Flipper Black
 
-A custom open souurce wireless hacking tool, similar concept as Flipper zero but with 100X more flexibilty and power full, built on 4 layer PCB , designed in KICAD, no modules only raae CHIPS, every trace routed by hand. 
+A custom open-source wireless hacking tool inspired by Flipper Zero, but designed with significantly more flexibility and power. Built on a 4-layer PCB and designed entirely in KiCad, it uses no modules—only bare ICs—with every trace routed by hand.
 
-built to outclass Flipper Zero in alomost every aspect, this is better then in hardware, range, more protocols, faster processor, bigger and touch screen, GPS, LORA, and wifi all on one board all from scratch. the only things i need is a good team to make a best frimware.
+Designed to outperform Flipper Zero in many hardware aspects, including range, protocol support, processing power, display size, touchscreen capability, GPS, LoRa, and Wi-Fi integration. The only thing still missing is a strong firmware team to unlock its full potential.
 
-# why i built this
-if i be real this is my new passion and a hobby, now i start having fun in these, and i wanted to build something that will check my expertise, and also i need a flipper zero, then i had a chance so i built it. Also i want to go to MIT so this might help alot.
+# Why I Built This
+
+If I'm being honest, this started as a hobby and quickly became a passion. I genuinely enjoy working on projects like this and wanted to build something that would challenge my skills and push my knowledge further.
+
+I also wanted a Flipper Zero, but instead of buying one, I decided to build my own version from scratch. This project became an opportunity to learn, improve, and create something unique. It also serves as a major personal project that reflects my engineering abilities and ambitions.
 
 ---
 
@@ -25,7 +34,7 @@ if i be real this is my new passion and a hobby, now i start having fun in these
 | | |
 |:---:|:---:|
 | ![Assembled Device](imgs/Ahh%20soo%20cool.png) | ![Final Design](imgs/final%20design.png) |
-| Fully assembled device 5 antennas, front panel | Closed enclosure, final form factor |
+| Fully assembled device with 5 antennas and front panel | Closed enclosure, final form factor |
 
 | |
 |:---:|
@@ -37,57 +46,60 @@ if i be real this is my new passion and a hobby, now i start having fun in these
 | | |
 |:---:|:---:|
 | ![PCB 3D Model](imgs/PCB%203D%20model.png) | ![RAW Design](imgs/RAW%20design.png) |
-| PCB 3D render components placed | Enclosure CAD bare shell |
+| PCB 3D render with components placed | Enclosure CAD bare shell |
 
 ---
 
-## Feature
-- 4-layer PCB designed from scratch in KiCad 10, fabricated by JLCPCB with ENIG finish
-- ESP32 S3 QFN56 bare die - 240MHz dual-core, no dev board, directs chip placment
-- WiFi 802.11 b/g/n built in - no addon required
-- BLE 5.0 - scanning and interaction
-- CC1101 raw chip + PA amplifier - sub-GHz 300-928MHz, extended range over stock Fliiper
-- SX1262 raw chip - Lora up 10km, off grid encrypted text with zero infrastructure
-- PN532 raw chip - NFC/RFID 13.56 full stack, read/write/emulate
-- MAX-M8Q raw chip - multi-constellation GPS (GPS + GLONASS + Galilio + beiDuo)
-- GPS tagged signal logging - every captured RF signal stamped with location automatically
-- GPS-aware automation - device behavior changes based on physical location
-- dual-core parallel operation - WiFi and sub-GHz scanning run simutaneosly on seprate cores
-- WaveShare 3.5" IPS capacitive touchscreen (ST7796S + FT6336U) - full colour vs Flipper 1.4" monochrome
-- W25Q128 - 16MB SPI flash
-- MicroSD card slot - external stroage for capture and logs
-- TP4056 + GW01A + AP2112K - LiPo charging, cell protection and clean regulation
-- TLV70018 1.8v LDO for GPS rail
-- TXB0102 level shifter for mixed voltage IO
-- MCP23017 GPIO extender
-- BGA725L6 GPS LNA + SAFFFB1G8KA0F0A SAW filter - clean GPS receive chain
-- PE4259 RF switch for antenna routing
-- CNC aluminum enclosure - custom modeled in Fusion 360 to fit PCB exactly
-- Firmware on ESP-IDF (C) + Free RTOS - dedicated tasks
-- LVGL UI on the touch screen
-- # Total estimate for BOM = $280-$350
+## Features
 
-**Not Supported (yet):** 125KHz RFID and iButton/1-Wire were cut to save GPIOs.
-Frimware is not done at all, its not even started yet, i have to give sometime on learing and i might need a team for it too. i will do that after july 10, when my exams will finish.
+- 4-layer PCB designed from scratch in KiCad 10, fabricated by JLCPCB with ENIG finish
+- ESP32-S3 QFN56 bare IC - 240 MHz dual-core MCU, no development board used
+- Wi-Fi 802.11 b/g/n built in - no add-on required
+- BLE 5.0 - scanning and interaction
+- CC1101 raw chip + PA amplifier - Sub-GHz 300–928 MHz, extended range over stock Flipper
+- SX1262 raw chip - LoRa communication up to 10 km
+- PN532 raw chip - NFC/RFID 13.56 MHz full stack, read/write/emulate
+- MAX-M8Q raw chip - Multi-constellation GPS (GPS + GLONASS + Galileo + BeiDou)
+- GPS-tagged signal logging - every captured RF signal is stamped with location automatically
+- GPS-aware automation - device behavior changes based on physical location
+- Dual-core parallel operation - Wi-Fi and Sub-GHz scanning run simultaneously on separate cores
+- Waveshare 3.5" IPS capacitive touchscreen (ST7796S + FT6336U)
+- W25Q128 - 16 MB SPI flash
+- MicroSD card slot - external storage for captures and logs
+- TP4056 + DW01A + AP2112K - LiPo charging, protection, and regulation
+- TLV70018 1.8V LDO for GPS rail
+- TXB0102 level shifter for mixed-voltage I/O
+- MCP23017 GPIO expander
+- BGA725L6 GPS LNA + SAFFFB1G8KA0F0A SAW filter for a clean GPS receive chain
+- PE4259 RF switch for antenna routing
+- CNC aluminum enclosure custom-designed in Fusion 360
+- Firmware based on ESP-IDF (C) + FreeRTOS
+- LVGL UI running on the touchscreen
+- **Estimated BOM Cost:** $280–$350
+
+**Not Supported Yet:** 125 kHz RFID and iButton/1-Wire were removed to save GPIOs.
+
+Firmware development has not started yet. I plan to begin after July 10, once my exams are finished. I may also build a team to help with firmware development.
 
 ---
 
 ## What's Inside
-| Component | Part | Spec |
-|---|---|---|
-| MCU | ESP32-S3 QFN56 | 240MHz dual-core, WiFi + BLE 5.0 |
-| Sub-GHz Radio | CC1101 + PA amp | 300–928MHz, extended range |
-| LoRa | SX1262 | Up to 10km range |
-| NFC/RFID | PN532 | 13.56MHz full stack |
-| GPS | MAX-M8Q | GPS + GLONASS + Galileo + BeiDou |
-| Flash | W25Q128 | 16MB SPI |
-| Display | Waveshare 3.5" IPS | ST7796S + FT6336U capacitive touch |
-| Storage | MicroSD slot | — |
-| Power | TP4056 + DW01A + AP2112K | LiPo charge + protection + regulation |
-| PCB | 4-layer, PCBA | JLCPCB fabrication |
-| Enclosure | CNC aluminum | Custom designed in Fusion 360 |
 
-**Supporting ICs:** TLV70018 (1.8V LDO FOR GPS), TXB0102 (Level Shifter), MCP23017 (GPIO expander), BGA725L6 (GPS LNA), SAFFB1G58KA0F0A (SAW Filter), PE4259 (RF switches)
+| Component | Part | Specification |
+|---|---|---|
+| MCU | ESP32-S3 QFN56 | 240 MHz dual-core, Wi-Fi + BLE 5.0 |
+| Sub-GHz Radio | CC1101 + PA Amplifier | 300–928 MHz, extended range |
+| LoRa | SX1262 | Up to 10 km range |
+| NFC/RFID | PN532 | 13.56 MHz full stack |
+| GPS | MAX-M8Q | GPS + GLONASS + Galileo + BeiDou |
+| Flash | W25Q128 | 16 MB SPI |
+| Display | Waveshare 3.5" IPS | ST7796S + FT6336U capacitive touch |
+| Storage | MicroSD Slot | — |
+| Power | TP4056 + DW01A + AP2112K | LiPo charging and protection |
+| PCB | 4-layer PCB | JLCPCB fabrication |
+| Enclosure | CNC Aluminum | Custom designed in Fusion 360 |
+
+**Supporting ICs:** TLV70018 (1.8V GPS LDO), TXB0102 (Level Shifter), MCP23017 (GPIO Expander), BGA725L6 (GPS LNA), SAFFFB1G8KA0F0A (SAW Filter), PE4259 (RF Switch)
 
 ---
 
@@ -95,30 +107,30 @@ Frimware is not done at all, its not even started yet, i have to give sometime o
 
 | Feature | Flipper Black | Flipper Zero |
 |---|---|---|
-| CPU | ESP32-S3 @ 240MHz dual-core | STM32WB55 @ 64MHz single-core |
-| WiFi | Built-in | Paid addon required |
+| CPU | ESP32-S3 @ 240 MHz Dual-Core | STM32WB55 @ 64 MHz Single-Core |
+| Wi-Fi | Built-in | Add-on Required |
 | BLE | 5.0 | 4.2 |
-| Sub-GHz | CC1101 + PA (extended range) | CC1101 stock |
-| LoRa | SX1262, up to 10km | Not available |
-| NFC | PN532 13.56MHz | Yes |
-| 125kHz RFID | No (GPIO constraint) | Yes |
-| GPS | MAX-M8Q multi-constellation | Not available |
-| Display | 3.5" color IPS capacitive touch | 1.4" monochrome |
-| Firmware maturity | Not done at all | 3 years of community firmware |
+| Sub-GHz | CC1101 + PA Amplifier | CC1101 |
+| LoRa | SX1262, up to 10 km | Not Available |
+| NFC | PN532 13.56 MHz | Yes |
+| 125 kHz RFID | No | Yes |
+| GPS | MAX-M8Q Multi-Constellation | Not Available |
+| Display | 3.5" Color IPS Capacitive Touch | 1.4" Monochrome |
+| Firmware Maturity | Not Started | Mature Ecosystem |
 
 ---
 
 ## Firmware
 
-**Status: ZZZZZZZZZZZZZZZZZZZZ **
+**Status:** ZZZZZZZZZZZZZZZZZZZZ
 
 - Framework: ESP-IDF (C)
-- RTOS: FreeRTOS - each module runs as a dedicated task
+- RTOS: FreeRTOS
 - UI: LVGL on the 3.5" IPS touchscreen
 - Core 0: RF tasks (CC1101, SX1262, PN532)
-- Core 1: UI, GPS, WiFi, system logic
+- Core 1: UI, GPS, Wi-Fi, and system logic
 
-Full architecture doc: [`flipper black firmware/`](./flipper%20black%20firmware/)
+Full architecture document: [`flipper black firmware/`](./flipper%20black%20firmware/)
 
 ---
 
@@ -126,42 +138,49 @@ Full architecture doc: [`flipper black firmware/`](./flipper%20black%20firmware/
 
 ### Hardware
 
-1. PCB files in `PCB/` - open `.kicad_pro` in KiCad 8+
-2. Order from JLCPCB: upload gerbers from `PCB/gerbers/`, select 4-layer
-3. BOM in `BOM/BOM.csv` - order components from LCSC or anyware else
-4. Enclosure: `CAD/` contains the `.step` file - send to a CNC shop or modify as needed
+1. PCB files are located in `PCB/`
+2. Open the `.kicad_pro` file in KiCad 8+
+3. Upload Gerbers from `PCB/gerbers/` to JLCPCB
+4. Order components using `BOM/BOM.csv`
+5. The enclosure STEP file is available in `CAD/`
 
-### Firmware (Expected Aricitacture)
+### Firmware (Planned Architecture)
 
 1. Install ESP-IDF v5.x
-2. Clone repo:
-```
-   git clone https://github.com/fussdeek-del/Black-Flipper
-```
-3. Navigate to firmware folder
-4. Build:
-```
-   idf.py build
-```
-5. Flash:
-```
-   idf.py -p PORT flash
+2. Clone the repository
+
+```bash
+git clone https://github.com/fussdeek-del/Black-Flipper
 ```
 
-> Firmware is under active development. Check the architecture doc before contributing.
+3. Navigate to the firmware folder
+
+4. Build
+
+```bash
+idf.py build
+```
+
+5. Flash
+
+```bash
+idf.py -p PORT flash
+```
+
+> Firmware is under active planning and development. Check the architecture documentation before contributing.
 
 ---
 
-## Repo Structure
+## Repository Structure
 
-```
+```text
 Flipper-Black/
-├── PCB/                        # KiCad project + gerbers
+├── PCB/                        # KiCad project + Gerbers
 ├── CAD/                        # Fusion 360 enclosure (.step)
 ├── flipper black firmware/     # ESP-IDF firmware + architecture
-├── Flipper Black guide pdfs/   # Usage guides
+├── Flipper Black guide pdfs/   # Documentation and guides
 ├── imgs/                       # Photos and renders
-├── BOM/                        # Bill of materials
+├── BOM/                        # Bill of Materials
 └── README.md
 ```
 
@@ -169,6 +188,8 @@ Flipper-Black/
 
 ## Built By
 
-**broccoli 🥦** - solo hardware builder, Pakistan.  # Chasing what i love.
-to the MIT inshaallah
+**broccoli 🥦** — Solo hardware builder from Pakistan.
+
+*Chasing what I love.*
+
 Hack Club Fallout
