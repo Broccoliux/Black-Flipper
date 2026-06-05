@@ -59,4 +59,6 @@ if i be real this is my new passion and a hobby, now i start having fun in these
 - BGA725L6 GPS LNA + SAFFFB1G8KA0F0A SAW filter - clean GPS receive chain
 - PE4259 RF switch for antenna routing
 - CNC aluminum enclosure - custom modeled in Fusion 360 to fit PCB exactly
-- F
+- Firmware on ESP-IDF (C) + Free RTOS - dedicated tasks
+- LVGL UI on the touch screen
+- # Total estimate for BOM = $280
