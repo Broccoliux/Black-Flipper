@@ -7,7 +7,7 @@
 ![4-Layer](https://img.shields.io/badge/Layers-4--Layer%20ENIG-yellow?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 
-#Flipper Black
+# Flipper Black
 
 A custom open souurce wireless hacking tool, similar concept as Flipper zero but with 100X more flexibilty and power full, built on 4 layer PCB , designed in KICAD, no modules only raae CHIPS, every trace routed by hand. 
 
