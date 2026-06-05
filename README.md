@@ -7,15 +7,6 @@
 ![4-Layer](https://img.shields.io/badge/Layers-4--Layer%20ENIG-yellow?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 
-# Zine
-
-[![Zine Preview](imgs/ZINE.png)](./ZINE.pdf)
-
-> Click the preview above to open the full Zine PDF.
-
----
-
-# Flipper Black
 ---
 
 # Flipper Black
@@ -31,6 +22,13 @@ If I'm being honest, this started as a hobby and quickly became a passion. I gen
 I also wanted a Flipper Zero, but instead of buying one, I decided to build my own version from scratch. This project became an opportunity to learn, improve, and create something unique. It also serves as a major personal project that reflects my engineering abilities and ambitions.
 
 ---
+
+# Zine
+
+[![Zine Preview](imgs/ZINE.png)](./ZINE.pdf)
+
+> Click the preview above to open the full Zine PDF.
+
 
 ## Gallery
 
