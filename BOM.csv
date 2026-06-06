@@ -1,85 +1,85 @@
-Reference,Qty,Value,link,cost
-"C1,C2,C6,C7,C8,C17,C18,C67,C68,C69,C70,C71,C75,C84,C86,C87,C94,C96,C97,C98,C99,C100,C107,C109,C113,C121",26,100nf,,
-"C3,C16,C101",3,0.1uf,,
-"C4,C95,C102,C103,C104,C106",6,10uf,,
-"C5,C9,C72,C85,C108,C_EN1",5,1uf,,
-"C10,C11,C19,C20,C21,C22,C23,C24,C28",9,18pf,,
-C12,1,1.8pf,,
-C13,1,1.2pf,,
-"C14,C25",2,1.0pf,,
-"C15,C26,C27",3,1.5pf,,
-"C74,C78,C80,C92,C119,C73",6,22pf,,
-"C76,C77,C79,C81",4,220pf,,
-"C82,C91,C116,C122",4,1nf,,
-"C83,C105",2,100pf,,
-C88,1,47pf,,
-C89,1,10pf,,
-"C90,C93",2,10nf,,
-C110,1,470nf,,
-"C111,C112,C118,C120,C123",5,10pf,,
-C114,1,6.8pf,,
-"C115,C125",2,8.2pf,,
-"C117,C124",2,5.66pf,,
-"CC1101_ANT1,GPS_ANT1,PCB_ANT1,SX1262_ANT (U.FL)",4,50ohm,,
-D1,1,TPESD5V0L2,,
-"D2,D3",2,LED,,
-D4,1,MBR1020VL,,
-"FB1,FB2",2,BLM21PG221SN1D,,
-FL1,1,SAFFB1G58KA0F0A,,
-"IR_LEDs1,IR_LEDs2,IR_LEDs3",3,940nm,,
-J2,1,DISP_3.5_WAVESHARE,,
-L1,1,2nH 500mA,,
-L2,1,24nH,,
-"L3,L4",2,2.7nH,,
-"L5,L6,L7,L8,L32",5,27nH,,
-"L9,L10",2,47nH,,
-L11,1,23nH,,
-"L25,L26",2,220nH,,
-L27,1,5.6nH,,
-"L28,L33",2,18nH,,
-"L29,L30",2,15nH,,
-"L31,L34",2,22nH,,
-P1,1,JST-2pin,,
-P2,1,USB_C_Plug_USB2.0,,
-Q1,1,MMBT2222A,,
-Q2,1,FS8205A,,
-"R1,R2,R3,R4,R5,R_I0,R_I1",7,0R,,
-R6,1,499R,,
-"R7,R24,R26,R27,R34,R18,R19,R23,R28,R45,R46,R_38,R_BOOT1,R_EN1,R_G45,R_G46",15,10K,,
-"R20,R22,R25,R37,R38,R41,R42,R43,R44",9,10R,,
-"R21,R35,R36",3,1K,,
-"R29,R30,R32",3,33R,,
-"R31,R47,R48",3,100R,,
-R33,1,1.2K,,
-R39,1,100K,,
-R40,1,5.1K,,
-"SW3,4,5,6,7,8",6,BUTTONS smd,,
-"SW1,2",2,IC BUTTONS,,
-"TP1,2,3,4,5,6,7,8,9",5,TP HOLES,,
-U1,1,ESP32-S3,,
-U2,1,W25Q128JVS,,
-U3,1,CC1101,,
-U7,1,PN5321A3HN,,
-U8,1,MAX-M8Q,,
-U9,1,MASW-007221,,
-U10,1,BGA725L6,,
-U11,1,TLV70018_SOT23-5,,
-U12,1,TXB0102DCU,,
-U13,1,MCP23017x-x-SS,,
-U14,1,TSOP382xx,,
-U15,1,TP4056,,
-U16,1,"PESD5V0L4UG,115",,
-U17,1,AP2112K-3.3,,
-U18,1,DW01A,,
-U19,1,SX1262IMLTRT,,
-U20,1,PE4259,,
-Y1,1,40MHz SMD 3225,,
-Y2,1,26 MHz SMD,,
-Y4,1,27.120 MHz SMD,,
-Y5,1,32 MHz SMD,,
-ANTENNAs,1,,,
-ANTENNAs,1,,,
-ANTENNAs,1,,,
-ANTENNAs,1,,,
-mounting nuts,20,2.1mm,,
-PCBA ,1,above cost wont be added if i go PCBA,,$120
+Reference,Qty,Value,link,cost,min Qty can buy
+"C1,C2,C6,C7,C8,C17,C18,C67,C68,C69,C70,C71,C75,C84,C86,C87,C94,C96,C97,C98,C99,C100,C107,C109,C113,C121",26,100nf,https://www.aliexpress.com/item/32371454429.html,$1.5,100
+"C3,C16,C101",3,0.1uf,https://www.aliexpress.com/item/1005005653862475.html,$1.5,100
+"C4,C95,C102,C103,C104,C106",6,10uf,https://www.aliexpress.com/item/1005005653862475.html,$2,100
+"C5,C9,C72,C85,C108,C_EN1",5,1uf,https://www.aliexpress.com/item/1005007137284660.html,$1,100
+"C10,C11,C19,C20,C21,C22,C23,C24,C28",9,18pf,https://www.aliexpress.com/item/1005007137284660.html,$1,100
+C12,1,1.8pf,https://www.aliexpress.com/item/1005007137284660.htmll,$1,100
+C13,1,1.2pf,https://www.aliexpress.com/item/1005007137284660.html,$1,100
+"C14,C25",2,1.0pf,https://www.aliexpress.com/item/1005007137284660.html,$1,100
+"C15,C26,C27",3,1.5pf,https://www.aliexpress.com/item/1005007137284660.html,$1,100
+"C74,C78,C80,C92,C119,C73",6,22pf,https://www.aliexpress.com/item/1005007137284660.html,$1,100
+"C76,C77,C79,C81",4,220pf,https://www.aliexpress.com/item/1005007137284660.html,$1,100
+"C82,C91,C116,C122",4,1nf,https://www.aliexpress.com/item/1005007137284660.html,$1,100
+"C83,C105",2,100pf,https://www.aliexpress.com/item/1005007137284660.html,$1,100
+C88,1,47pf,https://www.aliexpress.com/item/1005007137284660.html,$1,100
+C89,1,10pf,https://www.aliexpress.com/item/1005007137284660.html,$1,100
+"C90,C93",2,10nf,https://www.aliexpress.com/item/1005007137284660.html,$1,100
+C110,1,470nf,https://www.aliexpress.com/item/1005007137284660.html,$1,100
+"C111,C112,C118,C120,C123",5,10pf,https://www.aliexpress.com/item/1005007137284660.html,$1,100
+C114,1,6.8pf,https://www.aliexpress.com/item/1005007137284660.html,$1,100
+"C115,C125",2,8.2pf,https://www.aliexpress.com/item/1005007137284660.html,$1,100
+"C117,C124",2,5.66pf,https://www.aliexpress.com/item/1005007137284660.html,$1,100
+"CC1101_ANT1,GPS_ANT1,PCB_ANT1,SX1262_ANT (U.FL)",4,50ohm,https://www.aliexpress.com/item/1005010015902109.html,$5,4
+D1,1,TPESD5V0L2,,,
+"D2,D3",2,LED,https://www.aliexpress.com/item/1005006207219959.html,$3.5,200
+D4,1,MBR1020VL,https://www.lcsc.com/product-detail/C191986.html,$0.93,10
+"FB1,FB2",2,BLM21PG221SN1D,https://www.lcsc.com/product-detail/C85840.html,$0.92,20
+FL1,1,SAFFB1G58KA0F0A,https://www.lcsc.com/product-image/C91647.html,$1,10
+"IR_LEDs1,IR_LEDs2,IR_LEDs3",3,940nm,https://www.aliexpress.com/item/1005003330154455.html,$5,20
+J2,1,DISP_3.5_WAVESHARE,https://www.aliexpress.com/item/1005008868165133.html,$23,1
+L1,1,2nH 500mA,https://jlcpcb.com/partdetail/Sunlord-SDWL1608C24NJSTFM01/C408735,$0.3,10
+L2,1,24nH,https://www.aliexpress.com/item/1005003077524611.html,$2.7,50
+"L3,L4",2,2.7nH,https://www.aliexpress.com/item/1005003077524611.html,$2.7,50
+"L5,L6,L7,L8,L32",5,27nH,https://www.aliexpress.com/item/1005003077524611.html,$2.7,50
+"L9,L10",2,47nH,https://www.aliexpress.com/item/1005003077524611.html,$2.7,50
+L11,1,23nH,https://www.aliexpress.com/item/1005003077524611.html,$2.7,50
+"L25,L26",2,220nH,https://www.aliexpress.com/item/1005003077524611.html,$2.7,50
+L27,1,5.6nH,https://www.aliexpress.com/item/1005003077524611.html,$2.7,50
+"L28,L33",2,18nH,https://www.aliexpress.com/item/1005003077524611.html,$2.7,50
+"L29,L30",2,15nH,https://www.aliexpress.com/item/1005003077524611.html,$2.7,50
+"L31,L34",2,22nH,https://www.aliexpress.com/item/1005003077524611.html,$2.7,50
+P1,1,JST-2pin,https://www.aliexpress.com/item/1005009002970396.html,$1.7,10
+P2,1,USB_C_Plug_USB2.0,https://www.aliexpress.com/item/1005008805157100.html,$2.9,10
+Q1,1,MMBT2222A,https://www.lcsc.com/product-detail/C83939.html,$0.7,50
+Q2,1,FS8205A,,,
+"R1,R2,R3,R4,R5,R_I0,R_I1",7,0R,,,
+R6,1,499R,,,
+"R7,R24,R26,R27,R34,R18,R19,R23,R28,R45,R46,R_38,R_BOOT1,R_EN1,R_G45,R_G46",15,10K,,,
+"R20,R22,R25,R37,R38,R41,R42,R43,R44",9,10R,,,
+"R21,R35,R36",3,1K,,,
+"R29,R30,R32",3,33R,,,
+"R31,R47,R48",3,100R,,,
+R33,1,1.2K,,,
+R39,1,100K,,,
+R40,1,5.1K,,,
+"SW3,4,5,6,7,8",6,BUTTONS smd,,,
+"SW1,2",2,IC BUTTONS,,,
+"TP1,2,3,4,5,6,7,8,9",5,TP HOLES,,,
+U1,1,ESP32-S3,,,
+U2,1,W25Q128JVS,,,
+U3,1,CC1101,,,
+U7,1,PN5321A3HN,,,
+U8,1,MAX-M8Q,,,
+U9,1,MASW-007221,,,
+U10,1,BGA725L6,,,
+U11,1,TLV70018_SOT23-5,,,
+U12,1,TXB0102DCU,,,
+U13,1,MCP23017x-x-SS,,,
+U14,1,TSOP382xx,,,
+U15,1,TP4056,,,
+U16,1,"PESD5V0L4UG,115",,,
+U17,1,AP2112K-3.3,,,
+U18,1,DW01A,,,
+U19,1,SX1262IMLTRT,,,
+U20,1,PE4259,,,
+Y1,1,40MHz SMD 3225,,,
+Y2,1,26 MHz SMD,,,
+Y4,1,27.120 MHz SMD,,,
+Y5,1,32 MHz SMD,,,
+ANTENNAs,1,,,,
+ANTENNAs,1,,,,
+ANTENNAs,1,,,,
+ANTENNAs,1,,,,
+mounting nuts,20,2.1mm,,,
+PCBA ,1,above cost wont be added if i go PCBA,,$120,
