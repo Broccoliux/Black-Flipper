@@ -52,7 +52,7 @@ I also wanted a Flipper Zero, but instead of buying one, I decided to build my o
 | PCB 3D render with components placed | Enclosure CAD bare shell |
 
 ### Assembly
-1. Place PCB inside the bottom aluminum enclosure half
+1. Place PCB inside the bottom enclosure half
 2. Secure with M2 screws at the 4 corner mounting holes
 3. Connect the 3.5" display flat cable to the FPC connector
 4. Route antenna cables through the side slots
