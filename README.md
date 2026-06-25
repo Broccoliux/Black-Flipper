@@ -203,5 +203,3 @@ Flipper-Black/
 *Chasing what I love.*
 
 shhhhhhhhh 
-
-bit expansive but worth making. 
