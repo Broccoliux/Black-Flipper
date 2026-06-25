@@ -104,7 +104,7 @@ Firmware development has not started yet. I plan to begin after July 10, once my
 | GPS | MAX-M8Q | GPS + GLONASS + Galileo + BeiDou |
 | Flash | W25Q128 | 16 MB SPI |
 | Display | Waveshare 3.5" IPS | ST7796S + FT6336U capacitive touch |
-| Storage | MicroSD Slot | — |
+| Storage | MicroSD Slot | 64GB SD card |
 | Power | TP4056 + DW01A + AP2112K | LiPo charging and protection |
 | PCB | 4-layer PCB | JLCPCB fabrication |
 | Enclosure | CNC Aluminum | Custom designed in Fusion 360 |
