@@ -147,6 +147,7 @@ git submodule update --init --recursive
 ```
 
 To build the firmware (see the firmware repo for complete instructions):
+> Firmware is under active planning and development. Check the architecture documentation before contributing.
 
 ```bash
 cd external/firmware
@@ -166,8 +167,6 @@ idf.py build
 5. The enclosure STEP file is available in `CAD/`
 
 ```
-
-> Firmware is under active planning and development. Check the architecture documentation before contributing.
 
 ---
 
