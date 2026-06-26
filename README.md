@@ -165,27 +165,6 @@ idf.py build
 4. Order components using `BOM/BOM.csv`
 5. The enclosure STEP file is available in `CAD/`
 
-### Firmware (Planned Architecture)
-
-1. Install ESP-IDF v5.x
-2. Clone the repository
-
-```bash
-git clone https://github.com/fussdeek-del/Black-Flipper
-```
-
-3. Navigate to the firmware folder
-
-4. Build
-
-```bash
-idf.py build
-```
-
-5. Flash
-
-```bash
-idf.py -p PORT flash
 ```
 
 > Firmware is under active planning and development. Check the architecture documentation before contributing.
