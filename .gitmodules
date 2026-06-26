@@ -1,0 +1,3 @@
+[submodule "external/firmware"]
+	path = external/firmware
+	url = https://github.com/fussdeek-del/Black-Flipper-firmware
