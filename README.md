@@ -11,15 +11,15 @@
 
 # Flipper Black
 
-A custom open-source wireless hacking tool inspired by Flipper Zero, but designed with significantly more flexibility and power. Built on a 4-layer PCB and designed entirely in KiCad, it uses no modules only bare ICs with every trace routed by hand.
+A custom open-source wireless hacking tool inspired by Flipper Zero, but designed with significantly more flexibility and power. Built on a 4-layer PCB and designed entirely in KiCad, it uses no m[...]
 
-Designed to outperform Flipper Zero in many hardware aspects, including range, protocol support, processing power, display size, touchscreen capability, GPS, LoRa, and WiFi integration. The only thing still missing is a strong firmware team to unlock its full potential.
+Designed to outperform Flipper Zero in many hardware aspects, including range, protocol support, processing power, display size, touchscreen capability, GPS, LoRa, and WiFi integration. The only t[...]
 
 # Why I Built This
 
-If I'm being honest, this started as a hobby and quickly became a passion. I genuinely enjoy working on projects like this and wanted to build something that would challenge my skills and push my knowledge further.
+If I'm being honest, this started as a hobby and quickly became a passion. I genuinely enjoy working on projects like this and wanted to build something that would challenge my skills and push my [...]
 
-I also wanted a Flipper Zero, but instead of buying one, I decided to build my own version from scratch. This project became an opportunity to learn, improve, and create something unique. It also serves as a major personal project that reflects my engineering abilities and ambitions.
+I also wanted a Flipper Zero, but instead of buying one, I decided to build my own version from scratch. This project became an opportunity to learn, improve, and create something unique. It also [...]
 
 ---
 
@@ -63,7 +63,7 @@ I also wanted a Flipper Zero, but instead of buying one, I decided to build my o
 ## Features
 
 - 4-layer PCB designed from scratch in KiCad 10, fabricated by JLCPCB with ENIG finish
-- ESP32-S3 QFN56 bare IC - 240 MHz dual-core MCU, no development board used
+- ESP32-S3 QFN56 bare IC - 240 MHz dual-core, no development board used
 - Wi-Fi 802.11 b/g/n built in - no add-on required
 - BLE 5.0 - scanning and interaction
 - CC1101 raw chip + PA amplifier - Sub-GHz 300–928 MHz, extended range over stock Flipper
@@ -132,15 +132,26 @@ Firmware development has not started yet. I plan to begin after July 10, once my
 
 ## Firmware
 
-**Status:** ZZZZZZZZZZZZZZZZZZZZ
+**Status:** linked as a submodule
 
-- Framework: ESP-IDF (C)
-- RTOS: FreeRTOS
-- UI: LVGL on the 3.5" IPS touchscreen
-- Core 0: RF tasks (CC1101, SX1262, PN532)
-- Core 1: UI, GPS, Wi-Fi, and system logic
+- Firmware is maintained in a separate repository: https://github.com/fussdeek-del/Black-Flipper-firmware
+- The firmware repository is included here as a git submodule at `external/firmware`.
 
-Full architecture document: [`flipper black firmware/`](./flipper%20black%20firmware/)
+To initialize the submodule locally after cloning:
+
+```bash
+git clone https://github.com/fussdeek-del/Black-Flipper
+cd Black-Flipper
+git checkout integrate/firmware-submodule-fix
+git submodule update --init --recursive
+```
+
+To build the firmware (see the firmware repo for complete instructions):
+
+```bash
+cd external/firmware
+idf.py build
+```
 
 ---
 
