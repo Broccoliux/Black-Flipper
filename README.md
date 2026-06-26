@@ -168,9 +168,9 @@ idf.py build
 
 ```
 
----
-
+```
 ## Repository Structure
+```
 
 ```text
 Flipper-Black/
