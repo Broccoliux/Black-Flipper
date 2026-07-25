@@ -13,7 +13,7 @@
 
 A custom open source wireless hacking tool inspired by Flipper Zero, but designed with significantly more flexibility and power, built on 4 layer PCB and designed in kicad
 
-Designed to outperform Flipper Zero in many hardware aspects, including range, protocol support, processing power, display size, touchscreen capability, GPS, LoRa, and WiFi integration.
+Designed to outperform Flipper Zero in many hardware aspects, including range, protocol support, processing power, display size, touchcreen capability, GPS, LoRa, and WIFI.
 
 # Why I Built This
 
