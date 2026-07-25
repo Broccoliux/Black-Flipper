@@ -85,7 +85,7 @@ I wanted a Flipper Zero, but instead of buying one, I decided to build my own ve
 - LVGL UI running on the touchscreen
 - **Estimated BOM Cost:** $280–$350
 
-**Not Supported Yet:** 125 kHz RFID and iButton/1-Wire were removed to save GPIOs.
+**Not Supported Yet:** 125 kHz RFID and iButton/1-Wire were removed due to shortage of GPIOS.
 
 Firmware development has not started yet. I plan to begin after July 10, once my exams are finished. I may also build a team to help with firmware development.
 
@@ -145,7 +145,7 @@ git submodule update --init --recursive
 ```
 
 To build the firmware (see the firmware repo for complete instructions):
-> Firmware is under active planning and development. Check the architecture documentation before contributing.
+> Firmware is under active planning and development. Check the arcihitecture documentation before contributing.
 
 ```bash
 cd external/firmware
@@ -185,8 +185,4 @@ Flipper-Black/
 
 ## Built By
 
-**broccoli 🥦** - Solo hardware builder from Pakistan.
-
-*Chasing what I love.*
-
-shhhhhhhhh 
+**broccoli 🥦**
