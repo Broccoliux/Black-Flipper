@@ -35,4 +35,20 @@ I wanted a flipper zero but when i researched about it. i found out that just bu
 4. connect the antenna at top.
 5. close with top enclosure and secure with screws.
 
-## features
+## Features
+
+- 4 layer PCB
+- only ICs no modules used.
+- Wi-Fi 802.11 built in
+- BLE 5.0
+- CC1101
+- PN532
+- MAX-M8Q
+- Waveshare 3.5" IPS capacitive touchscreen
+- W25Q128
+- MicroSD
+- TP4056
+- TLV70018
+- TXB0102
+- Firmware based on ESP-IDF
+- **Estimated BOM Cost:** $280–$350
