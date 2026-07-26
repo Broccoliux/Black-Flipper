@@ -15,3 +15,6 @@ Flipper black is custom made hacking tool, it can out perfrom flipper Zero in al
 
 I wanted a flipper zero but when i researched about it. i found out that just buying a Flipper Zero is almost useless, to unlock its full power we need to spend more $$, so i decided to build my own with everything in it, no external attachments needed.
 
+# Zine
+
+[![zine Preview](imgs/ZINE.png)](./ZINE.pdf)
