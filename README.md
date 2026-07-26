@@ -18,3 +18,7 @@ I wanted a flipper zero but when i researched about it. i found out that just bu
 # Zine
 
 [![zine Preview](imgs/ZINE.png)](./ZINE.pdf)
+
+### CAD n Assembly
+
+| ![Assembled Device](imgs/Ahh%20soo%20cool.png) | ![Final Design](imgs/final%20design.png) |
