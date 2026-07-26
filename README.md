@@ -69,3 +69,13 @@ cd Black-Flipper
 git checkout integrate/firmware-submodule-fix
 git submodule update --init --recursive
 ```
+
+
+To build the firmware (see the firmware repo):
+> Firmware is under development and planning.
+
+
+```bash
+cd external/firmware
+idf.py build
+```
