@@ -52,3 +52,20 @@ I wanted a flipper zero but when i researched about it. i found out that just bu
 - TXB0102
 - Firmware based on ESP-IDF
 - **Estimated BOM Cost:** $280–$350
+
+## Firmware
+
+**Status:** linked as a submodule
+
+- Firmware is maintained in a differnt repository: https://github.com/fussdeek-del/Black-Flipper-firmware
+- 
+- The firmware repository is included here as a git submodule at `external/firmware`.
+
+To initialize the submodule locally after cloning:
+
+```bash
+git clone https://github.com/fussdeek-del/Black-Flipper
+cd Black-Flipper
+git checkout integrate/firmware-submodule-fix
+git submodule update --init --recursive
+```
