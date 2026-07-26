@@ -79,3 +79,28 @@ To build the firmware (see the firmware repo):
 cd external/firmware
 idf.py build
 ```
+
+ ### how to replicate
+
+1. Get the gerber zip form repo and order the PCB from JLCPCB.
+2. after receiving the PCB flash the firmware.
+3. take the .step files from the repo and order the encloure.
+4. here u go, u got custom flipper Black.
+
+## Repository Structure
+```
+
+```text
+Flipper-Black/
+├── PCB/                        # KiCad project + Gerbers
+├── CAD/                        # Fusion 360 enclosure (.step)
+├── flipper black firmware/     # ESP-IDF firmware + architecture
+├── Flipper Black guide pdfs/   # Documentation and guides
+├── imgs/                       # Photos and renders
+├── BOM/                        # Bill of Materials
+└── README.md
+```
+
+### built by 
+
+***broccoli 🥦***
