@@ -25,4 +25,14 @@ I wanted a flipper zero but when i researched about it. i found out that just bu
 
 ### PCB
 
- ![PCB 3D Model](imgs/PCB%203D%20model.png)
+![PCB 3D Model](imgs/PCB%203D%20model.png)
+
+### Assembly
+
+1. place the PCB in the enclosure.
+2. secure the PCB with M2 screws.
+3. Connect the display to FPC connector.
+4. connect the antenna at top.
+5. close with top enclosure and secure with screws.
+
+## features
