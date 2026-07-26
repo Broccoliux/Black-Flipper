@@ -11,7 +11,7 @@
 
 Flipper black is custom made hacking tool, it can out perfrom flipper Zero in almost every aspect. it have better and larger dsplay and have more power and range then flipper zero.
 
-# Wht i built this
+# Why i built this
 
 I wanted a flipper zero but when i researched about it. i found out that just buying a Flipper Zero is almost useless, to unlock its full power we need to spend more $$, so i decided to build my own with everything in it, no external attachments needed.
 
@@ -35,7 +35,7 @@ I wanted a flipper zero but when i researched about it. i found out that just bu
 4. connect the antenna at top.
 5. close with top enclosure and secure with screws.
 
-## Features
+## Features / components
 
 - 4 layer PCB
 - only ICs no modules used.
@@ -58,7 +58,6 @@ I wanted a flipper zero but when i researched about it. i found out that just bu
 **Status:** linked as a submodule
 
 - Firmware is maintained in a differnt repository: https://github.com/fussdeek-del/Black-Flipper-firmware
-- 
 - The firmware repository is included here as a git submodule at `external/firmware`.
 
 To initialize the submodule locally after cloning:
