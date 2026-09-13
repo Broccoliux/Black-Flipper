@@ -23,4 +23,3 @@ Or to initialize the submodule pointer after cloning this branch (if the submodu
 git submodule update --init --recursive
 ```
 
-This placeholder keeps the main repository uncluttered while making the firmware fully accessible from the repository tree. If you'd like me to pin the submodule to a specific commit or add the actual gitlink submodule pointer in this branch, tell me the commit SHA to pin and I will add the gitlink (requires creating the gitlink commit).
