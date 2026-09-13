@@ -13,8 +13,7 @@ If you want to initialize the firmware as a true git submodule locally, run:
 # add the submodule and point it to the firmware repo (default branch)
 # NOTE: only run this if you want Git to track the firmware as a submodule commit
 
-git submodule add https://github.com/fussdeek-del/Black-Flipper-firmware external/firmware
-git commit -m "Add firmware submodule at external/firmware"
+
 ```
 
 
