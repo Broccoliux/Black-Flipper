@@ -17,9 +17,5 @@ git submodule add https://github.com/fussdeek-del/Black-Flipper-firmware externa
 git commit -m "Add firmware submodule at external/firmware"
 ```
 
-Or to initialize the submodule pointer after cloning this branch (if the submodule pointer is added later):
 
-```bash
-git submodule update --init --recursive
-```
 
