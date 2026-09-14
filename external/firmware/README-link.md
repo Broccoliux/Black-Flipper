@@ -6,7 +6,4 @@ The firmware is maintained in a separate repository:
 
 https://github.com/fussdeek-del/Black-Flipper-firmware
 
-If you want to initialize the firmware as a true git submodule locally, run:
-
-
 
