@@ -103,5 +103,3 @@ Flipper-Black/
 ### built by 
 
 ***broccoli 🥦***
-
-there aare
